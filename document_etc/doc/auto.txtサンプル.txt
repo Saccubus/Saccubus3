@@ -1,7 +1,7 @@
-:“®‰æIDƒŠƒXƒg—á
-:‚±‚Ì«‚Ì‚æ‚¤“®‰æID‚ðŽw’è‚µ‚Ü‚·Bencode‚ÍShift-JISBs“ª‚ª”¼Šp:‚ÍƒRƒƒ“ƒgs
-sm16	©‚±‚ñ‚È•—‚Étab•¶Žš‚ÌŒã‚ë‚ÍƒRƒƒ“ƒg
-		s“ª‚ªtab•¶Žš‚àƒRƒƒ“ƒgs
+:å‹•ç”»IDãƒªã‚¹ãƒˆä¾‹
+:ã“ã®â†“ã®ã‚ˆã†å‹•ç”»IDã‚’æŒ‡å®šã—ã¾ã™ã€‚encodeã¯Shift-JISã€‚è¡Œé ­ãŒåŠè§’:ã¯ã‚³ãƒ¡ãƒ³ãƒˆè¡Œ
+sm16	â†ã“ã‚“ãªé¢¨ã«tabæ–‡å­—ã®å¾Œã‚ã¯ã‚³ãƒ¡ãƒ³ãƒˆ
+		è¡Œé ­ãŒtabæ–‡å­—ã‚‚ã‚³ãƒ¡ãƒ³ãƒˆè¡Œ
 sm41
-:@“®‰æ‚àƒRƒƒ“ƒg‚à‰½s‘‚¢‚Ä‚à‚©‚Ü‚¢‚Ü‚¹‚ñB
+:ã€€å‹•ç”»ã‚‚ã‚³ãƒ¡ãƒ³ãƒˆã‚‚ä½•è¡Œæ›¸ã„ã¦ã‚‚ã‹ã¾ã„ã¾ã›ã‚“ã€‚
 sm9

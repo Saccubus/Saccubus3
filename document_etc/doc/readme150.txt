@@ -1,1146 +1,516 @@
 readmeNew.txt
-yƒjƒRƒjƒRzƒRƒƒ“ƒg•t“®‰æì¬ƒc[ƒ‹ ‚³‚«‚ã‚Î‚·ƒXƒŒ(‘OƒXƒŒ)
+ã€ãƒ‹ã‚³ãƒ‹ã‚³ã€‘ã‚³ãƒ¡ãƒ³ãƒˆä»˜å‹•ç”»ä½œæˆãƒ„ãƒ¼ãƒ« ã•ãã‚…ã°ã™ã‚¹ãƒ¬(å‰ã‚¹ãƒ¬)
 <http://anago.2ch.net/test/read.cgi/software/1235626069/>
-‚Ì‚R‚S‚PŽ‚Ì 1.22r3 ‚ðŒ³‚ÉANicoBrowserŠg’£1.4.4‚¨‚æ‚Ñ
-‚¢‚ñ‚«‚ã‚Î‚·1.7.2iìŽÒFá‰HŽj‚Ìˆê•”‹@”\‚ðŽØ—p‚µ‚Ä‰ü‘¢‚µ‚Ü‚µ‚½B
-‚Ü‚½AƒjƒRƒjƒRƒ‰ƒ“ƒLƒ“ƒOƒ[ƒJ[nicorank‚©‚ç‹@”\‚ðŽØ—p‚µ‚Ü‚µ‚½B
-–{ƒ\ƒtƒg‚Íƒiƒ“ƒoƒŠƒ“ƒO‚¾‚¯‚Í³Ž®–¼Ì‚É‚È‚Á‚½‚¯‚ê‚ÇŽÀ‘Ô‚Í‰ü‘¢”Å‚Å‚·B
+ã®ï¼“ï¼”ï¼‘æ°ã® 1.22r3 ã‚’å…ƒã«ã€NicoBrowseræ‹¡å¼µ1.4.4ãŠã‚ˆã³
+ã„ã‚“ãã‚…ã°ã™1.7.2ï¼ˆä½œè€…ï¼šé›ªç¾½æ°ï¼‰ã®ä¸€éƒ¨æ©Ÿèƒ½ã‚’å€Ÿç”¨ã—ã¦æ”¹é€ ã—ã¾ã—ãŸã€‚
+ã¾ãŸã€ãƒ‹ã‚³ãƒ‹ã‚³ãƒ©ãƒ³ã‚­ãƒ³ã‚°ãƒ¡ãƒ¼ã‚«ãƒ¼nicorankã‹ã‚‰æ©Ÿèƒ½ã‚’å€Ÿç”¨ã—ã¾ã—ãŸã€‚
+æœ¬ã‚½ãƒ•ãƒˆã¯ãƒŠãƒ³ãƒãƒªãƒ³ã‚°ã ã‘ã¯æ­£å¼åç§°ã«ãªã£ãŸã‘ã‚Œã©å®Ÿæ…‹ã¯æ”¹é€ ç‰ˆã§ã™ã€‚
 
 1.50(2014/5/11)
-@Json‚Ìƒ‰ƒCƒuƒ‰ƒŠ[‚Égson‚ðŽg‚¤•ÏXigson jar,License’Ç‰Á)
-@Vhook 1.50.5 MingLiuƒtƒHƒ“ƒg•Ï‰»C³
-@CA‚Ì’e–‹‰»ƒ‚[ƒh—}‚¦‹C–¡
-@boldƒtƒHƒ“ƒg‚ðnormal‰»‰Â”\
+ã€€Jsonã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãƒ¼ã«gsonã‚’ä½¿ã†å¤‰æ›´ï¼ˆgson jar,Licenseè¿½åŠ )
+ã€€Vhook 1.50.5 MingLiuãƒ•ã‚©ãƒ³ãƒˆå¤‰åŒ–ä¿®æ­£
+ã€€CAã®å¼¾å¹•åŒ–ãƒ¢ãƒ¼ãƒ‰æŠ‘ãˆæ°—å‘³
+ã€€boldãƒ•ã‚©ãƒ³ãƒˆã‚’normalåŒ–å¯èƒ½
 
 
-¡“®ì‚ª•Ï‚È‚Æ‚«‚Í
-@E’Êí‚Ì Saccubus.exe ‚Ì‹N“®‚Å‚ÍA
-@@[log]frontend.txt@‚ÉƒƒO‚ªo—Í‚³‚ê‚Ä‚¢‚Ü‚·‚Ì‚ÅŽQÆ‚µ‚Ä‰º‚³‚¢B
-@Edebug.bat‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚Ä‹N“®‚·‚é‚ÆŽÀs’†‚ÉƒƒO‚ð‰æ–Ê•\Ž¦‚µ‚Ü‚·B
-@@Java‚ÉƒpƒX‚ª’Ê‚Á‚Ä‚¢‚È‚¢‚ÆƒGƒ‰[‚É‚È‚è‚Ü‚·BiBin.jar‚ª–³‚¢Žž‚àƒGƒ‰[‚É‚È‚è‚Ü‚·Bj
-@@iŸJava‚ÌƒpƒX‚ÌÝ’è(ŽQl)‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢j
-@@–{‘Ì‚ª‹N“®‚·‚é‚Ì‚ÅŒã‚Í“¯‚¶‚Å‚·B
-@@I—¹ŒãƒƒO‚ªƒtƒHƒ‹ƒ_’¼‰º‚Ì log.txt ‚Éo—Í‚³‚ê‚é‚Ì‚ÅŽQl‚É‚µ‚Ä‰º‚³‚¢B
-@Eì‹Æƒtƒ@ƒCƒ‹‚Í’¼‰º‚ÌtempƒtƒHƒ‹ƒ_‚Ì‰º‚Éì¬‚µ‚Ü‚·‚ªŽÀs‚ªI—¹‚·‚é‚Æíœ‚µ‚Ü‚·B
-@@iŽžXíœ‚µ–Y‚ê‚é‚Ì‚ÅAŽè“®‚Åíœ‚·‚é•K—v‚ª—L‚è‚Ü‚·j
-@EnicovideoE.dll‚Í[log]vhext.txt‚ð tempƒtƒHƒ‹ƒ_‚Ì‰º‚É “®‰æID[log]vhext.txt‚Æ‚µ‚Ä•Û‘¶‚µ‚Ü‚·B
-@@ƒGƒ‰[I—¹‚µ‚½ê‡‚Ítemp\“®‰æID[log]vhext.txt‚ð’²‚×‚Ä‰º‚³‚¢B
-@EFXÝ’è‚ð•ÏX‚µ‚½Žž‚ÍAÝ’è‚ð‰Šú‰»‚µ‚Ä‚Ý‚Ä‰º‚³‚¢B
+â– å‹•ä½œãŒå¤‰ãªã¨ãã¯
+ã€€ãƒ»é€šå¸¸ã® Saccubus.exe ã®èµ·å‹•ã§ã¯ã€
+ã€€ã€€[log]frontend.txtã€€ã«ãƒ­ã‚°ãŒå‡ºåŠ›ã•ã‚Œã¦ã„ã¾ã™ã®ã§å‚ç…§ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€ãƒ»debug.batã‚’ãƒ€ãƒ–ãƒ«ã‚¯ãƒªãƒƒã‚¯ã—ã¦èµ·å‹•ã™ã‚‹ã¨å®Ÿè¡Œä¸­ã«ãƒ­ã‚°ã‚’ç”»é¢è¡¨ç¤ºã—ã¾ã™ã€‚
+ã€€ã€€Javaã«ãƒ‘ã‚¹ãŒé€šã£ã¦ã„ãªã„ã¨ã‚¨ãƒ©ãƒ¼ã«ãªã‚Šã¾ã™ã€‚ï¼ˆBin.jarãŒç„¡ã„æ™‚ã‚‚ã‚¨ãƒ©ãƒ¼ã«ãªã‚Šã¾ã™ã€‚ï¼‰
+ã€€ã€€ï¼ˆâ—†Javaã®ãƒ‘ã‚¹ã®è¨­å®š(å‚è€ƒ)ã‚’å‚ç…§ã—ã¦ãã ã•ã„ï¼‰
+ã€€ã€€æœ¬ä½“ãŒèµ·å‹•ã™ã‚‹ã®ã§å¾Œã¯åŒã˜ã§ã™ã€‚
+ã€€ã€€çµ‚äº†å¾Œãƒ­ã‚°ãŒãƒ•ã‚©ãƒ«ãƒ€ç›´ä¸‹ã® log.txt ã«å‡ºåŠ›ã•ã‚Œã‚‹ã®ã§å‚è€ƒã«ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€ãƒ»ä½œæ¥­ãƒ•ã‚¡ã‚¤ãƒ«ã¯ç›´ä¸‹ã®tempãƒ•ã‚©ãƒ«ãƒ€ã®ä¸‹ã«ä½œæˆã—ã¾ã™ãŒå®Ÿè¡ŒãŒçµ‚äº†ã™ã‚‹ã¨å‰Šé™¤ã—ã¾ã™ã€‚
+ã€€ã€€ï¼ˆæ™‚ã€…å‰Šé™¤ã—å¿˜ã‚Œã‚‹ã®ã§ã€æ‰‹å‹•ã§å‰Šé™¤ã™ã‚‹å¿…è¦ãŒæœ‰ã‚Šã¾ã™ï¼‰
+ã€€ãƒ»nicovideoE.dllã¯[log]vhext.txtã‚’ tempãƒ•ã‚©ãƒ«ãƒ€ã®ä¸‹ã« å‹•ç”»ID[log]vhext.txtã¨ã—ã¦ä¿å­˜ã—ã¾ã™ã€‚
+ã€€ã€€ã‚¨ãƒ©ãƒ¼çµ‚äº†ã—ãŸå ´åˆã¯temp\å‹•ç”»ID[log]vhext.txtã‚’èª¿ã¹ã¦ä¸‹ã•ã„ã€‚
+ã€€ãƒ»è‰²ã€…è¨­å®šã‚’å¤‰æ›´ã—ãŸæ™‚ã¯ã€è¨­å®šã‚’åˆæœŸåŒ–ã—ã¦ã¿ã¦ä¸‹ã•ã„ã€‚
 
-¡auto.bat‚Å“®ì‚ª•Ï‚ÈŽž‚Í
-@Java‚ÉƒpƒX‚ª’Ê‚Á‚Ä‚¢‚È‚¢‚ÆƒGƒ‰[‚É‚È‚è‚Ü‚·B
-@iŸJava‚ÌƒpƒX‚ÌÝ’è(ŽQl)‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢j
-@Eauto.bat‚Ì‹Lq‚ðŠm‚©‚ß‚Ü‚·B
-@@auto.bat‚ªŽÀs‚µ‚ÄI—¹‚·‚é‚Ü‚Å‘Ò‚¿‚Ü‚·B
-@@“r’†‚ÅƒGƒ‰[‚ª‹N‚«‚Ä‚àAÅŒã‚Ì“®‰æ‚Ü‚ÅŽÀs‚µ‚Ä‚©‚çI—¹‚µ‚Ü‚·B
-@@log.txt‚ÉƒƒO‚ª‹L˜^‚³‚ê‚Ü‚·Bi‚PMB‚Ü‚Åj
-@Eautodebug.bat‚Í•K—v‚ ‚è‚Ü‚¹‚ñB
+â– auto.batã§å‹•ä½œãŒå¤‰ãªæ™‚ã¯
+ã€€Javaã«ãƒ‘ã‚¹ãŒé€šã£ã¦ã„ãªã„ã¨ã‚¨ãƒ©ãƒ¼ã«ãªã‚Šã¾ã™ã€‚
+ã€€ï¼ˆâ—†Javaã®ãƒ‘ã‚¹ã®è¨­å®š(å‚è€ƒ)ã‚’å‚ç…§ã—ã¦ãã ã•ã„ï¼‰
+ã€€ãƒ»auto.batã®è¨˜è¿°ã‚’ç¢ºã‹ã‚ã¾ã™ã€‚
+ã€€ã€€auto.batãŒå®Ÿè¡Œã—ã¦çµ‚äº†ã™ã‚‹ã¾ã§å¾…ã¡ã¾ã™ã€‚
+ã€€ã€€é€”ä¸­ã§ã‚¨ãƒ©ãƒ¼ãŒèµ·ãã¦ã‚‚ã€æœ€å¾Œã®å‹•ç”»ã¾ã§å®Ÿè¡Œã—ã¦ã‹ã‚‰çµ‚äº†ã—ã¾ã™ã€‚
+ã€€ã€€log.txtã«ãƒ­ã‚°ãŒè¨˜éŒ²ã•ã‚Œã¾ã™ã€‚ï¼ˆï¼‘MBã¾ã§ï¼‰
+ã€€ãƒ»autodebug.batã¯å¿…è¦ã‚ã‚Šã¾ã›ã‚“ã€‚
 
-¡Ý’è‚ð‰Šú‰»‚·‚é‚É‚Í
-@Eƒtƒ@ƒCƒ‹ƒƒjƒ…[‚Ì‰Šú‰»‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B(1.29ˆÈ~)
-@@i‰Šú‰»‚·‚é‘O‚ÉŒ»Ý‚ÌÝ’è‚ðƒtƒ@ƒCƒ‹¨•Ê–¼•Û‘¶‚µ‚Ä‚¨‚­‚Æ
-@@–ð‚É—§‚Â‚©‚àj
+â– è¨­å®šã‚’åˆæœŸåŒ–ã™ã‚‹ã«ã¯
+ã€€ãƒ»ãƒ•ã‚¡ã‚¤ãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®åˆæœŸåŒ–ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚(1.29ä»¥é™)
+ã€€ã€€ï¼ˆåˆæœŸåŒ–ã™ã‚‹å‰ã«ç¾åœ¨ã®è¨­å®šã‚’ãƒ•ã‚¡ã‚¤ãƒ«â†’åˆ¥åä¿å­˜ã—ã¦ãŠãã¨
+ã€€ã€€å½¹ã«ç«‹ã¤ã‹ã‚‚ï¼‰
 
 
- ‰ü‘¢•”•ª‚É‚Â‚¢‚Ä
-yƒ‰ƒCƒZƒ“ƒXz
-‚PDffmpeg56884w.exeiƒ\[ƒX‚ÍGithubƒŒƒ|ƒWƒgƒŠjASaccubus.jariƒ\[ƒX“¯«j‚Í
-GPLv3A‚à‚µ‚­‚Í‚»‚êˆÈ~‚Ìƒo[ƒWƒ‡ƒ“(http://www.gnu.org/licenses/gpl.html)‚Å‚·B
-‚QDnicovideoE.dllABin.jarASaccubus.exei‘S‚Äƒ\[ƒX“¯«j‚Í
-GPLv3A‚à‚µ‚­‚Í‚»‚êˆÈ~‚Ìƒo[ƒWƒ‡ƒ“(http://www.gnu.org/licenses/gpl.html)‚Æ
-“ñð€BSDƒ‰ƒCƒZƒ“ƒX(http://opensource.org/licenses/BSD-2-Clause)‚Ìƒfƒ…ƒAƒ‹ƒ‰ƒCƒZƒ“ƒX‚Å‚·B
-‚RDSDL.dll(LGPL)ASDL_ttf.dll(zlibƒ‰ƒCƒZƒ“ƒX)A
-SDL_gfx.dll(zlibƒ‰ƒCƒZƒ“ƒX)‚É‚Â‚¢‚Ä‚Í‰ü•Ï‚È‚µÄ”z•z‚Å‚·B
-‚SDgson-2.2.4.jar(ApacheLicense2.0)‚Í‰ü•Ï‚È‚µÄ”z•z‚Å‚·B
+â–¡æ”¹é€ éƒ¨åˆ†ã«ã¤ã„ã¦
+ã€ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã€‘
+ï¼‘ï¼Žffmpeg56884w.exeï¼ˆã‚½ãƒ¼ã‚¹ã¯Githubãƒ¬ãƒã‚¸ãƒˆãƒªï¼‰ã€Saccubus.jarï¼ˆã‚½ãƒ¼ã‚¹åŒæ¢±ï¼‰ã¯
+GPLv3ã€ã‚‚ã—ãã¯ãã‚Œä»¥é™ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³(http://www.gnu.org/licenses/gpl.html)ã§ã™ã€‚
+ï¼’ï¼ŽnicovideoE.dllã€Bin.jarã€Saccubus.exeï¼ˆå…¨ã¦ã‚½ãƒ¼ã‚¹åŒæ¢±ï¼‰ã¯
+GPLv3ã€ã‚‚ã—ãã¯ãã‚Œä»¥é™ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³(http://www.gnu.org/licenses/gpl.html)ã¨
+äºŒæ¡é …BSDãƒ©ã‚¤ã‚»ãƒ³ã‚¹(http://opensource.org/licenses/BSD-2-Clause)ã®ãƒ‡ãƒ¥ã‚¢ãƒ«ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã§ã™ã€‚
+ï¼“ï¼ŽSDL.dll(LGPL)ã€SDL_ttf.dll(zlibãƒ©ã‚¤ã‚»ãƒ³ã‚¹)ã€
+SDL_gfx.dll(zlibãƒ©ã‚¤ã‚»ãƒ³ã‚¹)ã«ã¤ã„ã¦ã¯æ”¹å¤‰ãªã—å†é…å¸ƒã§ã™ã€‚
+ï¼”ï¼Žgson-2.2.4.jar(ApacheLicense2.0)ã¯æ”¹å¤‰ãªã—å†é…å¸ƒã§ã™ã€‚
  https://code.google.com/p/google-gson/
 
-@(2013/5/1•ÏXF‚³‚«‚ã‚Î‚·‚Ì”ñffmpeg‚Ìƒ‰ƒCƒZƒ“ƒX•ÏX‚É‡‚í‚¹‚Ä)
-
-
- ƒTƒ|[ƒg‰ðà‚È‚Ç
-@‚³‚«‚ã‚Î‚·‚ÌŽg‚¢•û‚È‚Ç‚ÉŠÖ‚µ‚Ä‚ÍA
-@ã‚Ì[ƒƒjƒ…[][readmeNew]‚©‚çŽQÆ‚Å‚«‚Ü‚·B‚Ü‚½
-@ŒöŽ®ƒTƒCƒg@http://saccubus.sourceforge.jp/
-@“¯«‚ÌÅ‰‚É•K‚¸“Ç‚ñ‚Å.txtA‚³‚«‚ã‚Î‚·1.22r‚Ìreadme.txtA
-@1.22r3‚Ìreadme+.txt‚ð‚²——‰º‚³‚¢B
-@1.22r3eA1.23ˆÈ~‚Ì•s‹ï‡•ñ“™‚Í2ch‚³‚«‚ã‚Î‚·ƒXƒŒ‚Å‚¨Šè‚¢‚µ‚Ü‚·B
-@2chyƒjƒRƒjƒRzƒRƒƒ“ƒg•t“®‰æì¬ƒc[ƒ‹ ‚³‚«‚ã‚Î‚·
-@@http://anago.2ch.net/test/read.cgi/software/1346798166/
-
- “®ìŠÂ‹«
-@Windows XP/7/8/8.1 desktop@i‘½•ªVista‚à“®‚­‚Í‚¸j
-
-œ’ˆÓœ
-@Javaƒ‰ƒ“ƒ^ƒCƒ€ Java7 - JRE7 ‚Ü‚½‚Í JDK1.7‚ª•K—v‚Å‚·B
-@Java8 JRE8 ‚Æ JDK1.8‚àŠm”FÏ‚Ý‚Å‚·B
-@Java6 JRE6 ‚Æ JDK1.6‚Í”ñ„§‚Å‚·B
-@Å‹ßƒAƒbƒvƒf[ƒg‚µ‚Ä‚¢‚È‚¢ê‡‚Í•K‚¸XV‚µ‚Ä‰º‚³‚¢B
-@JRE5 JDK1.5‚ÍƒeƒXƒg‚µ‚Ä‚¢‚Ü‚¹‚ñB
-@@http://java.com/ja/
-@‚©‚çƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‰º‚³‚¢B’Êí‚Í32bit”Å‚Å‚·B
-@64bit”Å‚ðƒ_ƒEƒ“ƒ[ƒh‚·‚é‚É‚Íà–¾‚ð“Ç‚ñ‚Å]‚Á‚Ä‰º‚³‚¢B
-
-ŸJava‚ÌƒpƒX‚ÌÝ’è(ŽQl)
-@auto.bat‚âdebug.bat‚ðŽÀs‚·‚é‚É‚Íjava.exe‚ªƒpƒX‚ÉÝ’è‚³‚ê‚Ä‚¢‚é‚±‚Æ‚ª•K—v‚Å‚·B
-@win7‚Ü‚Å‚Ísystem32‚Éjava.exe‚ªŽ©“®‚ÅƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚·‚ª
-@ê‡‚É‚æ‚Á‚Ä‚Í‚³‚ê‚È‚¢‚±‚Æ‚à‚ ‚è‚Ü‚·B‚Ü‚½win8ˆÈ~‚Å‚Í‚³‚ê‚Ü‚¹‚ñB
-@Java‚ðƒpƒX‚ÉÝ’è‚·‚é‚É‚ÍˆÈ‰º‚Ìƒy[ƒW‚ðŽQl‚É‚µ‚Ä‚­‚¾‚³‚¢B
-@ŽQlFWindows 7 ‚ÉƒpƒX(Path)‚ðÝ’è‚·‚é
-@@http://blog.cnu.jp/2009/11/06/windows-7-path/
-@@http://blog.cnu.jp/2010/11/10/shortcut-environment/
-@ŽQlFWindows8‚Éjava7‚ð“ü‚ê‚Ä‚Ý‚½‚æiWindows 8ˆÈ~j
-@@http://javatechnology.net/tool/windows8-java7-install/
-
-Ÿ’ˆÓŸ16:9•˜g‚È‚µ‚ÌiPSP‚È‚Ç‚Ìj“®‰æ‚É‚Â‚¢‚Ä
-@@‰Šú‰»‚µ‚½Œã‚Ì•ÏŠ·ƒIƒvƒVƒ‡ƒ“Ý’èi]—ˆj‚Å‚ÍƒRƒƒ“ƒg‚Í
-@@Œ´hƒvƒŒƒCƒ„[‚Æ“¯‚¶‚­“®‰æ‚æ‚è1/30ã‰º‚É‚Í‚Ýo‚µ‚Ä‚¢‚Ü‚µ‚½‚ªA
-@@•ÏŠ·ƒIƒvƒVƒ‡ƒ“Ý’èi‹¤’Êj‚Å‚Í‚Í‚Ýo‚³‚È‚­‚È‚è‚Ü‚µ‚½B
-@@ƒRƒƒ“ƒg‘S‘Ì‚ð‰æ–Ê“à‚ÉŽû‚Ü‚é‚æ‚¤k¬‚µ‚Ä‚¢‚Ü‚·B
-
-œ’ˆÓœ
-@@Windows8/8.1‚ÍƒfƒXƒNƒgƒbƒvUI‚Å‚ÌIE11/Firefox‚ÅŠm”F‚µ‚Ü‚µ‚½BWindows8ƒXƒ^ƒCƒ‹UI‚Å‚Í
-@@IE‚Æ‚Ìƒuƒ‰ƒEƒU‹¤—L‚Ío—ˆ‚Ü‚¹‚ñ‚Å‚µ‚½BChrome‚Í•s‰Â‚Å‚·B
-
-œ’ˆÓœ
-@E–{Rev‚Ìl’Œ—pƒŒƒxƒ‹‚Í‘ORev.‚Æ“¯‚¶‚­‚ç‚¢‚Å‚·B
-@E”z•zŒ`‘Ô@@ffmpeg56884w“¯«”Å
-@E–{Rev.‚ÍŠm’è”ÅSDLƒ‰ƒCƒuƒ‰ƒŠi2011/11/02”Åj‚ð“¯«‚µ‚Ä‚¢‚Ü‚·BibinƒtƒHƒ‹ƒ_“àj
-@E–{Rev.‚Íffmpeg 21400—poptionƒtƒ@ƒCƒ‹‚ðíœ‚µ‚Ü‚µ‚½B
-@EoptionVoiffmpeg56884w—pA2013/08/01”ÅjoptionDeviŽÀŒ±—p2011/3/30”Åj‚ð“¯«B
-
- ƒCƒ“ƒXƒg[ƒ‹•û–@‚ÆŠg’£‹@”\Ý’è
-@Ÿ1.22r2ˆÈ‘O‚Ì‚³‚«‚ã‚Î‚·‚ðŽg—p’†‚Ì•û
-@@u‰‚ß‚Ä‚³‚«‚ã‚Î‚·‚ðŽg‚¤•ûv‚ðŽÀs‚µ‚Ä‰º‚³‚¢B
-
-@Ÿ1.22r3ˆÈ~‚ð‚²Žg—p’†‚Ì•û
-@y’ˆÓz¡‰ñ‚Ì•ÏX‚ÍŽå‚Éffmpeg56884w/ffmpeg55686—p‚Æ‚È‚é‚½‚ß
-@‘¼‚Ìffmpeg‚Å‚ÍŽg—po—ˆ‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·B‚²—¹³‚­‚¾‚³‚¢B
-@EŽ©•ª‚ÅC³‚µ‚½ƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹(optionVOƒtƒ@ƒ‹ƒ_)‚ð‚¨Ž‚¿‚Ì•û‚Í
-@@Ž©•ª‚ªŽg—p‚·‚éƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹‚¾‚¯•Ê‚ÌêŠ‚ÉˆÚ“®‚µ‚Ä‰º‚³‚¢B
-@Eusaccubusv“à‚Ìƒtƒ@ƒCƒ‹‚ðˆÈ‘O‚Ì‚³‚«‚ã‚Î‚·ƒtƒHƒ‹ƒ_‚É
-@@¡‘S‚Äã‘‚«¡‚µ‚Ä‰º‚³‚¢B
-@EˆÚ“®‚µ‚½ƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹‚ðƒRƒs[‚µ‚Ä–ß‚µ‚Ä‰º‚³‚¢B
-@E‰Šú‰»—p‚Ésaccubus.ini‚ª“ü‚Á‚Ä‚¢‚Ü‚·B
-@@saccubus.xml‚ª‚È‚¢Žž‚Æƒƒjƒ…[‚©‚ç‰Šú‰»‚ðŽÀs‚µ‚½Žž‚É
-@@saccubus.ini‚ð“Ç‚Ýž‚ñ‚Åffmpeg56884w—p‚ÉoptionƒtƒHƒ‹ƒ_‚Æ
-@@ffmpeg‚ðÝ’è‚µ‚Ü‚·BŽg—p‚µ‚È‚¢ê‡‚Í¡íœ¡‚µ‚Ä‰º‚³‚¢B
-
-@ŸŠg’£‹@”\iŠT—vj’Ç‰Á•ª
-@EJson‚Ìƒ‰ƒCƒuƒ‰ƒŠ[‚Égson‚ðŽg‚¤•ÏXigson jar,License’Ç‰Á)
-@EVhook 1.50.5 MingLiuƒtƒHƒ“ƒg•Ï‰»C³
-@ECA‚Ì’e–‹‰»ƒ‚[ƒh—}‚¦‹C–¡
-@EboldƒtƒHƒ“ƒg‚ðnormal‰»‰Â”\
-@Emylist•ÏŠ·‚ð‚ ‚Æ‚Å‚Ü‚Æ‚ß‚Äautolist.bat‚Å‚Å‚«‚é‚æ‚¤‚Éo—Í
-@Emylistˆ—­‚µ’Ç‰Á
-@E“®‰æÝ’èƒ^ƒu‚ÉÄ¶ƒ{ƒ^ƒ“’Ç‰Á
-@E‰f‘œƒXƒgƒŠ[ƒ€‚ª”FŽ¯‚Å‚«‚È‚¢ê‡‚É‰¹º‚Ì‚ÝƒRƒƒ“ƒg•t‚«‰Â”\‚É
-@Eã‹L‚Ìê‡‚ÉƒTƒ€ƒlƒCƒ‹‚ðŽw’è‰Â”\B‚Ü‚½Ž©“®‚Å‚ÍŽæ“¾Ï‚ÝƒTƒ€ƒlƒCƒ‹‚ª‚ ‚ê‚ÎŽg—p‚µ‚Ü‚·B
-@ENM“®‰æ‚É­‚µ‚¾‚¯‘Î‰ž
-@EƒtƒŒ[ƒ€ƒŒ[ƒg•ÏŠ·
-@EƒRƒƒ“ƒg•s“§–¾Žž‚ÉƒAƒ‹ƒtƒ@’li•s“§–¾“xj‚ð0.0`1.0‚ÅŽw’è‰Â”\
-@E“ŠeŽÒƒtƒBƒ‹ƒ^[’Ç‰Ái“ŠeŽÒƒRƒƒ“ƒg–³‚µ‚ÅƒIƒtj
-@EenderƒRƒ}ƒ“ƒhŽÀ‘•
-@E—ƒ{ƒ^ƒ“(“ŠeŽÒƒRƒƒ“ƒg)ƒXƒNƒŠƒvƒg@‘Î‰ž
-@E—’uŠ·ƒXƒNƒŠƒvƒg@‘Î‰ž
-@Eƒ}ƒCƒŠƒXƒgˆ—’Ç‰ÁiŽÀŒ±“Ij
-@EFFmpegÝ’è‚ÉƒAƒX”ä‹¤’Ê‰æ–Ê’Ç‰Á
-@E•ÏŠ·Žž -samx ƒIƒvƒVƒ‡ƒ“‚É‚æ‚è“®‰æƒAƒX”ä•ÛŽ‰Â”\
-@EƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹’Ç‰Á@‚T@PCx3,PSPx2
-@E—ƒ{ƒ^ƒ“(Ž‹’®ŽÒƒRƒƒ“ƒg)@‘Î‰ž
-@E/replace(“ŠeŽÒƒjƒƒ“Œê)@‘Î‰ž
-@Eƒwƒ‹ƒvƒƒjƒ…[‚©‚çffmpegƒwƒ‹ƒv‚ðŽÀs‰Â”\
-@E1ŽžŠÔ’´‚¦‚Ìstatus•\Ž¦“à•”•ÏX
-@ECA‘Î‰žŽÀŒ±“IÝ’è‚ÅƒtƒHƒ“ƒg19Ží—Þ(+8)‚ð‹­§‘I‘ð‰Â”\‚É‚È‚è‚Ü‚µ‚½B
-@E“ŠeŽÒƒRƒƒ“ƒg@•b”A@ƒfƒtƒHƒ‹ƒgA@‹t‹@”\’Ç‰Á
-@EƒTƒ€ƒlƒCƒ‹‰æ‘œ•Û‘¶’Ç‰Á
-@E“ŠeŽÒ–¼•Û‘¶‚ÌƒoƒOC³
-@E•Û‘¶ƒtƒ@ƒCƒ‹–¼Ý’èi“ÁŽêj‚ð’Ç‰Á
-@ENGƒ[ƒh‚Ìall‚ÌƒoƒOC³Adefaultƒ[ƒh’Ç‰Á
-@E‰ŠúƒIƒvƒVƒ‡ƒ“‚ÅCAƒtƒHƒ“ƒgŽb’è“I‘Î‰ž‚ÆŠJ”­”Å‚ð—LŒø‚ðƒIƒ“
-@E“®‰æî•ñA“ŠeŽÒƒy[ƒWAwatchƒy[ƒW‚Ì•Û‘¶‹@”\’Ç‰Á
-@EƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹‰Šú’l•ÏX([PC])
-@E[iPod][iPod touch]ƒIƒvƒVƒ‡ƒ“C³(4096¨4096k)
-@Ewatchƒy[ƒW“®‰æî•ñ‚Ì•Û‘¶’Ç‰Á
-@EZeroWatch(5/1‚©‚ç)‚ÅƒƒOƒCƒ“ŒãƒXƒg[ƒ‹‚µ‚Ä‚¢‚½‚Ì‚ðC³
-@ECUI‚Å@SET‚Ì•s‹ï‡C³A@DLC‚Æ@ADD‚ð’Ç‰Á
-@EƒjƒRƒjƒR“®‰æƒGƒCƒvƒŠƒ‹ƒt[ƒ‹‚ðÄŒ»o—ˆ‚Ü‚·B
-@ECUI‚Å‘SÝ’è€–Ú‚ðƒI[ƒo[ƒ‰ƒCƒho—ˆ‚Ü‚·B
-@EFFmpegƒIƒvƒVƒ‡ƒ“’Ç‰ÁÝ’è‚ª‰Â”\‚Å‚·B
-@EƒRƒƒ“ƒg‚É‰©˜g‚ð•t‰Áo—ˆ‚Ü‚·BƒRƒƒ“ƒgƒA[ƒgŒ¤‹†—pB
-@ENGƒRƒ}ƒ“ƒh‚ÅƒRƒƒ“ƒg‚ÌƒRƒ}ƒ“ƒh‚ð–³Œø‚Éo—ˆ‚Ü‚·B
-@ENG‹¤—LƒŒƒxƒ‹‚ðÝ’è‚Å‚«‚Ü‚·B
-@ENGƒ[ƒh‚ÌŽw’è‚É all ƒL[ƒ[ƒh‚ðŽg‚¦‚Ü‚·B
-@@Šù’è‚Å‚È‚¢ƒRƒ}ƒ“ƒh‚ÌƒRƒƒ“ƒg‚ð‘S‚Ä”ñ•\Ž¦‚É‚µ‚Ü‚·B
-@EƒjƒRƒjƒR“®‰æ‚ÌNGÝ’è‚ðƒ_ƒEƒ“ƒ[ƒhEƒtƒ@ƒCƒ‹‚É•Û‘¶‚Å‚«‚Ü‚·B
-@@i‚³‚«‚ã‚Î‚·‚Ö‚ÌŽ©“®Ý’è‚Í–¢ŽÀ‘•j
-@EƒpƒXƒ[ƒh‚ðŠÈˆÕˆÃ†‰»‚µ‚Ü‚·B
-@EÝ’èƒtƒ@ƒCƒ‹‚Ì“Ç‚Ýž‚ÝE’Ç‰ÁE•Û‘¶E•Ê–¼•Û‘¶E‰Šú‰»‚ªo—ˆ‚Ü‚·B
-@ECUIˆø”‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-@EƒGƒRƒmƒ~[ƒ‚[ƒhŽž‚É’†Ž~‚·‚éÝ’è‚ª‰Â”\‚É‚È‚è‚Ü‚µ‚½B
-@E1.26.1`2‚ÅƒtƒHƒ“ƒgƒTƒCƒYŽ©“®’²®Žž‚ÌŠg‘å‹@”\‚ðíœ‚µ‚Ü‚µ‚½‚ªŒ³‚É–ß‚µ‚Ü‚µ‚½B
-@EƒRƒƒ“ƒg‘¬“x‚ð“ÆŽ©‚ÉŽw’è‰Â”\‚Å‚·B
-@EƒRƒƒ“ƒg•\Ž¦ƒ‚[ƒh‚ªV•\Ž¦(ÅV100Œ‚˜•ª)E‹Œ•\Ž¦iÅ‘å1000Œ‚Ü‚Åj‚ð‘I‘ð‰Â”\‚Å‚·B
-@E“®‰æƒAƒXƒyƒNƒg”ä‚É‚æ‚éƒIƒvƒVƒ‡ƒ“Ž©“®”»’è‚ª‚Å‚«‚Ü‚·B
-@@u“®‰æÝ’èvu•ÏŠ·ƒIƒvƒVƒ‡ƒ“Ý’èvuFFmpeg‚ÌÝ’è‚Pv‚ÆuFFmpeg‚ÌÝ’è‚Qv‚É
-@@Ž©“®”»’è‚ÌŒ‹‰Ê‘I‘ð‚·‚éƒIƒvƒVƒ‡ƒ“‚ðÝ’è‚µ‚Ü‚·B
-@EŠg’£Vhookƒ‰ƒCƒuƒ‰ƒŠŽw’è‚ÍAu“®‰æÝ’èv‰æ–Ê‚Ì2‚Â‚ ‚éŠg’£Vhook
-@@Žw’è—“‚Ì—¼•û‚É nicovideoE.dll ‚ðŽw’è‚µA2ŒÂ‚Ìƒ`ƒFƒbƒNƒ{ƒbƒNƒX
-@@—¼•û‚Éƒ`ƒFƒbƒN‚·‚é‚ÆDL“®‰æ‚ÌƒAƒXƒyƒNƒg”ä‚ðŽ©“®”»’è‚µ‚Ü‚·B
-@Eƒuƒ‰ƒEƒUî•ñ‹¤—LÝ’è‚Åuã‹LˆÈŠO‚Ìƒuƒ‰ƒEƒU‚Ìcv‚Éƒ`ƒFƒbƒN‚·‚é
-@@ê‡‚ÍACookiesƒtƒ@ƒCƒ‹‚ÌêŠA•¡”Œó•â‚Ìê‡‚Í‚»‚ÌeƒtƒHƒ‹ƒ_‚ð
-@@Žw’è‚µ‚Ä‰º‚³‚¢B
-@EnicovideoE.dll‚Å•ÏŠ·ƒGƒ‰[‚ª”­¶‚·‚é“®‰æ‚Ì•ñ‚ª‚ ‚è‚Ü‚µ‚½‚ª
-@@–â‘è‚Í1.25r‚Å‘ÎˆÏ‚Ý‚Å‚·B
-
-
-@Ÿ‰‚ß‚Ä‚³‚«‚ã‚Î‚·‚ðŽg‚¤•û
-@@‹y‚Ñ1.22r2ˆÈ‘O‚Ì‚³‚«‚ã‚Î‚·‚ðŽg—p’†‚Ì•û
-@usaccubusv“à‚Ìƒtƒ@ƒCƒ‹‚ðƒtƒHƒ‹ƒ_‚É“WŠJ‚µ‚Ä‰º‚³‚¢B
-@XP‚Ìê‡‚Íƒhƒ‰ƒCƒu’¼‰º‚Ì\saccubus‚ð„§B
-
- ‹N“®‚Ü‚Å‚Ì€”õ‚É‚Â‚¢‚Ä
-@http://java.com/ja/
-@Java‚ÌƒTƒCƒg‚©‚çŠeŽ©ÅV‚ÌJRE(JavaŽÀsŠÂ‹«)‚ð
-@ƒ_ƒEƒ“ƒ[ƒh‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚­‚¾‚³‚¢Bi32ƒrƒbƒg”Å„§j
-@‚Ü‚½ŸJava‚ÌƒpƒX‚ÌÝ’è(ŽQl)‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B
-
- ‹N“®
-@@Saccubus.exe ‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚Ü‚·B
-@@¦ƒAƒ“ƒ`ƒEƒBƒ‹ƒX‚ª”½‰ž‚·‚éê‡‚ª—L‚è‚Ü‚·‚Ì‚Å
-@@¦Ž©ŒÈÓ”C‚Åsaccubus.exe‚Ìƒ`ƒFƒbƒN‚ðŠO‚µ‚Ä‰º‚³‚¢B
-@@‚Ü‚½‚Ísaccubus.jar‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚Ü‚·B
-@@ƒtƒ@ƒCƒAƒtƒH[ƒ‹‚ðJava‚É‘Î‚µ‚Ä‹–‰Â‚µ‚È‚¯‚ê‚Î‚È‚ç‚È‚¢
-@@ê‡‚ª‚ ‚è‚Ü‚·B
-
-@@uŠî–{Ý’èv‚Ìuƒuƒ‰ƒEƒUî•ñ‹¤—LÝ’èv‚Åƒuƒ‰ƒEƒU‹¤—L‚ð‘I‘ð‚·‚é‚©A
-@@‚Ü‚½‚Íuƒ†[ƒUî•ñvƒ[ƒ‹ƒAƒhƒŒƒXAƒpƒXƒ[ƒh‚ðÝ’è‚µ‚Ü‚·B
-@@ã‚ÌURL/ID—“‚É“®‰æURLi“®‰æidj‚ð“ü—Í‚µ‚Ü‚·BŒã‚ë‚É?hogehoge‚ª‚Â‚¢‚Ä‚àOK‚Å‚·B
-@@•s“KØ‚È“à—e‚ªŠÜ‚Ü‚ê‚Ä‚¢‚éiŠˆà’Ê•ñ‚³‚ê‚Ä‚¢‚éjê‡‚ÍAƒuƒ‰ƒEƒU‚Å“®‰æ“à—e‚ðŠm”FŒã
-@@“®‰æURLi“®‰æidj‚ÌŒã‚ë?watch_harmful=1 ‚ð‹L“ü‚µ‚Ü‚·B
-@@‰ß‹ŽƒƒO‚ðƒ_ƒEƒ“ƒ[ƒh‚·‚é‚É‚ÍiƒvƒŒƒ~ƒAƒ€‰ïˆõ‚Ì‚Ýj“ú•t‚ð
-@@2009/7/7 7:7:7 ‚â 2009/7/7 7:7 ‚â 2009/7/7 ‚Ì‚æ‚¤‚É“ü—Í‚µ‚Ü‚·B
-
-@@‰Eã‚Ìu•ÏŠ·vƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚·‚é‚Æƒ_ƒEƒ“ƒ[ƒh‚Æ•ÏŠ·‚ªŠJŽn‚µ‚Ü‚·B
-
-
-
- Šg’£‹@”\i•ÏX“_jà–¾
-œJson‚Ìƒ‰ƒCƒuƒ‰ƒŠ[‚Égson‚ðŽg‚¤•ÏXigson jar,License’Ç‰Á)
-@¡‚Ü‚Å‚ÌŽè»‚ÌJsonˆ—‚Ì‘ã‚í‚è‚Égoogle gson(ApacheLicense2.0)‚ðŽg‚¢‚Ü‚·B
-@­‚µ—e—Ê‚ª‘‚¦‚Ü‚µ‚½‚ªJsonˆ—‚Ì’Ç‰Á‚ª‚µ‚â‚·‚­‚È‚è‚Ü‚µ‚½
-
-œ–¾’©‘ÌMingLiuƒtƒHƒ“ƒg•Ï‰»C³
-@VistaˆÈ~‚ÅŽg—p‚Å‚«‚é–¾’©‘ÌMingLiu‚ÌŠOŽš—Ìˆæ•¶Žš‚É‚æ‚é•Ï‰»‘Î‰žC³B
-@XP‚Ìê‡‚ÍƒjƒR“®‚Å‚ÍƒSƒVƒbƒN‚É‚È‚è‚Ü‚·‚ª‚±‚¿‚ç‚Å‚Í–¾’©‘Ì‚É‚È‚è‚Ü‚·B
-
-œCA‚Ì’e–‹‰»ƒ‚[ƒh—}‚¦‹C–¡
-@2013/11/7ˆÈ~‚ÌƒjƒR“®‚Ì‘å‰æ–ÊƒvƒŒƒCƒ„[‚Å‚ÌC³‚É‘Î‰ž‚µ
-@Œë·‚Ì‚½‚ß‚Éã‰º‚É’e–‹‰»‚µ‚Ä‚¢‚½CA‚ª’†‰æ–Ê‚Å‚à‚¸‚ê‚É‚­‚­‚È‚è‚Ü‚·B
-
-œboldƒtƒHƒ“ƒg‚ðnormal‰»‰Â”\
-@ƒfƒtƒHƒ‹ƒg‚Å‚Í•¶ŽšƒtƒHƒ“ƒg‚ÍƒjƒR“®‚Æ“¯‚¶‚æ‚¤‚Ébold(‘¾Žš)Žw’è‚µ‚Ä‚¢‚Ü‚·‚ª
-@[•ÏŠ·Ý’è]ƒ^ƒu-ŽÀŒ±“IÝ’è(‰¼)-’Ç‰Áƒ‚[ƒh‚É@-normal
-@‚ðŽw’è‚·‚é‚ÆboldŽw’è‚ð‚µ‚Ü‚¹‚ñBibold‚æ‚è×‚¢ƒtƒHƒ“ƒg‚É‚È‚è‚Ü‚·j
-
-œmylist•ÏŠ·‚ð‚ ‚Æ‚Å‚Ü‚Æ‚ß‚Äautolist.bat‚Å‚Å‚«‚é‚æ‚¤‚Éo—Í(Žb’è)
-@•Û‘¶Ý’èEƒy[ƒWî•ñEƒ}ƒCƒŠƒXƒgŽ©“®•ÏŠ·—p‚Ìautolist.batƒtƒ@ƒCƒ‹‚ð•Û‘¶‚·‚é
-@‚ðƒIƒ“‚É‚µ‚ÄAmylist‚ÌURL‚ðURL/ID‚ÉŽw’è‚µ‚Ä•ÏŠ·ƒ{ƒ^ƒ“‚ð‰Ÿ‚·‚Æ
-@autolist.bat‚ðo—Í‚·‚éB‚±‚ÌŽž‚Íƒ}ƒCƒŠƒXƒg‚Ì“à—e‚ð“Ç‚Þ‚¾‚¯‚Å•ÏŠ·‚Í‚µ‚Ü‚¹‚ñB
-@‚ ‚Æ‚Í“K‹X“à—e‚ð•ÒW‚µ‚Ä(‚±‚ê‚Íƒƒ‚’ ‰Â)ŽÀs‚·‚éŽ–‚ª‚Å‚«‚Ü‚·B
-@•ÏŠ·Žž‚ÌÝ’è‚È‚Ç‚Í¡‚Ü‚Å‚Ìauto.bat‚Æ“¯‚¶‚Å‚·B
-
-œmylistˆ—­‚µ’Ç‰Á
-@Ž©•ª‚Ìƒ}ƒCƒŠƒXƒg‚â‚Æ‚è‚ ‚¦‚¸ƒ}ƒCƒŠƒXƒg‚àŽw’è‰Â”\‚É‚µ‚Ü‚µ‚½B
-@‚Æ‚è‚ ‚¦‚¸ƒ}ƒCƒŠƒXƒg‚ÌŽw’è@http://www.nicovideo.jp/my/mylist
-@Ž©•ª‚Ìƒ}ƒCƒŠƒXƒg‚ÌŽw’è@http://www.nicovideo.jp/my/mylist/#/999999
-@—v‚·‚é‚Éƒuƒ‰ƒEƒU‚ÅŠJ‚¢‚½URL‚»‚Ì‚à‚Ì‚Å‚·B
-@iƒ}ƒCƒŠƒXƒg”Ô†‚Í@mylist/999999@‚Å‚àŽw’è‰Â”\j
-
-œ“®‰æÝ’èƒ^ƒu‚ÉÄ¶ƒ{ƒ^ƒ“’Ç‰Á
-@ƒ{ƒ^ƒ“‚ð‰Ÿ‚·‚Æ•ÏŠ·’¼Œã‚Ì“®‰æ‚ðŠg’£ŽqŠù’è‚Ìƒ\ƒtƒg‚ÅÄ¶‚µ‚Ü‚·B
-@ƒfƒtƒHƒ‹ƒg‚Ímp4‚È‚Ì‚Åmp4“®‰æ‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚½‚Ì‚Æ“¯‚¶‚É‚È‚è‚Ü‚·B
-
-œ‰f‘œƒXƒgƒŠ[ƒ€‚ª”FŽ¯‚Å‚«‚È‚¢ê‡‚É‰¹º‚Ì‚ÝƒRƒƒ“ƒg•t‚«‰Â”\‚É
-@‰¹º‚Ì‚Ý‹–‰Â‚ðƒIƒ“‚É‚·‚é‚Æ‰f‘œƒXƒgƒŠ[ƒ€‚ª”FŽ¯‚Å‚«‚È‚¢ê‡‚É
-@‰¹º‚Ì‚ÝƒRƒƒ“ƒg•t‚«‚É•ÏŠ·‚µ‚Ü‚·B
-
-œ‰¹º‚Ì‚Ý•ÏŠ·‚Ìê‡‚ÉƒTƒ€ƒlƒCƒ‹‚ðŽw’è‰Â”\B
-@‰¹º‚Ì‚Ý•ÏŠ·Žž‚ÌƒTƒ€ƒlƒCƒ‹‚ðŽw’è‚Å‚«‚Ü‚·B
-@‚Ü‚½<Ž©“®>‚Å‚Í•Û‘¶Ï‚ÝƒTƒ€ƒlƒCƒ‹‚ª‚ ‚ê‚ÎŽg—p‚µ‚Ü‚·B
-@ƒTƒ€ƒlƒCƒ‹‚ð•Û‘¶‚µ‚½‚¢ê‡‚Í•Û‘¶Ý’èEƒy[ƒWî•ñ‚Ì“®‰æî•ñ‚Ì•Û‘¶‚Æ
-@ƒTƒ€ƒlƒCƒ‹‰æ‘œ‚Ì•Û‘¶‚Ìƒ`ƒFƒbƒN‚ðƒIƒ“‚É‚µ‚Ä‰º‚³‚¢B
-@Žw’è‚ª‚È‚¢ê‡‚Ü‚½‚ÍƒTƒ€ƒlƒCƒ‹‚ª‚È‚¢ê‡‚Í
-@binƒtƒHƒ‹ƒ_‚Ìb32.jpg‚ðŽg—p‚µ‚Ü‚·B
-
-œNM“®‰æ‚É­‚µ‚¾‚¯‘Î‰ž
-@Žå‚É‚P–‡ŠG‚Æ‰¹º‚ÌNMM“®‰æ‚É‘Î‰ž‚µ‚Ü‚µ‚½B
-@Ž†ŽÅ‹ƒ^ƒCƒv‚Ì“®‰æ‚à•ÏŠ·‚µ‚Ü‚·‚ª‰æ‘œØ‚è‘Ö‚¦‚Ìƒ^ƒCƒ~ƒ“ƒO‚ª‡‚¢‚Ü‚¹‚ñB
-@i‰æ‘œ‚ªƒlƒ^ƒoƒŒ‚É‚È‚è‚Ü‚·‚Ì‚Å’ˆÓj
-@ƒRƒƒ“ƒg‚Í‰¹º‚É‚ ‚í‚¹‚Ä‚¢‚Ü‚·B
-@ƒeƒLƒXƒgAƒ€[ƒr[ƒNƒŠƒbƒvAƒtƒHƒ“ƒgAƒAƒNƒVƒ‡ƒ“ƒXƒNƒŠƒvƒg‚É‚Í–¢‘Î‰ž‚Å‚·B
-@‚Ü‚½FFmpeg‚ª‘Î‰ž‚µ‚Ä‚¢‚È‚¢(ŒÃ‚¢?)ƒ^ƒCƒv‚ÌSWF‚à•ÏŠ·‚ÉŽ¸”s‚µ‚Ü‚·B
-
-œƒtƒŒ[ƒ€ƒŒ[ƒg•ÏŠ·
-@Å¬’lˆÈ‰º‚ÌƒtƒŒ[ƒ€ƒŒ[ƒg‚Ìê‡‚ÉŽw’èfps’l‚É•ÏŠ·‚µ‚Ü‚·B
-
-œƒRƒƒ“ƒg•s“§–¾Žž‚ÌƒAƒ‹ƒtƒ@’li•s“§–¾“xj‚ð¬”“_”‚ÅŽw’è‚Å‚«‚Ü‚·B
-@[•ÏŠ·Ý’èƒ^ƒu]‚©‚çuƒRƒƒ“ƒg‚ð•s“§–¾‚É‚·‚év‚Éƒ`ƒFƒbƒN@0.0:“§–¾A 1.0:•s“§–¾
-@iŠù’è‚Å‚Í ƒRƒƒ“ƒg”Ô†‚ÌŽá‚¢‚à‚Ì‚©‚ç0.6`1.0A
-@@‚Ü‚½ƒRƒ~ƒ…“®‰æ‚Å’ÊíƒRƒƒ“ƒg‚Í0.3‚Å‚·j
-
-œ“ŠeŽÒƒtƒBƒ‹ƒ^[’Ç‰Á‚µ‚Ü‚µ‚½B
-@“ŠeŽÒƒRƒƒ“ƒg‚ð–³‚µ‚É‚·‚é‚±‚Æ‚ÅƒIƒt‚É‚È‚è‚Ü‚·B
-
-œenderƒRƒ}ƒ“ƒhiƒŠƒTƒCƒY‚µ‚È‚¢VƒRƒ}ƒ“ƒhj‚ðŽÀ‘•‚µ‚Ü‚µ‚½B
-
-œmp3ƒGƒ“ƒR[ƒh‚ðs‚¤ƒIƒvƒVƒ‡ƒ“‚ð•ÏX‹y‚Ñíœ‚µ‚Ü‚µ‚½B
-@ƒfƒR[ƒh‚Í‰Â”\‚Å‚·B
-
-œ—ƒ{ƒ^ƒ“(“ŠeŽÒƒRƒƒ“ƒg)ƒXƒNƒŠƒvƒg@‘Î‰ž‚µ‚Ü‚µ‚½B
-
-œ—’uŠ·ƒXƒNƒŠƒvƒg@‘Î‰ž‚µ‚Ü‚µ‚½B
-
-œƒ}ƒCƒŠƒXƒgˆ—’Ç‰ÁiŽÀŒ±“Ij
-@URL/ID—“‚Éƒ}ƒCƒŠƒXƒg‚ÌURL‚©@mylist/”Ô†@
-@‚ð“ü—Í‚µ‚Ä•ÏŠ·ƒ{ƒ^ƒ“‚ð‰Ÿ‚·‚Æƒ}ƒCƒŠƒXƒg‚Ì’†‚Ì“®‰æID‚É‘Î‚µ‚Ä
-@•ÏŠ·‚ðŽÀs‚µ‚Ü‚·BŠe“®‰æ‚²‚Æ‚É‚P‚O•b‚Ì‘Ò‹@‚ª“ü‚è‚Ü‚·B
-@“r’†‚Å’†Ž~‹y‚ÑÝ’è•ÏX‰Â”\‚Å‚·B
-
-œFFmpegÝ’è‚ÉƒAƒX”ä‹¤’Ê‰æ–Ê’Ç‰Á
-@PC‚Ì•û‚ÍƒAƒX”ä‹¤’Ê‰æ–Ê‚Å‚¢‚¢‚ÆŽv‚¢‚Ü‚·
-@PSP‚âŒg‘Ñ‚È‚Ç‚Ì•û‚Í\‚µ–ó‚ ‚è‚Ü‚¹‚ñ‚ª]—ˆ‰æ–Ê‚©‚çB
-@ˆÚs‚Í‚²Ž©•ª‚ÅƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹‚ðC³‚µ‚Ä‰º‚³‚¢B
-
-œ•ÏŠ·Žž -samx ƒIƒvƒVƒ‡ƒ“‚É‚æ‚è“®‰æƒAƒX”ä•ÛŽ‰Â”\
-@ƒAƒX”ä‹¤’Ê‰æ–Ê‚Ì‚½‚ß‚É“®‰æƒAƒX”ä‚ð•ÛŽ‚·‚éƒIƒvƒVƒ‡ƒ“‚ð
-@’Ç‰Á‚µ‚Ü‚µ‚½BFFmpeg‚Í-sƒIƒvƒVƒ‡ƒ“‚Ì•ÏX‚Æ‚µ‚ÄŒ©‚¦‚Ü‚·B
-
-œƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹‚T‚Â’Ç‰Á@@PCx3,PSPx2
-@PC_640x360ƒAƒX”ä‹¤’Ê_avi@@ƒAƒX”ä‹¤’Ê‚Å‚·
-@PC_640x360ƒAƒX”ä‹¤’Ê_mp4@ƒAƒX”ä‹¤’Ê‚Å‚·
-@PC_854x480ƒAƒX”ä‹¤’Ê_mp4@ƒAƒX”ä‹¤’Ê‚Å‚·
-@[PSP][16F3]480x272 -b 256k@272‚ð’Ç‰Á‚µ‚Ü‚µ‚½‚ª–¢•]‰¿‚Å‚·
-@[PSP][ 4F3]480x272 -b 256k@272‚ð’Ç‰Á‚µ‚Ü‚µ‚½‚ª–¢•]‰¿‚Å‚·
-
-œ—ƒ{ƒ^ƒ“(Ž‹’®ŽÒƒRƒƒ“ƒg)‚É‘Î‰ž‚µ‚Ü‚µ‚½
-
-œ/replace(“ŠeŽÒƒjƒƒ“Œê)‚É‘Î‰ž‚µ‚Ü‚µ‚½
-
-œƒwƒ‹ƒvƒƒjƒ…[‚©‚çffmpegƒwƒ‹ƒv/readme‚ðŽQÆ‰Â”\‚Å‚·B
-@‰Ÿ‚µ‚Ä‚Ý‚Ä‰º‚³‚¢B
-
-œCAiƒRƒƒ“ƒgƒA[ƒgjƒtƒHƒ“ƒgŽb’è“I‘Î‰ž@‚»‚Ì7
-@ECAƒtƒHƒ“ƒg8Ží—Þ’Ç‰Á@iŒv‚P9Žíj
-@
-
-œ“ŠeŽÒƒRƒƒ“ƒg‚ÌƒjƒRƒXƒNƒŠƒvƒg‹@”\’Ç‰Á
-@“ŠƒRƒ‚ÌƒjƒRƒXƒNƒŠƒvƒg@•b”A@ƒfƒtƒHƒ‹ƒgA@‹t@‚ð”½‰f‚µ‚Ü‚·B
-@‚±‚ê‚Ü‚Å‚Ì—‚È‚Ç‚ÌNGƒ[ƒh‚ð•ÏX‚·‚é•K—v‚Í—L‚è‚Ü‚¹‚ñB
-
-œ•Û‘¶Ý’è\ƒy[ƒWî•ñ
-@E“®‰æî•ñ‚ðtxtƒtƒ@ƒCƒ‹‚É•Û‘¶‚·‚é(Video‚Æ“¯‚¶ƒtƒHƒ‹ƒ_)
-@@“®‰æAƒRƒƒ“ƒg‚Ì•Û‘¶‚Æ‚Í“Æ—§‚ÉÝ’èo—ˆ‚Ü‚·BƒƒOƒCƒ“‚µ‚Äî•ñ‚ðŽæ‚è‚Ü‚·B
-@@“®‰æî•ñ‚ªŽæ‚ê‚È‚¢Žž‚ÍƒGƒ‰[‚É‚È‚è‚Ü‚·B
-@E“ŠeŽÒ–¼‚ð•Û‘¶‚·‚éiã‚Ìtxtƒtƒ@ƒCƒ‹j
-@@Žw’è‚Ìƒ†[ƒU[ƒtƒHƒ‹ƒ_‚Éƒ†[ƒU[î•ñƒy[ƒW‚ð•Û‘¶‚µ“ŠeŽÒ–¼‚ð
-@@“®‰æî•ñ‚É’Ç‰Á‚µ‚Ü‚·BƒRƒ~ƒ…ƒjƒeƒB“®‰æAƒ`ƒƒƒ“ƒlƒ‹“®‰æ‚ÍƒGƒ‰[‚É‚È‚è‚Ü‚·B
-@@•Û‘¶‚µ‚½ƒ†[ƒU[î•ñƒy[ƒW‚ÍXV‚µ‚Ü‚¹‚ñ‚Ì‚ÅAŽ©•ª‚ÅXV‚µ‚½‚¢ê‡‚Í
-@@ŠY“–ƒtƒ@ƒCƒ‹iƒ†[ƒU[ID.htmj‚ðíœ‚µ‚Ä‰º‚³‚¢B
-@EƒTƒ€ƒlƒCƒ‹‰æ‘œ‚ð•Û‘¶‚·‚é(Video‚Æ“¯‚¶ƒtƒHƒ‹ƒ_)
-@@“®‰æî•ñ•Û‘¶Žž‚ÉƒTƒ€ƒlƒCƒ‹‰æ‘œ‚ð•Û‘¶‚µ‚Ü‚·B
-@Ewatchƒy[ƒW‚ðhtmlƒtƒ@ƒCƒ‹‚É•Û‘¶‚·‚éB(.\temp‰º)
-@@•¶Žš’Ê‚è‚Å‚·BŽå‚ÉƒfƒoƒbƒO—p‚Å‚·B
-
-œƒjƒRƒjƒR“®‰æƒGƒCƒvƒŠƒ‹ƒt[ƒ‹‚ðÄŒ»
-@uÚ×Ý’èvuAprilFoolÄŒ»v‚ÅˆÈ‰º‚Ì3‰ñ‚ÌƒGƒCƒvƒŠƒ‹ƒt[ƒ‹‚ðÄŒ»‚µ‚Ü‚·B
-@@2008”N ‹t‘–@ƒRƒƒ“ƒg‚ª¶‚©‚ç‰E‚Ö
-@@2009”N@ÔŽš3”{‘¬@‘S•”‚ÌƒRƒƒ“ƒg‚ªÔŽš‚Å3”{‚Ì‘¬“x‚É‚È‚è‚Ü‚·B
-@@@’áƒtƒŒ[ƒ€ƒŒ[ƒg“®‰æ‚Å‚Í”ò‚Ñ”ò‚Ñ‚É‚È‚é‚©‚à‚µ‚ê‚Ü‚¹‚ñB
-@@2010”N@ƒjƒRƒjƒR“®‰æ@•Žš‰»@•Žš‚É‚È‚è‚Ü‚·B–ß‚¹‚Ü‚¹‚ñB
-
-œCUI‚ÅÝ’è€–Ú‚ðƒI[ƒo[ƒ‰ƒCƒh
-@EÝ’è‚ÌƒI[ƒo[ƒ‰ƒCƒh‚Í•Û‘¶‚³‚ê‚Ü‚¹‚ñB
-@‡@Šî–{‚ÌŽg‚¢•û
-@@@java -jar Saccubus.jar Mail@address.com password “®‰æID “úŽž ¡‰ñ‚Ì’Ç‰ÁƒIƒvƒVƒ‡ƒ“
-@@auto.bat‚Ìê‡@%CMD% sm9999 "2009/7/7 7:7"
-@@@“úŽž‚ÍÈ—ª‰Â”\AŒ»Ý‚Ìê‡‚Í0‚ðŽw’è
-@@ConvList‚Ìê‡‚Ì“ü—Í—“@sm9999 13190010
-@@@“úŽž‚Í1970/1/1‚©‚ç‚Ì•b”‚Ü‚½‚Í«‚ÅŽw’èAÈ—ª‰Â”\
-@@@Ver 1.04ˆÈ~‚Å“úŽž‚ÌŽw’è‚ªA2011/12/1 ‚Ü‚½‚Í "2009/1/1 07:08:10" ‚Å
-@@@‰Â”\‚É‚È‚è‚Ü‚µ‚½B‚à‚¿‚â‚Ü‚³‚ñA‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B
-@‡AƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹‚Ì•ÏXi2passƒGƒ“ƒR[ƒh‚Ì—áj
-@@@Å‰‚É2pass—p‚ÌƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹‚ð1pass–ÚA2pass–Ú‚Æ2‘gi‚˜ƒAƒXƒyƒNƒg”ä2Žíj—pˆÓ‚·‚é
-@@@1pass–Úƒtƒ@ƒCƒ‹–¼@[PC][4F3].xml@@ [PC][16F9].xml@@@ ‚Æ‚µ
-@@@2pass–Úƒtƒ@ƒCƒ‹–¼@p2[PC][4F3].xml@p2[PC][16F9].xml@‚Æ‚µ‚Äip2‚Í•ÏX‰Â”\j
-@@auto.bat‚Ìê‡ŽŸ‚Ì‚æ‚¤‚É2sŽw’è‚·‚é
-@@@%CMD% sm9999
-@@@%CMD% sm9999 0 p2@@@@@“úŽž(0)‚ÍÈ—ª•s‰ÂAp2‚ÍƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹‚ÌÚ“ªŽ«
-@@ConvList‚Ìê‡F‰º‚Ì“ü—Í—“‚É“ü—Í‚Ü‚½‚Íƒy[ƒXƒg‚ð2‰ñs‚¤i2pass–Ú‚ÍŽè“ü—Í‚ª•K—vj
-@@@sm9999
-@@@sm9999 0 p2
-@‡BÝ’è(saccubus.xml)‚ÌƒI[ƒo[ƒ‰ƒCƒh
-@@Žw’è•û–@@key–¼=ƒI[ƒo[ƒ‰ƒCƒh’l
-@@@Ý’è’l‚ð‚È‚­‚·ê‡‚Í=‚ÅI‚í‚éB
-@@ƒI[ƒo[ƒ‰ƒCƒh‰Â”\‚Èkey–¼i‰pŽš‚ÅŠJŽnj‚Ísaccubus.xml‚ðŽQÆ‚µ‚Ä‰º‚³‚¢B
-@@@key–¼‚Ì—á@<entry key="key–¼">Ý’è’l</entry>‚Æ‹Lq‚³‚ê‚Ä‚¢‚Ü‚·B
-@@@@FontPath@@@@@@ƒtƒHƒ“ƒgƒtƒ@ƒCƒ‹‚ÌƒpƒXi%WINDIR%\Fonts\msgothic.ttcj
-@@@@FontIndex @@@@@ƒtƒHƒ“ƒgƒCƒ“ƒfƒbƒNƒXi1j
-@@@@SaveVideoFile @@@“®‰æ‚ð•Û‘¶‚·‚éitruej
-@@@@SaveCommentFile @@ƒRƒƒ“ƒg‚ð•Û‘¶‚·‚éitruej
-@@@@CMD_EXT @@@@@@’¼Ú“ü—ÍŽž‚Ì]—ˆ‚Ì•ÏŠ·Œã‚ÌŠg’£Žqi.avij
-@@@@WideCMD_EXT @@@@’¼Ú“ü—ÍŽž‚ÌƒƒCƒh‚Ì•ÏŠ·Œã‚ÌŠg’£Žqi.mp4j
-@@@@EnableCA@@@@@@CA—p‚ÌƒtƒHƒ“ƒg‚É‹­§•ÏX‚·‚éifalsej
-@@—á‚¦‚Îsm8628149‚ðCA—p‚ÌƒtƒHƒ“ƒg‚É‹­§•ÏX‚·‚éê‡‚Í
-@@auto.bat‚Ìê‡@%CMD% sm8628149 0 EnableCA=true
-@@ConvList‚Ìê‡@sm8628149 0 EnableCA=true
-@‡CFFmpeg‚ÌƒIƒvƒVƒ‡ƒ“’li-‚ÅŠJŽnj(ƒIƒvƒVƒ‡ƒ“.xml“à‚Ìj‚Ì•ÏX
-@@Žw’è•û–@@-ƒIƒvƒVƒ‡ƒ“=Ý’è’l
-@@—á‚¦‚ÎAo—ÍƒTƒCƒY‚ð1280x720‚É•ÏX‚·‚éê‡‚Í
-@@auto.bat‚Ìê‡@%CMD% sm8628149 0 -s=1280x720
-@@ConvList‚Ìê‡@sm8628149 0 -s=1280x720
-@‡D‘g‚Ý‡‚í‚¹@‡A‡B‡C‚Í“¯Žž‚É‘g‚Ý‡‚í‚¹‚ÄŽg—p‰Â”\
-@@—á‚¦‚Îsm9‚ð2pass‚Å2pass–Ú‚Í“®‰æƒRƒƒ“ƒg‚ð•Û‘¶iƒ_ƒEƒ“ƒ[ƒhj‚µ‚È‚¢ê‡‚Í
-@@auto.bat‚Ìê‡
-@@@%CMD% sm9
-@@@%CMD% sm9 0 p2 SaveVideoFile=false SaveCommentFile=false
-@@ConvList‚Ìê‡
-@@@sm9
-@@@sm9 0 p2 SaveVideoFile=false SaveCommentFile=false
-@‡E‚T”Ô–ÚˆÈ~‚Ìˆø”i‰ß‹ŽƒƒO“úŽž‚ÌŒãj‚Ì—Žw’èƒL[ƒ[ƒhi”¼Šp‰p‘å•¶Žšj
-@@NDL
-@@“®‰æEƒRƒƒ“ƒg‚ðƒ_ƒEƒ“ƒ[ƒh‚µ‚È‚¢Bi•ÏŠ·‚ÍÝ’èƒtƒ@ƒCƒ‹’Ê‚èj
-@@DLO 
-@@“®‰æEƒRƒƒ“ƒg‚ð‹­§ƒ_ƒEƒ“ƒ[ƒh‚µA•ÏŠ·‚ðs‚í‚È‚¢B
-@@DLC 
-@@ƒRƒƒ“ƒg‚Ì‚Ý‚ð‹­§ƒ_ƒEƒ“ƒ[ƒh‚µA•ÏŠ·‚ðs‚í‚È‚¢B
-@@PUP
-@@PC‰æ–Ê‚Ì¶ã‚Éauto.bat’†Ž~—p‚Ìƒ{ƒ^ƒ“EƒXƒe[ƒ^ƒX‚ð•\Ž¦‚·‚éB
-@@SET=Ý’èƒtƒ@ƒCƒ‹ƒpƒX.xml iC³j
-@@saccubus.xml‚Ì‘ã‚í‚è‚ÉÝ’èƒtƒ@ƒCƒ‹.xml‚ðŽg—p‚·‚éB
-@@ADD=’Ç‰ÁÝ’èƒtƒ@ƒCƒ‹ƒpƒX.xml iC³j
-@@’Ç‰ÁÝ’èƒtƒ@ƒCƒ‹ƒpƒX.xml‚ðƒtƒ@ƒCƒ‹ƒƒjƒ…[‚Ì’Ç‰Á‚ÅŽw’è‚·‚é‚Ì‚Æ“¯‚¶
-@—ájsm9‚ð2pass‚Å2pass–Ú‚Í“®‰æƒRƒƒ“ƒg‚ð•Û‘¶iƒ_ƒEƒ“ƒ[ƒhj‚µ‚È‚¢ê‡‚Í
-@@ƒIƒvƒVƒ‡ƒ“Ý’è‚ð2pass—p‚Ì1pass–ÚŽw’è‚ÅAƒtƒ@ƒCƒ‹–¼‚ª
-@@@1pass–Ú@ƒIƒvƒVƒ‡ƒ“.xml@@2pass–Ú@p2ƒIƒvƒVƒ‡ƒ“.xml‚Æ‚·‚é‚Æ
-@@auto.bat‚Ìê‡
-@@@%CMD% sm9 0 @PUP
-@@@%CMD% sm9 0 @PUP p2 @NDL
-@@ConvList‚Ìê‡
-@@@sm9
-@@@sm9 0 p2 @NDL
-@Eauto.bat‚âSaccubusConvList.exeŽÀsŽž‚Élog.txt‚ðo—Í‚·‚éB
-
-@¡SaccubusConvList.exe‚ÍˆÈ‰º‚©‚çƒ_ƒEƒ“ƒ[ƒho—ˆ‚Ü‚·B
-@@‚³‚«‚ã‚Î‚·•ÏŠ·ƒŠƒXƒg(URLƒŠƒXƒg˜A‘±•ÏŠ·)@by ‚à‚¿‚â‚Ü‚³‚ñ
-@@http://www.ne.jp/asahi/mochiyama/my/file/SaccubusConvList.zip
-
-œFFmpegƒIƒvƒVƒ‡ƒ“’Ç‰ÁÝ’è
-@u“®‰æÝ’èvu•ÏŠ·ƒIƒvƒVƒ‡ƒ“Ý’èvFFmpeg’Ç‰ÁÝ’è‚Å
-@ƒvƒ‹ƒ_ƒEƒ“ƒƒjƒ…[‚©‚ç‘I‚ñ‚¾ê‡‚Å‚àÝ’è‚ð’Ç‰ÁAã‘‚«‚Å‚«‚Ü‚·B
-@iƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹‚É‘‚«ž‚Ý‚Ís‚¢‚Ü‚¹‚ñj
-@@—á‚¦‚ÎAƒRƒƒ“ƒg•t‚«“®‰æ‚ÌƒTƒCƒY‚¾‚¯•ÏX‚µ‚½‚¢ê‡‚Í
-@@@@-s 1024x768
-@@‚ÆÝ’è‚P‚É’Ç‰Á‚·‚é
-@@ƒRƒƒ“ƒg•t‚«“®‰æ‚Ì’·‚³‚ðÅ‰‚Ì‚R‚O•b‚¾‚¯‚É‚·‚é‚É‚Í
-@@@@-t 30
-@@‚ÆÝ’è‚·‚é‚È‚ÇFXŽŽ‚µ‚Ä‚Ý‚Ä‰º‚³‚¢B
-
-œÝ’èƒtƒ@ƒCƒ‹‚Ì“Ç‚Ýž‚ÝE’Ç‰ÁE•Û‘¶E•Ê–¼•Û‘¶E‰Šú‰»
-@ƒtƒ@ƒCƒ‹ƒƒjƒ…[‚©‚çÝ’èƒtƒ@ƒCƒ‹‚Ì“Ç‚Ýž‚ÝE’Ç‰ÁE•Û‘¶E•Ê–¼•Û‘¶E‰Šú‰»‚ªo—ˆ‚Ü‚·B
-@@‘Ž®‚ÍŽ©“®¶¬E•Û‘¶‚³‚ê‚½‚à‚Ì‚Æ“¯‚¶‚ÉŒÀ‚è‚Ü‚·B
-@@EŠJ‚­@“Ç‚Ýž‚Ý‚Ü‚·B
-@@E’Ç‰Á@ƒtƒ@ƒCƒ‹‚É‹L“ü‚³‚ê‚½€–Ú‚Ì‚ÝÝ’è‚µ’¼‚µ‚Ü‚·B
-@@Eã‘‚«•Û‘¶@Œ»Ý‚ÌÝ’è‚ðsaccubus.xml‚É•Û‘¶‚µ‚Ü‚·B
-@@E–¼‘O‚ð•t‚¯‚Ä•Û‘¶@Œ»Ý‚ÌÝ’è‚ðŽw’èƒtƒ@ƒCƒ‹‚É•Û‘¶‚µ‚Ü‚·B
-@@E‰Šú‰»@saccubus.ini‚ª‚ ‚ê‚Î“Ç‚Ýž‚ÝA–³‚¯‚ê‚ÎƒvƒƒOƒ‰ƒ€‰Šú’l‚ÅÝ’è‚µ‚Ü‚·B
-@@EI—¹@I—¹Žž‚ÉƒpƒXƒ[ƒh‚ðŠÈˆÕˆÃ†‰»‚µsaccubud.xml‚ÉÝ’è‚ð•Û‘¶‚µ‚Ü‚·B
-
-œCAiƒRƒƒ“ƒgƒA[ƒgjƒtƒHƒ“ƒgŽb’è“I‘Î‰ž@‚»‚Ì‚U
-@ECAƒtƒHƒ“ƒg’Ç‰Á@ƒOƒ‰ƒWƒƒ[ƒeƒBAiŒv‚P‚PŽíj
-@¦Žå‚ÈƒtƒHƒ“ƒgŽšŒ`‚ÍƒjƒR“®‚Æ“¯‚¶‚Å‚·‚ªAƒtƒHƒ“ƒgƒTƒCƒY‚Æ•¶ŽšŠÔŠu‚ª
-@@‚Ü‚¾ˆÙ‚È‚éê‡‚â•\Ž¦‚Å‚«‚È‚¢ƒtƒHƒ“ƒg‚ª‚ ‚è‚Ü‚·Bi’²®‘±s’†j
-@¡uCAƒtƒHƒ“ƒgŽb’è“I‘Î‰žvuŠJ”­”Å‚ð—LŒøv‚ðŠù’è‚ÅƒIƒ“‚É‚µ‚Ü‚µ‚½B
-@@•Ï‚Èê‡‚ÍuŠJ”­”Å‚ð—LŒøv‚ðƒIƒt‚Ü‚½‚ÍuƒtƒHƒ“ƒgƒTƒCƒY‚ÌŽ©“®’²®v‚ðƒIƒt‚É
-@@–”‚Í—¼•ûƒIƒt‚É‚µ‚Ä‰º‚³‚¢Bi’²®’†j
-@@iŽ©“®’²®‚ðƒIƒt‚É‚µ‚Ä‚àŠg‘å‚Í‚µ‚Ü‚·‚ª•¶Žš‚Ì•\Ž¦‚ª­‚µ‘eŽG‚É‚È‚è‚Ü‚·Bj
-@EfullƒRƒ}ƒ“ƒhE‚Q‚SƒrƒbƒgƒJƒ‰[‚ðŽÀ‘•iƒIƒt•s‰Âj
-@EƒtƒHƒ“ƒg‚Ì‚‚³’²®‚ÌŠù’è’l•ÏXi100%jŠù’è‚ÅƒIƒt‚É‚µ‚Ü‚µ‚½B
-@¡CAiƒRƒƒ“ƒgƒA[ƒgj‚É‚Â‚¢‚Ä‚Í
-@@uƒRƒƒ“ƒgƒA[ƒgwikiv@http://www37.atwiki.jp/commentart/
-@@‚ðŽQl‚É‚µ‚Ä‚¢‚Ü‚·B‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B
-
-œƒRƒƒ“ƒg‚É‰©˜g‚ð•t‰ÁBƒRƒƒ“ƒgƒA[ƒgŒ¤‹†—pB
-@u•ÏŠ·Ý’èvuŽÀŒ±“IÝ’èi‰¼)v‚Ì’Ç‰Áƒ‚[ƒh‚É
-@-frame@‚ðŽw’è‚·‚é‚ÆAƒRƒƒ“ƒg‚É‰©˜g‚ª•\Ž¦‚³‚ê‚Ü‚·B
-@-loc -frame@‚ðŽw’è‚·‚é‚ÆˆÊ’uƒRƒ}ƒ“ƒh‚É‚æ‚Á‚Ä•\Ž¦˜gF‚ª•Ï‚í‚è‚Ü‚·B
-@@ue Ô˜g naka ‰©˜g shita Â˜g
-@-font@‚ðŽw’è‚·‚é‚ÆƒtƒHƒ“ƒg‚ÌŽí—Þ‚É‚æ‚Á‚Ä•¶Žš‚Ì”wŒiF‚ð•ÏX‚µ‚Ü‚·B
-@@ƒSƒVƒbƒN(msgothic)@Ô@–¾’©(simsun)@—Î@ŠÛ•¶Žš(gulim)@Â@arial@‰©@‚»‚Ì‘¼@ŠD@–¾’©‘Ì(MingLiu) ƒVƒAƒ“
-@@’A‚µ•¶ŽšF‚Æ“¯‚¶ê‡‚ÍÔ¨•A—Î¨‰©FAÂ¨Ž‡‚Æ•ÏX‚µ‚Ü‚·B
-@-font -fg@‚ðŽw’è‚·‚é‚ÆƒtƒHƒ“ƒg‚ÌŽí—Þ‚É‚æ‚Á‚Ä•¶ŽšF‚ð•ÏX‚µ‚Ü‚·B
-@@ƒSƒVƒbƒN(msgothic)@Ô@–¾’©(simsun)@—Î@ŠÛ•¶Žš(gulim)@Â@arial@‰©@‚»‚Ì‘¼@ŠD@–¾’©‘Ì(MingLiu) ƒVƒAƒ“
-@@”wŒi‚Í“§–¾‚Å‚·B‰e‚ªŒ³‚Ì•¶ŽšF‚É‚È‚è‚Ü‚·B
-@˜g‚ÆƒtƒHƒ“ƒgŽw’è‚Í“¯ŽžŽw’è‰Â”\‚Å‚·B
-@¡ŽÀs—ái]—ˆ‰æ–Êj
-@ƒtƒ@ƒCƒ‹ƒƒjƒ…[‚Ì’Ç‰Á(ADD)‚ÅˆÈ‰º‚Ìƒtƒ@ƒCƒ‹‚ð“Ç‚Ýž‚ñ‚Å•ÏŠ·‚µ‚Ä‚Ý‚Ä‰º‚³‚¢B
-@optionDev\CA544x408‰©˜g•t‚«[1214347170]ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹@FullDver.xml
-@optionDev\CA640x384‰©˜g•t‚«[1316445758]y‘æ7‰ñMMD”t–{‘IzSweet Magic‚ð–‚–@Žg‚¢@‚ª—x‚Á‚Ä‚­‚ê‚Ü‚µ‚½.xml
-@optionDev\CA672x384‰©˜g•t‚«[1329021499]yƒgƒŒƒXz“Œ•ûƒLƒƒƒ‰‚Åef-OPy2ŠúEÅI‰ñ‚–‚…‚’z.xml
-@optionDev\CA640x384‰©˜g•t‚«l[1332573212]y‰‰¹ƒ~ƒNzV¢ŠE‚Ö‚Ìƒvƒƒ[ƒOyMMD-PVz.xml
-@¦–‚–@­—‚Ü‚Ç‚©™ƒ}ƒMƒJ‚Íƒ_ƒuƒ‹ƒŠƒTƒCƒY‚ª‘½‚­‘å‰æ–Ê‚Å‚Ü‚¾³Šm‚ÉÄŒ»‚Å‚«‚Ä‚¢‚Ü‚¹‚ñB
-@optionDev\CA1024x576‰©˜g•t‚«[1305294209]–‚–@­— ‚Ü‚Ç‚©™ƒ}ƒMƒJ - ƒXƒJƒCƒNƒ‰ƒbƒh‚ÌŠÏ‘ªŽÒ.xml
-
-
-œNGƒRƒ}ƒ“ƒh
-@E•ÏŠ·Ý’è¨NGƒ[ƒhEIDÝ’è¨NGƒRƒ}ƒ“ƒh‚ÅÝ’è‚µ‚½ƒRƒ}ƒ“ƒh‚ð–³Œø‚Éo—ˆ‚Ü‚·B
-@@ˆÊ’u ue shita ƒTƒCƒY big small F red black yellow cyan EEE #ff0000 ‚È‚Ç
-@@‘g‚Ý‡‚í‚¹‚éê‡‚Íˆø—p•„("")‚ÅˆÍ‚Ý‚Ü‚·B’Êí‚ÍˆÊ’uEFEƒTƒCƒY‚Ì‡B
-@@@Ô‚©‚ÂƒTƒCƒY‘å‚Ìê‡  "red big"
-@@ƒfƒtƒHƒ‹ƒg‚Å‚È‚¢‘S‚Ä‚ÌƒRƒ}ƒ“ƒh‚ðŽw’è all
-@@y’ˆÓzƒRƒ}ƒ“ƒh‚ð–³Œøinaka white medium‚É–ß‚·j‚É‚·‚é‚¾‚¯‚È‚Ì‚Å
-@@@ƒRƒƒ“ƒg‚Í”’EƒTƒCƒY’†‚Å—¬‚ê‚Ü‚·B
-@@@ƒRƒƒ“ƒg‚ðNG‚µ‚½‚¢ê‡‚ÍNGƒ[ƒh—“‚ÉƒRƒ}ƒ“ƒh‚ðŽw’è‚µ‚Ä‰º‚³‚¢B
-
-œNG‹¤—LƒŒƒxƒ‹
-@E•ÏŠ·Ý’è¨NGƒ[ƒhEIDÝ’è¨NG‹¤—LƒŒƒxƒ‹‚ð‹­E’†EŽãE–³‚µ‚ÉÝ’è‚Å‚«‚Ü‚·B
-@@ƒjƒRƒjƒR“®‰æ‚Æ“¯‚¶‚Å‚·BƒfƒtƒHƒ‹ƒg‚Íu–³‚µv‚Å‚·B
-
-œNGƒ[ƒh
-@E•ÏŠ·Ý’è¨NGƒ[ƒhEIDÝ’è¨NGƒ[ƒh‚ÅNG‚·‚éƒRƒƒ“ƒg‚Ìˆê•”
-@@‚Ü‚½‚ÍƒRƒ}ƒ“ƒh‚ðŽw’è‚µ‚Ü‚·B
-@ENGƒ[ƒh‚ÌŽw’è‚ÉallƒL[ƒ[ƒh‚ðŽg‚¦‚Ü‚·B
-@@ƒfƒtƒHƒ‹ƒg‚Å‚È‚¢ƒRƒ}ƒ“ƒh‚ÌƒRƒƒ“ƒg‚ð‘S‚ÄNG‚µ‚Ü‚·B
-@E¶IDi”ñ“½–¼jƒRƒƒ“ƒg‚ÌƒRƒ}ƒ“ƒh‚É“à•”“I‚É186‚ð•t‰Á
-@ˆÈ‰º‚ÍNGƒ[ƒhŽg—p—á
-@@186		¶ID‘S•”NG
-@@184		“½–¼NG
-@@docomo	ƒhƒRƒ‚NG
-@@iPhone	iPhoneNG
-@@softbank	ƒ\ƒtƒgƒoƒ“ƒNNG
-@@all		ƒfƒtƒHƒ‹ƒg‚Å‚È‚¢ƒRƒ}ƒ“ƒh‚ÌƒRƒƒ“ƒg‚ð‘S‚ÄNG
-@@/(((docomo|iPhone|softbank) (white )?)?18[46])/
-@@		ƒfƒtƒHƒ‹ƒgƒRƒ}ƒ“ƒh‚ÌƒRƒƒ“ƒg‚ðNG
-@@@ÅŒã‚Ì‘Ž®‚ÍJava‚Ì³‹K•\Œ»‚Å‚·B//‚ÅˆÍ‚Þ‚Æ“¯‚¶‹L–@‚ªŽg‚¦‚Ü‚·B
-@@@ŽQÆhttp://java.sun.com/javase/ja/6/docs/ja/api/java/util/regex/Pattern.html
-
-œƒjƒRƒjƒR“®‰æ‚ÌNGÝ’èƒ_ƒEƒ“ƒ[ƒhE•Û‘¶
-@Eã•”ƒƒjƒ…[‚ÌÚ×Ý’è¨ƒjƒRƒjƒR“®‰æ‚ÌNGÝ’è•Û‘¶‚ÅANGÝ’è‚ð
-@@ƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä.\configNG.xml‚É•Û‘¶‚Å‚«‚Ü‚·B
-@@ƒƒOƒCƒ“‰Â”\‚ÈÝ’è‚ÅƒNƒŠƒbƒN‚µ‚Ä‰º‚³‚¢B
-@@‚³‚«‚ã‚Î‚·‚Ö‚ÌŽ©“®Ý’è‚Í‚µ‚È‚¢‚Ì‚Åƒtƒ@ƒCƒ‹‚ðŽè“®‚ÅŠJ‚¢‚ÄNGƒ[ƒh‚È‚Ç‚Ì
-@@Šm”FEƒRƒs[‚È‚Ç‚ðs‚È‚Á‚Ä‰º‚³‚¢BiNG‹¤—LƒŒƒxƒ‹‚Í‚ ‚è‚Ü‚¹‚ñBj
-
-œƒpƒXƒ[ƒhŠÈˆÕˆÃ†‰»
-@EŽ©“®‚ÅƒpƒXƒ[ƒh‚ðŠÈˆÕˆÃ†‰»‚µ‚Ü‚·Bƒ[ƒ‹ƒAƒhƒŒƒX‚ª“ü—Í‚³‚ê‚Ä‚¢‚È‚¢‚Æ
-@@ˆÃ†‰»‚µ‚Ü‚¹‚ñB“Á‚É‘€ì‚Í•K—v‚ ‚è‚Ü‚¹‚ñ‚ªsaccubus.xml‚É‚ÍˆÃ†‰»‚µ‚Ä
-@@•Û‘¶‚·‚é‚Ì‚ÅƒpƒXƒ[ƒh‚ðŒ©‚Ä‚àƒjƒRƒjƒR“®‰æ‚É‚ÍŽg‚¦‚Ü‚¹‚ñB
-@Eauto.batŽg—pŽž‚É‚Í]—ˆ’Ê‚è‚ÌƒpƒXƒ[ƒh‚É‰Á‚¦”¼Šp‚P•¶Žš‚Ì ! ‚ªŽg—po—ˆ‚Ü‚·B
-@y’ˆÓz‚³‚«‚ã‚Î‚·‚ªŽ©“®‚Å•œ†‚·‚é‚Ì‚ÅƒZƒLƒ…ƒŠƒeƒB‚ªŒüã‚µ‚½‚í‚¯‚Å‚Í—L‚è‚Ü‚¹‚ñB
-@@saccubus.xml‚âauto.bat‚É¶‚ÌƒpƒXƒ[ƒh‚ª‹L˜^‚³‚ê‚È‚¢‚æ‚¤‚É‚·‚é‹C‹x‚ß‚Å‚·B
-
-œƒGƒRƒmƒ~[ƒ‚[ƒhŽž‚É’†Ž~
-@u•Û‘¶Ý’èvu“®‰æEƒRƒƒ“ƒgvƒ^ƒuu“®‰æ•Û‘¶Ý’èvuƒGƒRƒmƒ~[Žž‚Í’†Ž~v
-@‚Éƒ`ƒFƒbƒN‚·‚é‚ÆƒGƒRƒmƒ~[ƒ‚[ƒhŽž‚Í“®‰æ‚Ìƒ_ƒEƒ“ƒ[ƒh‚ðs‚í‚¸ƒGƒ‰[‚É‚È‚è‚Ü‚·B
-@auto.bat‚Ìê‡‚ÍŽŸ‚Ì“®‰æ‚ÉƒXƒLƒbƒv‚µ‚Ü‚·B
-
-œƒtƒHƒ“ƒgƒTƒCƒYŽ©“®’²®Žž‚ÌŠg‘å‹@”\‚ðŒ³‚É–ß‚µ‚Ü‚µ‚½B
-@1.26ƒ¿4‚Æ“¯‚¶B1.26.1`2‚Å‚Ííœ‚µ‚Ä‚¢‚Ü‚µ‚½B
-
-œƒRƒƒ“ƒg‘¬“x‚ð“ÆŽ©‚ÉŽw’è‰Â”\‚É‚È‚è‚Ü‚µ‚½B
-@@•ÏŠ·Ý’è¨Šg’£vhookƒ‰ƒCƒuƒ‰ƒŠ‚ÌÝ’è¨ƒRƒƒ“ƒg‘¬“x ‚Éƒ`ƒFƒbƒN‚µ
-@@“ü—Í—“‚ÉPixel/Sec‚ðŽw’è‚µ‚Ü‚·BiŒöŽ®‚ÌÅ¬’l‚Í–ñ130‚Å‚·j
-
-œƒRƒƒ“ƒgƒXƒRƒA“Ç‚Ýž‚Ý
-@¡–{‹@”\‚Í nicocache_nl‚Æ2chƒXƒŒ
-@@uyƒjƒRƒjƒRzŽ©“®ƒ[ƒJƒ‹•Û‘¶ƒvƒƒNƒV NicoCache14v
-@@http://anago.2ch.net/test/read.cgi/software/1305280003/811
-@@‚ðŽQl‚É‚µ‚Ü‚µ‚½B
-
-œVƒRƒƒ“ƒg•\Ž¦‘Î‰ži‚»‚Ì‚Rj
-@Eƒ`ƒƒƒ“ƒlƒ‹“®‰æEƒRƒ~ƒ…ƒjƒeƒB“®‰æ‚Æ‚»‚Ì‰ß‹ŽƒƒO‚ªVƒRƒƒ“ƒg•\Ž¦
-@@‚É‡‚í‚¹‚½Žæ“¾”‚Æ‚È‚è‚Ü‚·BiŽ©“®‚ÅŽæ“¾”‚ðŒˆ’èŽžŠù’èÝ’èj
-@E‘S‚Ä‚Ì“®‰æ‚ÅAƒRƒƒ“ƒgŽæ“¾”‚ðVƒRƒƒ“ƒg•\Ž¦‚Æ‹ŒƒRƒƒ“ƒg•\Ž¦‚Ì
-@@‚Ç‚¿‚ç‚É‡‚í‚¹‚é‚©‚ðØ‚è‘Ö‚¦‚ç‚ê‚Ü‚·B
-@@@Šù’è’l‚OFŒöŽ®‚ÌVƒRƒƒ“ƒg•\Ž¦‚ðÌ—pˆÈ‘O‚Ì‰ß‹ŽƒƒO‚Í‹Œ•\Ž¦
-@@@V•\Ž¦‚PF–ˆ•ªÅV100ƒRƒƒ“ƒg{‹Œ•\Ž¦
-@@@‹Œ•\Ž¦‚QF“®‰æ‚Ì’·‚³‚É‚æ‚éÅVƒRƒƒ“ƒg”BÅ‘å1000i10•ªˆÈãj
-@EŽ©“®‚ÅŽæ“¾”‚ðŒˆ’èŽž‚É‚µ‚È‚¢ê‡‚ÌÝ’è’l‚ÍA‹Œ•\Ž¦Žæ“¾”‚Ì
-@@Å‘å’l‚ð•ÏX‚µ‚Ü‚·BV•\Ž¦‚Ì–ˆ•ª100ƒRƒƒ“ƒg‚Í•ÏX‚³‚ê‚Ü‚¹‚ñB
-@mŠù’èÝ’èn
-@@“®‰æ@@@@@Žæ“¾•û–@@’ÊíƒRƒ@@@“ŠeŽÒ@ƒIƒvƒVƒ‡ƒiƒ‹
-@@ƒ`ƒƒƒ“ƒlƒ‹@@Œ»Ý@@@V•\Ž¦@@@@–³‚µ@@–³‚µ
-@@ƒ`ƒƒƒ“ƒlƒ‹@@‰ß‹ŽƒƒO@Žw’è“úŽžˆË‘¶@–³‚µ@@–³‚µ
-@@ƒRƒ~ƒ…ƒjƒeƒB@Œ»Ý@@@V•\Ž¦@@@@1000@@V•\Ž¦
-@@ƒRƒ~ƒ…ƒjƒeƒB@‰ß‹ŽƒƒO@Žw’è“úŽžˆË‘¶@1000@@Žw’è“úŽžˆË‘¶
-@@ƒ†[ƒU[@@@Œ»Ý@@@V•\Ž¦@@@@1000@@–³‚µ
-@@ƒ†[ƒU[@@@‰ß‹ŽƒƒO@Žw’è“úŽžˆË‘¶@1000@@–³‚µ
-@@ƒ}ƒCƒƒ‚ƒŠ[@Œ»Ý@@@V•\Ž¦@@@@1000@@–³‚µ
-@@ƒ}ƒCƒƒ‚ƒŠ[i‰ß‹ŽƒƒO@0 @@@@@@0 @@@–³‚µj
-@m•â‘«n
-@@EŒ»Ý‚ÌŽæ“¾”‚Íƒuƒ‰ƒEƒU‚ÌŠù’è•\Ž¦‚Æ“¯‚¶B
-@@EŽw’è“úŽžFŒöŽ®‚ªVƒRƒƒ“ƒg•\Ž¦‚ðÌ—pi2010”N12ŒŽ22“új
-@@@ˆÈ‘O‚Ìê‡‚Í‹Œ•\Ž¦B
-@@Eƒ}ƒCƒƒ‚ƒŠ[‚Å‰ß‹ŽƒƒO‚ðŽw’è‚·‚é‚ÆƒGƒ‰[‚É‚È‚ç‚È‚¢‚ª
-@@@ƒRƒƒ“ƒg‚ÍŽæ“¾‚Å‚«‚È‚¢Bi–³ˆÓ–¡j
-@¡–{‹@”\‚Íu‚¢‚ñ‚«‚ã‚Î‚·1.7.2v‚Æcoroid project wiki‚ð
-@@ŽQl‚É‚µ‚Ü‚µ‚½BŠ´ŽÓBˆÈ‰º‚Éà–¾‚ª‚ ‚è‚Ü‚·B
-@@@http://sourceforge.jp/projects/coroid/wiki/NicoApiSpec
-@@coroid project@u‚¢‚ñ‚«‚ã‚Î‚·v‚ðŠÜ‚Þ@ƒ‰ƒCƒZƒ“ƒX AGPLv3
-@@@http://sourceforge.jp/projects/coroid/
-
-œ•s“KØ‚È“®‰æ‚Ì“Ç‚Ýž‚Ý‚ÅŽ¸”s‚ðƒƒbƒZ[ƒW‚É–¾Ž¦‚·‚é
-@E¢•s“KØ‚È“à—e‚ªŠÜ‚Ü‚ê‚Ä‚¢‚é£“®‰æ‚ðƒ_ƒEƒ“ƒ[ƒh‚·‚é‚É‚Í
-@@sm1234556789?watch_harmful=1
-@@‚ÆŽw’è‚·‚ê‚Îƒ_ƒEƒ“ƒ[ƒho—ˆ‚Ü‚·B
-
-œƒRƒ~ƒ…ƒjƒeƒB“®‰æ‚Ì’ÊíƒRƒƒ“ƒg•\Ž¦‹@”\‚É‚Â‚¢‚Ä
-@EƒRƒ~ƒ…ƒjƒeƒB“®‰æ‚ÌIDiURL)‚ðŽw’è‚µ‚Ä•Û‘¶‚·‚é‚ÆA’ÊíƒRƒƒ“ƒg‚ð
-@@ƒtƒ@ƒCƒ‹–¼‚ÌÅŒã‚É{Optional}.xml‚ª•t‰Á‚³‚ê‚½ƒRƒƒ“ƒgƒtƒ@ƒCƒ‹‚ª
-@@ƒRƒƒ“ƒgƒtƒHƒ‹ƒ_‚Ü‚½‚ÍŽw’èƒtƒHƒ‹ƒ_‚É•Û‘¶‚³‚ê‚Ü‚·B
-@E•Û‘¶‚Æ“¯Žž‚É•ÏŠ·‚ðs‚¤‚©Aã‹Lƒtƒ@ƒCƒ‹‚ª‚ ‚éó‘Ô‚Å•ÏŠ·‚ðs‚¤‚Æ
-@@]—ˆ‚ÌƒRƒ~ƒ…ƒjƒeƒBƒRƒƒ“ƒg‚É‰Á‚¦’ÊíƒRƒƒ“ƒg‚ð‡¬‚µ‚Ä•ÏŠ·‚µ‚Ü‚·B
-@EƒfƒtƒHƒ‹ƒg‚Å‚ÍƒjƒRƒjƒR“®‰æ‚Æ“¯—lA’ÊíƒRƒƒ“ƒg‚ð”¼“§–¾‚É‚µ‚Ä‡¬‚µ‚Ü‚·‚ª
-@@u•Û‘¶Ý’èvuƒRƒƒ“ƒg•t‚«“®‰ævƒ^ƒuuƒIƒvƒVƒ‡ƒiƒ‹ƒXƒŒƒbƒhÝ’èv‚Å
-@@<’ÊíƒRƒƒ“ƒg‚ð”¼“§–¾‚É‚·‚é>ƒ`ƒFƒbƒN‚ðŠO‚·‚Æ•s“§–¾‚É‚È‚è‚Ü‚·B
-
-œ‚QƒvƒƒZƒXŽ©“®ŽÀs‚É‚Â‚¢‚Ä
-@Eƒ_ƒEƒ“ƒ[ƒh‚Æ•ÏŠ·‚ð‡‚í‚¹‚ÄA‚QƒvƒƒZƒXŽ©“®ŽÀs‚ªo—ˆ‚Ü‚·B
-@@ƒ_ƒEƒ“ƒ[ƒh‚ª‚Qd‚É‚È‚èAƒjƒR“®ƒT[ƒo[‚Ì•‰‰×‚ªã‚ª‚è‚Ü‚·‚ª
-@@•ÏŠ·‚ÆŒðŒÝ‚É‚·‚ê‚Î–â‘è‚Í‚È‚¢‚ÆŽv‚¢‚Ü‚·B
-@@ƒ_ƒEƒ“ƒ[ƒh‚Ì‚Ý‚Ì‚QƒvƒƒZƒXŽÀs‚Í”ñ„§‚Å‚·B
-@@•ÏŠ·‚Ì‚Ý‚Ì‚QƒvƒƒZƒXŽÀs‚Í\‚¢‚Ü‚¹‚ñB
-@Eƒoƒbƒ`ƒtƒ@ƒCƒ‹‚É‚æ‚éƒ}ƒ‹ƒ`ƒvƒƒZƒX‚È‚Ì‚ÅA
-@@ffmpeg‚Ìˆá‚¢‚âlib‚Ìƒ}ƒ‹ƒ`ƒXƒŒƒbƒh‘Î‰ž‚É‚ÍŠÖŒW‚ ‚è‚Ü‚¹‚ñB
-@@‚½‚¾‚µ3ƒRƒAˆÈã‚Ìê‡‚Í‚P‚O‚O“Žg—p—¦‚É‚Í‚È‚ç‚È‚¢‚±‚Æ‚ª‚ ‚è‚Ü‚·B
-@@ŽÀs”\—Í‚Ì–â‘è‚Åƒ}ƒ‹ƒ`ƒRƒACPU„§‚Å‚·B
-@EŽÀs•û–@
-@@AUTO2PROC.BAT@@@@‚QƒvƒƒZƒXŽ©“®ŽÀs–{‘Ìcƒ_ƒuƒ‹ƒNƒŠƒbƒN‚Å‹N“®
-@@AUTO2PROCDEBUG.BAT@ ‚QƒvƒƒZƒXŽ©“®ŽÀsƒƒO‹L˜^cƒ_ƒuƒ‹ƒNƒŠƒbƒN‚Å‹N“®
-@¡ƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ð•ÏX‚·‚ê‚Îƒ\ƒtƒg“I‚É‚Í‚QƒvƒƒZƒXˆÈã‚à‰Â”\‚È‚Í‚¸‚Å‚·‚ª
-@@‚QƒvƒƒZƒXˆÈã‚Ìƒ_ƒEƒ“ƒ[ƒh‚ðs‚¤Žž‚ÍAƒjƒR“®ƒT[ƒo[‚Ì•‰‰×‚ð”z—¶‚ÌãA
-@@Ž©ŒÈÓ”C‚Å‚¨Šè‚¢‚µ‚Ü‚·B
-@@¦ƒAƒJƒEƒ“ƒg‚ªƒuƒƒbƒN‚³‚ê‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B
-@@@~i‚»‚Ìê‡‚Íƒuƒ‰ƒEƒU‚ÅƒƒOƒCƒ“‚µ‘Îˆ‚·‚é•K—v‚ª‚ ‚è‚Ü‚·Bj
-@@@ƒjƒRƒjƒR“®‰æ‚©‚ç‚Ìƒ[ƒ‹‚ðŽó‚¯Žæ‚è‘Îˆ‚·‚é•K—v‚ª‚ ‚è‚Ü‚·BH
-
-œƒuƒ‰ƒEƒU‚ÌƒZƒbƒVƒ‡ƒ“‹¤—L‹@”\‚É‚Â‚¢‚Ä
-@EƒZƒbƒVƒ‡ƒ“‚ð‹¤—L‚µ‚½‚¢ƒuƒ‰ƒEƒU‚ÌŠ‚Éƒ`ƒFƒbƒN‚µ‚Ü‚·B
-@Eƒuƒ‰ƒEƒU‚ÅƒƒOƒCƒ“‚µ‚Ä‚¢‚ê‚ÎA‚³‚«‚ã‚Î‚·‘¤‚Åƒ[ƒ‹ƒAƒhƒŒƒXA
-@@ƒpƒXƒ[ƒh‚ð“ü—Í‚µ‚È‚­‚Ä‚àƒjƒRƒjƒR“®‰æ‚©‚çDLo—ˆ‚Ü‚·B
-@E‚³‚«‚ã‚Î‚·‚ªŒã‚©‚çƒƒOƒCƒ“‚µ‚Ä‚àƒuƒ‰ƒEƒU‚ÍƒƒOƒAƒEƒg‚³‚ê‚Ü‚¹‚ñB
-@Eƒuƒ‰ƒEƒU‚ðI—¹‚µ‚Ä‚àPC‚ð“dŒ¹OFF‚µ‚Ä‚àƒƒOƒCƒ“‚³‚ê‚½‚Ü‚Ü‚Å‚·B
-@@iƒZƒbƒVƒ‡ƒ“‚ÌŠúŒÀØ‚ê‚Ü‚Åj
-@Eƒuƒ‰ƒEƒU‚ªƒƒOƒAƒEƒg‚µ‚½ê‡‚ÍA‚³‚«‚ã‚Î‚·‚àƒƒOƒCƒ“o—ˆ‚Ü‚¹‚ñB
-@@‚»‚Ìê‡‚ÍAƒuƒ‰ƒEƒU‚Å‚à‚¤ˆê“xƒƒOƒCƒ“‚·‚é‚©A
-@@‚³‚«‚ã‚Î‚·‘¤‚Å’P‘Ì‚ÅƒƒOƒCƒ“‚µ‚Ä‰º‚³‚¢B
-@@’A‚µA‚³‚«‚ã‚Î‚·’P‘Ì‚ÅƒƒOƒCƒ“‚µ‚½ê‡‚ÍŽc”O‚È‚ª‚çAƒuƒ‰ƒEƒU‚ª
-@@ƒƒOƒAƒEƒg‚³‚ê‚Ü‚·B
-@@iƒuƒ‰ƒEƒU‚ª‚³‚«‚ã‚Î‚·‚ÌƒZƒbƒVƒ‡ƒ“î•ñ‚ð—˜—p‚Å‚«‚È‚¢‚½‚ßj
-@Ÿƒuƒ‰ƒEƒUî•ñ‹¤—LÝ’è‚Åuã‹LˆÈŠO‚Ìƒuƒ‰ƒEƒU‚Ìcv‚Éƒ`ƒFƒbƒN‚·‚é
-@@ê‡‚ÍACookiesƒtƒ@ƒCƒ‹‚ÌêŠA•¡”Œó•â‚Ìê‡‚Í‚»‚ÌeƒtƒHƒ‹ƒ_‚ð
-@@Žw’è‚µ‚Ä‰º‚³‚¢B
-@@iŽQlj‘å’ï‚Ìê‡‚Í@%USERPROFILE%ƒtƒHƒ‹ƒ_
-@@@iXP 32‚Ìê‡@@@@@C:\Doccuments and Settings\ƒ†[ƒU[–¼\
-@@@@Win7,Vista 32‚Ìê‡@C:\Users\ƒ†[ƒU[–¼\ j‚Ì‰º‚©‚Q‚Â‰º‚É
-@@@@ƒ[ƒJ[–¼\»•i–¼\ZZ\CookiesZZ
-@@@‚Æ‚¢‚¤ƒtƒ@ƒCƒ‹‚ª‚ ‚è‚Ü‚·B
-@¡–{‹@”\‚ÍƒjƒRƒjƒRƒ‰ƒ“ƒLƒ“ƒOƒ[ƒJ[nicorank‚©‚ç’¸‚«‚Ü‚µ‚½BŠ´ŽÓB
-@@ƒjƒRƒjƒRƒ‰ƒ“ƒLƒ“ƒOƒ[ƒJ[”z•zƒTƒCƒg«
-@@http://www.daily-vocaran.info/nicorank/
-@@ƒ\[ƒXƒtƒ@ƒCƒ‹«
-@@http://sourceforge.jp/projects/nicorank/downloads/40282/nicorank186_src.zip/
-@@iÅV”Åƒ\[ƒX‚Í SVN@http://svn.sourceforge.jp/svnroot/nicorank/j
-
-
-œŠg’£Vhook“‡”Å (nicovideoE.dll)‚É‚Â‚¢‚Ä
-@Enicovideo.dll‚Ìƒ\[ƒX‚©‚çA“ŠeŽÒƒRƒƒ“ƒg•t‰Á‹@”\‚ÆA
-@@nicovideo16x9‚ÌƒƒCƒh‘Î‰žC³‚ð“‡‚µ‚Ü‚µ‚½B(‘½­‚Ì·—L)
-@EŠg’£Vhook“‡”Å‚ÌŽw’è•û–@‚Í‰º‚ÌŠg’£VhookƒƒCƒh‚Æ“¯‚¶‚Å‚·‚ª
-@@‚Q‚Â‚ÌŽw’èêŠ‚Ì—¼•û‚É“¯‚¶nicovideoE.dll‚ðŽw’è‚µ‚Ü‚·B
-
-œŠg’£VhookƒƒCƒhinicovideo16x9.dllj‚É‚Â‚¢‚Ä
-@i1.22r3e4ˆÈŠO‚É‚Í“ü‚Á‚Ä‚¢‚Ü‚¹‚ñBj
-@E]—ˆ‚Ìnicovideo.dll‚æ‚èA16:9“®‰æ‚Å‚ÌŽš‚Ì‘å‚«‚³‚ÍƒjƒRƒjƒRŒöŽ®‚É
-@@‹ß‚¢‚Å‚·‚ªŠ®‘S‚ÈÄŒ»‚Í–¢’B¬‚Å‚·B(nicovideoE.dll‚ÌC³‚ðŒŸ“¢’†)
-@EŠg’£Vhook‚ÌŽw’è•û–@‚ÍŽŸ‚Ì’Ê‚è‚Å‚·B
-@@‚QŒÂ‘I‘ðŽž¨DL“®‰æ‚ðŒŸ¸‚µ‚ÄƒAƒXƒyƒNƒg”ä‚ð”»’è‚µVhook‚ð‘I‘ð
-@@‚PŒÂ‘I‘ðŽž¨Žw’è‚³‚ê‚½Vhook‚ðŽg—p‚µ‚Ä•ÏŠ·A–³ŒŸ¸
-@@‚OŒÂ‘I‘ðŽž¨ƒGƒ‰[
-
-œ‰ß‹ŽƒƒO‚ð•¡”ƒtƒ@ƒCƒ‹‚É•Û‘¶‚·‚é
-@›u•Û‘¶Ý’èvu“®‰æEƒRƒƒ“ƒgv‰æ–Ê‚Ì
-@@<•Û‘¶‚·‚éƒtƒHƒ‹ƒ_‚ðŽw’è‚µAƒtƒ@ƒCƒ‹–¼‚ÍŽ©“®‚ÅŒˆ’è‚·‚é>‚Æ
-@@<ƒRƒƒ“ƒgƒtƒ@ƒCƒ‹–¼‚ÉŽž‚ð•t‰Á‚·‚é>ƒ`ƒFƒbƒNƒ{ƒbƒNƒX‚ð
-@@ƒ`ƒFƒbƒN‚µ‚Ü‚·B<Žæ“¾ƒRƒƒ“ƒg”>‚Í1000‚ÉÝ’è‚µ‚Ü‚·B
-@@1000ˆÈã‚É‚µ‚Ä‚à‚P‰ñ‚Éƒ_ƒEƒ“ƒ[ƒho—ˆ‚é‚Ì‚Í1000‚Ü‚Å‚Å‚·B
-@@Å‰‚Íu•Û‘¶Ý’èvuƒRƒƒ“ƒg•t‚«“®‰æv‰æ–Ê‚Ì
-@@<“®‰æ‚ð•ÏŠ·‚·‚é>‚Éƒ`ƒFƒbƒN‚ð‚µ‚Ü‚¹‚ñB
-@›‚Ü‚¸‰ß‹ŽƒƒO‚ð“ú•t‚ð•Ï‚¦‚Ä•¡”‰ñƒ_ƒEƒ“ƒ[ƒh‚µ‚Ü‚·B
-@@<“®‰æ‚ðƒ_ƒEƒ“ƒ[ƒh‚·‚é>‚Ì‚Í1‰ñ‚¾‚¯‚Å\•ª‚Å‚·B
-@›‰ß‹ŽƒƒO‚ªW‚Ü‚Á‚½‚çA<“®‰æ‚ð•ÏŠ·‚·‚é>‚ðƒ`ƒFƒbƒN‚µA
-@@•ÏŠ·ƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚·‚é‚ÆA“¯ˆêID‚Ì‘SƒRƒƒ“ƒg‚ðŒ‹‡‚µ‚Ä
-@@ƒRƒƒ“ƒg•t‚«“®‰æ‚É•ÏŠ·‚µ‚Ü‚·B
-@›“¯Žž•\Ž¦ƒRƒƒ“ƒg”‚ð‘‚â‚·‚É‚Íu•ÏŠ·Ý’èv‰æ–Ê‚Ì
-@@<•\Ž¦ƒRƒƒ“ƒg”>‚ðAŠù’è’l‚Ì‚S‚O‚æ‚è‘å‚«‚­‚µ‚Ü‚·B
-@›“®‰æ‚ðƒ_ƒEƒ“ƒ[ƒh‚µ‚½’¼Œã‚Éu“®‰æÝ’èv‰æ–Ê‚Ìˆê”Ô‰º‚Ì
-@@<DL“®‰æ>ƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ä“®‰æ‚ðƒ`ƒFƒbƒN‚µ‚Ä‚¨‚­‚Æ
-@@FFmpeg‚ÌÝ’èƒ~ƒX‚ªŒ¸‚ç‚¹‚é‚©‚àH
-
-
-¡‹@”\Šm”F
-@Eƒuƒ‰ƒEƒU‚ÌƒZƒbƒVƒ‡ƒ“‹¤—L‹@”\Šm”F‚Í
-@@Win8 pro desktop 64bit + IE10,
-@@Win7 Home 64bit + IE9, Firefox19.0, SRware ‹y‚Ñ
-@@XP SP3 Home 32bit + IE8, Firefox19.0, SRware
-@@‚Ås‚¢‚Ü‚µ‚½B
-@iGoogleChrome‚Í Ver.33.0.xx‚©‚çƒNƒbƒL[‚ªˆÃ†‰»‚³‚ê‚Ä•Û‘¶‚³‚ê‚é‚½‚ß
-@@ƒtƒ@ƒCƒ‹‚©‚çƒZƒbƒVƒ‡ƒ“‚ðŒŸõ‚Å‚«‚È‚¢‚Ì‚Å‹¤—L‚Å‚«‚Ü‚¹‚ñB
-@@Opera20.0ˆÈ~‚à‹¤—L‚Å‚«‚Ü‚¹‚ñj
-@E“®‰æ•ÏŠ·Šm”F‚ÍAffmpeg56884w‚Ås‚¢‚Ü‚µ‚½B
-@@Win7 64 Corei7
-@E’A‚µÄ¶Šm”F‚ÍPCã‚¾‚¯‚ÅAŒg‘Ñ‚»‚Ì‘¼‚Å‚Í–¢Šm”F
-@E‘OƒXƒŒ>>670(SVN-25041) ‚Í•ÏŠ·ƒGƒ‰[‚·‚é“®‰æ(Decoder not found)‚ª‚ ‚è‚Ü‚µ‚½B
-@E‘OƒXƒŒ>>481(SVN-23386)‚Í livx264‚Å‚Ìƒ}ƒ‹ƒ`ƒXƒŒƒbƒhƒIƒvƒVƒ‡ƒ“
-@@i-threadsj‚ª‹@”\‚µ‚È‚¢‚©‚à‚µ‚ê‚Ü‚¹‚ñB
-@E‚¢‚ñ‚«‚ã‚Î‚·i‹ŒNicoBrowserŠg’£‚³‚«‚ã‚Î‚·1.4.4ˆÈ~j—p‚É”z•z‚µ‚Ä‚¢‚é
-@@ffmpeg‚à“®‚­‚©‚à‚µ‚ê‚Ü‚¹‚ñB
-@@inicovideo.dllAoptionƒtƒ@ƒCƒ‹‚Í”ñŒÝŠ·‚Ì‰Â”\«‚ª‚ ‚è‚Ü‚·Bj
-
-
-¡Žû˜^•¨
-@@ffmpeg56884w“¯«”Å
- ƒtƒHƒ‹ƒ_\¬
-@saccubus1.49.zip
-@„¥ffmpeg56884w“¯«”Å  •\Ž¦
-@„¥Å‰‚É•K‚¸“Ç‚ñ‚Å.txt
-@„¥ToDO.txt
-@„¤saccubus@@–{‘Ìexe jar xml bat
-@@„¥bin        ŽÀsƒtƒ@ƒCƒ‹ƒtƒHƒ‹ƒ_ exe dll
-@@„¥optionDev  ƒIƒvƒVƒ‡ƒ“ƒtƒHƒ‹ƒ_(ŠJ”­—p)@CA—pÝ’èƒTƒ“ƒvƒ‹‚TŽí
-@@„¥optionVO   ƒIƒvƒVƒ‡ƒ“ƒtƒHƒ‹ƒ_(56884w/55686—p)
-@@„¤Saccubus_lib   Javaƒ‰ƒCƒuƒ‰ƒŠ[ƒtƒHƒ‹ƒ_ jar
-
- “à—e
-ELicense.txt@@@@@@@ ‚³‚«‚ã‚Î‚·ƒ‰ƒCƒZƒ“ƒXiƒvƒƒWƒFƒNƒgj
-E2-clause BSD License.txt@‚³‚«‚ã‚Î‚·‚Qð€BSDƒ‰ƒCƒZƒ“ƒX
-EGPL v3.txt @@@@@@@ ‚³‚«‚ã‚Î‚·GPLƒ‰ƒCƒZƒ“ƒX
-ESaccubus.jar@@@@@@@–{‘Ì
-EBin.jar@@@@@@@@@ ƒ‰ƒ“ƒ^ƒCƒ€ƒ‰ƒCƒuƒ‰ƒŠ
-Ebin ƒtƒHƒ‹ƒ_”z‰º
-@@ffmpeg56884w.exe ƒ‰ƒCƒZƒ“ƒXGPLV3
-@@nicovideoE.dll(2014.01.28”Å)“‡”ÅŠg’£Vhookƒ‰ƒCƒuƒ‰ƒŠ
-@@SDL.dll(2011.11.02ƒrƒ‹ƒh)ACOPYNGAREADME-SDL.txt
-@@@ƒ‰ƒCƒZƒ“ƒX‚ÍLGPL
-@@SDL_ttf.dll(2011.11.02ƒrƒ‹ƒh)ACOPYING.sdl_ttf
-@@@ƒ‰ƒCƒZƒ“ƒX‚Ízlib
-@@SDL_gfx.dll(2013.05.29ƒrƒ‹ƒh)ALICENSE.gfx
-@@@ƒOƒ‰ƒtƒBƒbƒNƒ‰ƒCƒuƒ‰ƒŠAƒ‰ƒCƒZƒ“ƒX‚Ízlib
-ESaccubus_libƒtƒHƒ‹ƒ_”z‰º
-@@gson-2.2.4.jarALICENSEAREADME.txt
-@@@ƒ‰ƒCƒZƒ“ƒX‚ÍApache License2.0(GPLV3“K—p)
-EoptionDev ƒtƒHƒ‹ƒ_”z‰º @ ŠJ”­—pƒtƒ@ƒCƒ‹
-EoptionVO ƒtƒHƒ‹ƒ_”z‰º@@ •ÏŠ·ƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹
-@@@iN56884w—p 2014.03.24”Åj
-EreadmeNew.txt(ÅV)Areadme.txt(1.22r)Areadme+.txt(1.22r3)
-EÅ‰‚É•K‚¸“Ç‚ñ‚Å.txt
-Eauto.bat @@@@@@@@ Ž©“®ŽÀs—pƒoƒbƒ`ƒtƒ@ƒCƒ‹(1.22r‚ÌC³”Å)
-Edebug.bat@@@@@@@@ ƒƒO‹L˜^—pƒoƒbƒ`ƒtƒ@ƒCƒ‹(1.22r‚ÌC³”Å)
-EAUTO2PROC.BAT@@@@@@ ‚QƒvƒƒZƒXŽ©“®ŽÀs–{‘Ì
-EAUTO2PROCDEBUG.BAT@@@  ‚QƒvƒƒZƒXŽ©“®ŽÀsŽž‚ÌƒƒO‹L˜^—p
-ESaccubus.exe@@@@@@@ƒ‰ƒ“ƒ`ƒƒ[AƒƒOo—Í‚ ‚è
-Esaccubus.ini@@@@@@@N56884wŒü‚¯‰ŠúÝ’è
-EƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹Œ©–{.xml@@@@@@i1.22r‚Ì•¨j
-E•ÏŠ·ƒŠƒXƒg‚ª‹N“®‚µ‚È‚¢ê‡.txt
-Eƒ[ƒJƒ‹•ÏŠ·’Ç‰Áà–¾.txt
-Esaccubus_src.zip
-@@Saccubus.jar@‚Ìjavaƒ\[ƒXƒtƒ@ƒCƒ‹AeclipseƒvƒƒWƒFƒNƒgƒtƒ@ƒCƒ‹
-@@nicovideoE.dll@‚Ìƒ\[ƒXƒtƒ@ƒCƒ‹AeclipseƒvƒƒWƒFƒNƒgƒtƒ@ƒCƒ‹
-@@Bin.jar@‚Ìjavaƒ\[ƒXƒtƒ@ƒCƒ‹AeclipseƒvƒƒWƒFƒNƒgƒtƒ@ƒCƒ‹
-@@Saccubus.exe@‚ÌCƒ\[ƒXƒtƒ@ƒCƒ‹(launcher)Amakeƒtƒ@ƒCƒ‹AƒŠƒ\[ƒX
-
-ŠÖ˜AƒŠƒ“ƒN
-Eƒ\[ƒXƒR[ƒh
-@http://sourceforge.jp/projects/saccubus/svn/view/branches/dev_branch
-@(SVNFsvn checkout http://svn.sourceforge.jp/svnroot/branches/dev_branch )
-@FFmpeg Git:https://github.com/Saccubus/ffmpeg/tree/Saccubus1 (–¢XV)
-
-Eƒ_ƒEƒ“ƒ[ƒh
-@ŒöŽ®ÅV(VistaEWin7‚Å‚Í’Ç‰Áƒtƒ@ƒCƒ‹‚ª•K—vBŒöŽ®ƒ†[ƒU[ƒy[ƒWŽQÆ)
-@1.22r @@http://sourceforge.jp/projects/saccubus/downloads/30757/Saccubus-1.22r.zip/
-@‰ü‘¢”Å‚ÌŒ³
-@1.22r3@(ffmpeg.exe SVN-r21400‚ðŠÜ‚Þ)
-@@http://www.ne.jp/asahi/mochiyama/my/file/Saccubus-1.22r3.zip
-@ŽQlffmpeg
-@r23386(libfaac‚ ‚è)@http://www1.axfc.net/uploader/Ne/so/82882.zip
-@N55686(libfaac–³‚µAlibvo_aacenc‚ ‚è)+optionVO(ŒÃ‚¢)
-@@http://www1.axfc.net/uploader/Ne/so/122583.zip&key=saccubus
-@FFmpeg•]‰¿—p(2013/6/16)@http://www1.axfc.net/uploader/so/2936495.zip
-
-@‰ü‘¢”Å
-@1.49@@@http://www1.axfc.net/u/3227458.zip
-@1.48@@@http://www1.axfc.net/u/3210572.zip
-@1.47r3@@http://www1.axfc.net/u/3206385.zip
-@1.47@@@http://www1.axfc.net/u/3200935.zip
-@1.46r @@http://www1.axfc.net/uploader/so/3181769.zip
-@1.45@@@http://www1.axfc.net/u/3156544.zip
-@1.43r @@http://www1.axfc.net/u/3081418.zip
-@1.43@@@http://www1.axfc.net/u/3080418.zip
-@1.42@@@http://www1.axfc.net/uploader/so/2981487.zip
-@1.41a @@http://www1.axfc.net/uploader/so/2917900.zip
-@1.40d2@@http://www1.axfc.net/uploader/so/2865306.zip
-@1.39r1@@http://www1.axfc.net/uploader/so/2853963.zip
-@1.38r1@@http://www1.axfc.net/uploader/so/2818777.zip
-@1.37r6@@http://www1.axfc.net/uploader/so/2781459.zip 
-@1.37r3@@http://www1.axfc.net/uploader/Ne/so/141013.zip
-@1.37@@@http://www1.axfc.net/uploader/Ne/so/137858.zip
-@1.36r @@http://www1.axfc.net/uploader/Ne/so/137048.zip
-@1.35@@@http://www1.axfc.net/uploader/Ne/so/136823.zip
-@1.34r2@@http://www1.axfc.net/uploader/Ne/so/136657.zip
-@1.34r @@http://www1.axfc.net/uploader/Ne/so/136581.zip
-@1.34@@@http://www1.axfc.net/uploader/Ne/so/136510.zip
-@1.32r @@http://www1.axfc.net/uploader/Ne/so/132334.zip
-@1.32@@@http://www1.axfc.net/uploader/Ne/so/131891.zip
-@1.31r @@http://www1.axfc.net/uploader/Ne/so/130343.zip
-@1.31@@@http://www1.axfc.net/uploader/Ne/so/130050.zip
-@1.30@@@http://www1.axfc.net/uploader/Ne/so/126815.zip
-@@@@@@ http://www1.axfc.net/uploader/File/so/75125.zip@ffmpeg55686–³‚µ
-@1.29@@@http://www1.axfc.net/uploader/File/so/72940.zip
-@1.28@@@http://www1.axfc.net/uploader/File/so/72010.zip
-@1.26.2@@http://www1.axfc.net/uploader/File/so/71481.zip
-@1.26.1@@http://www1.axfc.net/uploader/File/so/71270.zip
-@1.26ƒ¿4@http://www1.axfc.net/uploader/File/so/71171.zip
-@1.26ƒ¿3@http://www1.axfc.net/uploader/File/so/70049.zip
-@1.26ƒ¿2@http://www1.axfc.net/uploader/File/so/69997.zip
-@1.26ƒ¿1@http://www1.axfc.net/uploader/File/so/69922.zip
-@1.26ƒ¿@@http://www1.axfc.net/uploader/File/so/69016.zip
-@1.25r @@http://www1.axfc.net/uploader/File/so/68720.zip
-@1.24@@@http://www1.axfc.net/uploader/File/so/68541.zip
-@1.23r1@@http://www1.axfc.net/uploader/File/so/68295.zip
-@1.23@@@http://www1.axfc.net/uploader/File/so/68280.zip
-@1.22r3e8@http://www1.axfc.net/uploader/File/so/67805.zip
-@1.22r3e7@http://www1.axfc.net/uploader/File/so/67571.zip
-@1.22r3e6@http://www1.axfc.net/uploader/File/so/67535.zip
-@1.22r3e5@http://www1.axfc.net/uploader/File/so/67499.zip
-@1.22r3e4@http://www1.axfc.net/uploader/File/so/67192.zip
-@1.22r3e3@http://www1.axfc.net/uploader/File/so/67064.zip
-@1.22r3e2@http://www1.axfc.net/uploader/File/so/66071.zip
-@1.22r3e1a http://www1.axfc.net/uploader/File/so/65862.zip
-
-EƒTƒCƒg
-@‚³‚«‚ã‚Î‚·ŒöŽ®
-@@http://saccubus.sourceforge.jp/
-@2chyƒjƒRƒjƒRzƒRƒƒ“ƒg•t“®‰æì¬ƒc[ƒ‹ ‚³‚«‚ã‚Î‚·
-@@http://anago.2ch.net/test/read.cgi/software/1346798166/
-@coroid project@u‚¢‚ñ‚«‚ã‚Î‚·v‚ðŠÜ‚Þ
-@@http://sourceforge.jp/projects/coroid/
-@ƒjƒRƒjƒRƒ‰ƒ“ƒLƒ“ƒOƒ[ƒJ[(nicorank)”z•zƒTƒCƒg
-@@http://www.daily-vocaran.info/nicorank/
-
-
-•ÏX—š—ðEC³E‰ü•Ï“_
-1.49(2014/4/20)
-@mylist•ÏŠ·‚ð‚ ‚Æ‚Å‚Ü‚Æ‚ß‚Äautolist.bat‚Å‚Å‚«‚é‚æ‚¤‚Éo—Í
-@mylistˆ—­‚µ’Ç‰Á
-@GUI‚Åmylist•ÏŠ·’†‚à“®‰æ‚ÌÄ¶ƒ{ƒ^ƒ“‰Â”\‚É
-@LastFrameo—ÍŽž‚ÌƒoƒOC³
-
-1.48(2014/3/31)
-@auto.bat debug.bat‚ÅJava‚ÌƒpƒX‚ÌÝ’è‚ð•s—v‚É‚·‚é
-@•ÏŠ·Œã“®‰æÄ¶ƒ{ƒ^ƒ“‚ÌƒoƒOC³(Ä)
-@JPG->MP4•ÏŠ·Žž‚ÉƒRƒs[È—ª
-@FFmpeg‚Ìo—Í‚Ìƒ^ƒCƒgƒ‹•¶Žš‰»‚¯C³(charsetŽw’è‚ðUTF-8‚É•ÏX)
-@NGƒ[ƒh‚Ìˆø—p•„ˆ—C³(""“à‚ªƒRƒƒ“ƒg‘S‘Ìˆê’v¨•”•ªˆê’v‚É•ÏX) 
-@/replace @’uŠ·‚ÌƒoƒOC³
-
-1.47r3(2014/3/27)
-@V‹@”\ƒIƒtê‡‚Í1.43‚Æ“¯‚¶‚É‚·‚é
-@0•b‚Å’âŽ~‚·‚éƒoƒOC³(Ä)
-@NM“®‰æ‘Î‰ž‚Å Å‰‚Ì•\Ž¦‚ªˆêu‚ðC³
-@•ÏŠ·Œã“®‰æÄ¶ƒ{ƒ^ƒ“‚ÌƒoƒOC³
-@ƒtƒŒ[ƒ€ƒŒ[ƒg•ÏŠ·Žž-itsoffsetA-ssA-tƒIƒvƒVƒ‡ƒ“‚ð“K—p
-@Œo‰ßŽžŠÔ•\Ž¦ƒoƒO(1ŽžŠÔ‚ª10ŽžŠÔ‚Æ‚È‚é)C³(Ä)
-@ƒ[ƒJƒ‹•ÏŠ·’Ç‰Áà–¾.txt‚ð’Ç‰Á
-
-1.47(2014/3/22)
-@“®‰æÝ’èƒ^ƒu‚ÉÄ¶ƒ{ƒ^ƒ“’Ç‰Á
-@‰f‘œƒXƒgƒŠ[ƒ€‚ª”FŽ¯‚Å‚«‚È‚¢ê‡‚É‰¹º‚Ì‚ÝƒRƒƒ“ƒg•t‚«‰Â”\‚É
-@ã‹L‚Ìê‡‚ÉƒTƒ€ƒlƒCƒ‹‚ðŽw’è‰Â”\B‚Ü‚½Ž©“®‚Å‚ÍŽæ“¾Ï‚ÝƒTƒ€ƒlƒCƒ‹‚ª‚ ‚ê‚ÎŽg—p‚µ‚Ü‚·B
-@PC_‰¹º‚Ì‚Ý PC_ƒTƒ€ƒl16F9@‚ÌƒIƒvƒVƒ‡ƒ“’Ç‰Á
-@ƒ[ƒJƒ‹ƒtƒ@ƒCƒ‹•ÏŠ·Žž‚Ìƒ^ƒCƒgƒ‹Žæ“¾C³
-@1.46r‚Åƒ[ƒJƒ‹•ÏŠ·Žž0•b‚Å’âŽ~‚·‚éƒoƒO‚ÌC³H
-
-1.46r(2014/02/27)
-@NM“®‰æ‚É­‚µ‚¾‚¯‘Î‰ž
-@ƒtƒŒ[ƒ€ƒŒ[ƒg‚Ì’á‚¢“®‰æ‚Ìfps•ÏŠ·‚·‚éB
-
-1.45(2014/01/28)
-@ƒRƒƒ“ƒgƒŒƒCƒ„[•\Ž¦‡AƒRƒƒ“ƒgÁ‹Ž‡‚È‚ÇC³
-@ƒRƒ~ƒ…ƒjƒeƒB“®‰æƒRƒ~ƒ…ŒÀ’è“®‰æƒ}ƒCƒƒ‚ƒŠ[‚Ìƒ^ƒCƒgƒ‹‰»‚¯C³
-@ƒRƒƒ“ƒgŒ‹‡Žž‚ÉƒƒO‚Éƒtƒ@ƒCƒ‹–¼‚ª•\Ž¦‚³‚ê‚é‚æ‚¤‚É•ÏXiƒGƒ‰[‘Îôj
-@ƒRƒƒ“ƒg•s“§–¾Žž‚ÌƒAƒ‹ƒtƒ@’lŽw’è’Ç‰Á
-@-metadata ƒ^ƒCƒgƒ‹ ID’Ç‰ÁiŽb’èj
-
-1.43r(2013/11/07)
-@nicovideoE.dll@ƒtƒHƒ“ƒg•`‰æƒGƒ‰[ˆ—C³
-
-1.43(2013/11/06)
-@—ÕŽž•ÏX cookie‚Ì”»’èðŒ•ÏX
-
-1.42(2013/08/01)
-@“ŠeŽÒƒtƒBƒ‹ƒ^[’Ç‰Ái“ŠeŽÒƒRƒƒ“ƒg–³‚µ‚ÅƒIƒtj
-@enderƒRƒ}ƒ“ƒhŽÀ‘•
-@FFmpeg56884w ƒ‰ƒCƒuƒ‰ƒŠ[XV”Å
-@@XV@x264 core:135 r2345, vo-aacenc-0.1.3
-@@íœ@mp3lame
-@œ’ˆÓœ mp3ƒGƒ“ƒR[ƒh‚ðs‚¤ƒIƒvƒVƒ‡ƒ“‚ð•ÏX‹y‚Ñíœ
-
-1.41a(2013/05/29)
-@ƒ‰ƒCƒZƒ“ƒX•ÏX
-@SDL_gfx.dll’Ç‰Á
-
-1.41(2013/05/28)
-@“ŠeŽÒ—p—ƒ{ƒ^ƒ“i”wŒi“h‚è‚Â‚Ô‚µjAƒjƒRƒXƒNƒŠƒvƒg—’uŠ·@’Ç‰Á
-@ƒjƒRƒXƒNƒŠƒvƒg—‹t‚Ìƒ^ƒCƒ~ƒ“ƒOC³
-@U+2014i\‚Û‚¢•¶Žšj•C³
-
-1.40.d2(2013/04/11)
-@ƒ}ƒCƒŠƒXƒgurl‚ðŽw’è‰Â”\
-@readmeƒƒjƒ…[•\Ž¦’Ç‰Á
-@ƒtƒHƒ“ƒgŽ©“®’²®–³‚µ‚ÌðŒ‚ð•ÏX
-
-1.39 (2013/04/01)
-@FFmpegÝ’è‚ÉƒAƒX”ä‹¤’Ê‰æ–Ê’Ç‰Á
-@•ÏŠ·Žž -samx ƒIƒvƒVƒ‡ƒ“‚É‚æ‚è“®‰æƒAƒX”ä•ÛŽ‰Â”\
-@ƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹’Ç‰Á@‚T@PCx3,PSPx2
-@—ƒ{ƒ^ƒ“(Ž‹’®ŽÒƒRƒƒ“ƒg)@‘Î‰ž
-@/replace(“ŠeŽÒƒjƒƒ“Œê)@‘Î‰ž
-@ƒwƒ‹ƒvƒƒjƒ…[‚©‚çffmpegƒwƒ‹ƒv‚ðŽÀs‰Â”\
-@1ŽžŠÔ’´‚¦‚Ìstatus•\Ž¦“à•”•ÏX
-
-1.38r1 (2013/03/06)
-@CAƒtƒHƒ“ƒg‚ÌƒSƒVƒbƒN‚ÌfontindexŽw’èƒ~ƒXC³
-@ƒ^ƒCƒgƒ‹‚Ì'['•¶Žš‚Ìˆµ‚¢C³
-
-1.37r6 (2013/02/05)
-@ƒuƒ‰ƒEƒUî•ñŽæ“¾C³
-
-1.37r5 (2012/12/05)
-@Saccubus.exe ƒoƒOC³‚ÆŽv‚Á‚½‚çƒoƒO‚Å‚Í‚È‚¢‚Æ‚±‚ë‚ðC³‚µ‚½(orz)‚Ì‚Å–ß‚·B
-
-1.37r4 (2012/12/05)
-@saccubus.exe‚ðVC++2010ƒrƒ‹ƒh‚É•ÏX
-
-1.37r3 (2012/10/17)
-@1.372 cookieˆ—C³
-
-1.37r2 (2012/08/30)
-@1.37r ’ÊíƒƒOƒCƒ“iƒuƒ‰ƒEƒUî•ñ•sŽg—pj‚Åî•ñŽæ“¾‚ÉŽ¸”s‚·‚é‚Ì‚ðC³
-
-1.37r (2012/08/16)
-@1.37 nakaƒRƒƒ“ƒgÕ“Ë”»’è‚ÌƒoƒOC³
-
-1.37 (2012/08/14)
-@1.36r‚Åî•ñŽæ“¾Eƒ[ƒJƒ‹•ÏŠ·‚ÌƒoƒOC³
-@“ŠeŽÒƒRƒƒ“ƒg@•b”A@ƒfƒtƒHƒ‹ƒgA@‹t‹@”\’Ç‰Á
-@‰ŠúŠù’è’l‚Å“ŠeŽÒƒRƒƒ“ƒg•t‰Á‚ðƒIƒ“
-
-1.36r (2012/07/31)
-@ZeroWatchŽd—l•ÏX‚Åƒ^ƒCƒgƒ‹‚ª“Ç‚ß‚È‚¢ƒoƒO‚ðC³
-
-1.36 (2012/07/30)
-@ƒTƒ€ƒlƒCƒ‹‰æ‘œ•Û‘¶’Ç‰Á
-@“ŠeŽÒ–¼•Û‘¶‚ÌƒoƒOC³
-
-1.35 (2012/07/26)
-@•Û‘¶ƒtƒ@ƒCƒ‹–¼Ý’èi“ÁŽêj‚ð’Ç‰Á
-@NGƒ[ƒh‚Ìall‚ÌƒoƒOC³Adefaultƒ[ƒh’Ç‰Á
-@‰ŠúƒIƒvƒVƒ‡ƒ“‚ÅCAƒtƒHƒ“ƒg‘Î‰ž‚ÆŠJ”­”Å‚ð—LŒø‚ðƒIƒ“
-
-1.34r2 (2012/07/23)
-@ƒ[ƒJƒ‹ƒtƒ@ƒCƒ‹•ÏŠ·‚ÅƒXƒg[ƒ‹‚·‚éƒoƒO‚ðC³
-
-1.34r (2012/07/22)
-@“®‰æî•ñ‚Ì‰üsƒR[ƒh•ÏX
-@‰‚ß‚Ä‚ÌŽžsaccubus.ini‚ð“Ç‚Ü‚È‚¢ƒoƒO‚ðC³
-
-1.34 (2012/07/21)
-@“®‰æî•ñA“ŠeŽÒƒy[ƒWAwatchƒy[ƒW‚Ì•Û‘¶‹@”\’Ç‰Á
-@‰ŠúƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹•ÏX([PC])
-@[iPod][iPod touch]ƒIƒvƒVƒ‡ƒ“C³(4096¨4096k)
-
-1.32r (2012/05/09)
-@ƒGƒCƒvƒŠƒ‹ƒt[ƒ‹2008”N‹t‘–‚Ì•\Ž¦C³
-@CAŽË”²‚«ÄŒ»‚Ì‚½‚ßnakaƒRƒƒ“ƒg”»’èŽžŠÔ‚ð3.00•b¨2.83•b•ÏX
-@CA‰©˜gÄŒ»‚Ì‚½‚ßnakaƒRƒƒ“ƒg‘¬“x‚ðÅ‘å0.3%Œ¸‘¬
-
-1.32 (2012/05/02)
-@ZeroWatch‘Î‰ž
-@CUI•ÏX@@SET= C³A@DLC @ADD= ’Ç‰Á
-
-1.31r (2012/04/04)
-@ƒ_ƒuƒ‹ƒŠƒTƒCƒYA—ÕŠE•ƒŠƒTƒCƒYC³
-
-1.31 (2012/03/30)
-@ƒjƒRƒjƒR“®‰æƒGƒCƒvƒŠƒ‹ƒt[ƒ‹ÄŒ»
-@CUI‚Ì‘SÝ’è€–Ú‚ðƒI[ƒo[ƒ‰ƒCƒh‹@”\’Ç‰Á
-@FFmpegƒIƒvƒVƒ‡ƒ“’Ç‰ÁÝ’è
-@ƒRƒƒ“ƒg‰©˜g•t‰Á‹@”\AƒRƒƒ“ƒgƒA[ƒgŠÖŒWC³•ÏX
-@@vhookƒ_ƒuƒ‹ƒŠƒTƒCƒYAƒRƒƒ“ƒgŽõ–½‚ÌƒoƒOC³
-
-1.30 (2012/02/08)
-@NGƒRƒ}ƒ“ƒhANGƒ[ƒhallANG‹¤—L‹@”\’Ç‰Á
-@NGÝ’è•Û‘¶AƒpƒXƒ[ƒh‚ÌŠÈˆÕˆÃ†‰»’Ç‰Á
-@optionƒtƒ@ƒCƒ‹•ÏXAoptionVOAoptionDevƒtƒHƒ‹ƒ_’Ç‰Á
-@16:9“®‰æƒRƒƒ“ƒg•\Ž¦A[log]vhext.txtƒƒOo—Í•ÏX
-@CAƒtƒHƒ“ƒg’Ç‰Á4Ží—ÞAíœ1Ží—Þ
-@ƒƒOƒCƒ“ƒ`ƒFƒbƒN•ûŽ®•ÏX
-
-1.29 (2011/12/21)@CAiƒRƒƒ“ƒgƒA[ƒgj‘Î‰ž@‚»‚Ì4
-@CAƒtƒHƒ“ƒg’Ç‰Á@ƒCƒ“ƒhAƒ^ƒCEƒAƒ‰ƒrƒA@Œv‚UŽí
-@ƒtƒHƒ“ƒg•Ï‰»‚ÌC³i‚Ü‚¾“r’†j
-@ŽÀŒ±“IÝ’èi‰¼jƒfƒoƒbƒO—pÝ’è‚ð’Ç‰Á
-@¶IDi”ñ“½–¼jƒRƒƒ“ƒg‚ÌƒRƒ}ƒ“ƒh‚É“à•”“I‚É186‚ð•t‰Á
-@Ý’èƒtƒ@ƒCƒ‹‚Ì‰Šú‰»‚ð’Ç‰Á
-@NGŠÖŒW‚Ì“à•”ˆ—‚ð•ÏXA³‹K•\Œ»ƒpƒ^[ƒ“ì¬‚ð1‰ñ‚¾‚¯‚É
-
-1.28 (2011/11/26)
-@ƒGƒRƒmƒ~[ƒ‚[ƒhŽž‚É’†Ž~‚·‚éƒIƒvƒVƒ‡ƒ“’Ç‰Á
-@ŽÀŒ±“IÝ’è@CA‚Ö‚Ì‘Î‰ž‚»‚Ì3
-@CUIƒIƒvƒVƒ‡ƒ“’Ç‰Á
-@Ý’èƒtƒ@ƒCƒ‹‚Ì“Ç‚Ýž‚ÝE•Û‘¶’Ç‰Á
-@ƒtƒHƒ“ƒgƒTƒCƒYŽ©“®’²®Žž‚ÌŠg‘å‹@”\‚ðŒ³‚É–ß‚µ‚Ü‚µ‚½B
-@i1.26ƒ¿4‚Ü‚Å‚Æ“¯‚¶j
-
-1.26.2 (2011/11/12)
-@CUIC³@auto.bat‚âSaccubusConvListŽg—pŽž‚ÌC³
-@@‚QƒpƒXŽw’è‰Â”\
-@@ˆê•”Ý’è‚ÌƒI[ƒo[ƒ‰ƒCƒh‰Â”\
-@@CUIŽg—pŽž‚ÉLog.txt‚ðo—Í‚·‚éAautodebug.bat”pŽ~
-
-1.26.1 (2011/11/05)
-@ŽÀŒ±“IÝ’è‚ð•ÏXACA‚Ö‚Ì‘Î‰ž‚»‚Ì‚Q
-@@ƒ_ƒuƒ‹ƒŠƒTƒCƒYEfullƒRƒ}ƒ“ƒhE‚Q‚SƒrƒbƒgƒJƒ‰[‚ðŽÀ‘•iƒIƒt•s‰Âj
-@@‰üsƒŠƒTƒCƒYE—ÕŠE•ƒŠƒTƒCƒY•ÏXEŠJ”­”Å‚ð‘I‘ð‰Â”\
-@@ƒtƒHƒ“ƒg‚ðCA—p‚É–¾’©“™•‚É‹­§•ÏX‚·‚é‘I‘ð‰Â”\
-@@temp\u“®‰æIDv[log]vhext.txt‚ÉnicovideoE.dll‚Ìƒo[ƒWƒ‡ƒ“•\Ž¦
-@@1.26.2‚Ü‚ÅƒtƒHƒ“ƒgƒTƒCƒYŽ©“®’²®Žž‚ÌŠg‘å‹@”\‚ªíœ‚³‚ê‚Ä‚¢‚Ü‚µ‚½B
-
-1.26ƒ¿4i2011/11/02j
-@ƒRƒƒ“ƒg‘¬“x‚ð“ÆŽ©Žw’è‰Â”\APixel/SecAƒRƒƒ“ƒgƒXƒRƒA“Ç‚Ýž‚Ý
-@[log]vhext.txt‚ð temp\u“®‰æIDv[log]vhext.txt‚ÉˆÚ“®
-
-1.26ƒ¿3 (2011/10/07)
-@VƒRƒƒ“ƒg•\Ž¦‚ð‹Œ•\Ž¦‚ÆØ‚è‘Ö‚¦‰Â”\
-
-1.26ƒ¿2 (2011/10/05)
-@ƒ`ƒƒƒ“ƒlƒ‹EƒRƒ~ƒ…ƒjƒeƒB“®‰æ‚Æ‚»‚Ì‰ß‹ŽƒƒO‚ðVƒRƒƒ“ƒg•\Ž¦
-
-1.26ƒ¿1 (2011/10/03)
-@•s“KØ‚È“®‰æ‚Ìƒ_ƒEƒ“ƒ[ƒhŽ¸”s‚ðƒƒbƒZ[ƒW‚Å•\Ž¦
-
-1.26ƒ¿ (2011/9/13)
-@ŽÀŒ±“IÝ’è‚ð’Ç‰ÁACA‚Ö‚Ì‘Î‰ž‚»‚Ì‚P
-
-1.25r (2011/9/5)
-@1.25‚ÌƒoƒOC³”ÅAnicovideoE.dll‚ÌöÝƒoƒOC³
-@ƒRƒ~ƒ…ƒjƒeƒB“®‰æ‚Å‚Ì’ÊíƒRƒƒ“ƒg‚ðA•ÊƒŒƒCƒ„[‚Å”¼“§–¾•\Ž¦‚·‚é
-@”¼“§–¾‰»ƒIƒ“EƒIƒt‰Â”\
-
-1.25i2011/9/3j
-@”z•z’†Ž~B
-@ƒRƒ~ƒ…ƒjƒeƒB“®‰æ‚Å‚Ì’ÊíƒRƒƒ“ƒg‚ðA•ÊƒŒƒCƒ„[‚Å”¼“§–¾•\Ž¦‚·‚é
-@”¼“§–¾‰»ƒIƒ“EƒIƒt‰Â”\
-
-1.24 (2011/9/2)
-@ƒAƒXƒyƒNƒg”ä‚É‚æ‚éƒƒCƒh‘I‘ð‚ÌŠî€’l‚ð1.523(640x420)ˆÈã‚É•ÏX
-@@420‚æ‚è‚‚³‚ª’á‚¢‚à‚Ì‚ÍƒƒCƒh‘I‘ð
-
-1.23r1 (2011/8/28)
-@ƒoƒOC³”Å1.23r‚Ìƒ\[ƒX®—Aoption SameQ avi‚ð’Ç‰Á
-
-1.23r (2011/8/28)
-@ƒoƒOC³”ÅASaccubus.jar‚Ì‚Ý
-
-1.23 (2011/8/27)
-@ƒiƒ“ƒoƒŠƒ“ƒO‚Í³Ž®–¼Ì‚É‚È‚Á‚½‚¯‚ê‚ÇŽÀ‘Ô‚Í‰ü‘¢”Å
-@“®‰æƒAƒXƒyƒNƒg”ä‚É‚æ‚è4:3‚Æ16:9ƒIƒvƒVƒ‡ƒ“‚ðŽ©“®‘I‘ðAƒIƒvƒVƒ‡ƒ“‘I‘ð‰æ–Ê’Ç‰Á
-@ÄC³”Åoptionƒtƒ@ƒCƒ‹“¯«
-@SDLƒ‰ƒCƒuƒ‰ƒŠŠm’è”Å“¯«iSDL.dll, SDL_ttf.dll, libSDL_gfx-13.dllj
-@I—¹ƒXƒe[ƒ^ƒX‚ÌƒƒO•\Ž¦C³
-
-1.22r3e9 (ƒŠƒŠ[ƒX‚¹‚¸j
-1.22r3e8 (2011/8/18)
-@VƒRƒƒ“ƒg•\Ž¦‘Î‰žA’A‚µ‰ß‹ŽƒƒOEŒöŽ®“®‰æ‚ÌƒRƒƒ“ƒg‚Í”ñ‘Î‰ž
-@@iŒÃ‚¢ƒRƒƒ“ƒg•\Ž¦‚Æ‚È‚éj
-@‚QƒvƒƒZƒXŽ©“®ŽÀsƒoƒbƒ`ƒŠƒŠ[ƒXAÝ’èXML‚ª‚È‚¢Žž‚ÌƒfƒtƒHƒ‹ƒg•ÏX
-
-1.22r3e7 (2011/8/12)
-@ƒZƒbƒVƒ‡ƒ“‹¤—L‚ÅChromiumA‚»‚Ì‘¼‚Ìƒuƒ‰ƒEƒU‚ð’Ç‰Á
-
-1.22r3e6 (2011/8/11)
-@ƒZƒbƒVƒ‡ƒ“‹¤—L‚ÅIE‚ÌŽd—l•ÏX‚É‘Î‰žA‘Î‰žƒuƒ‰ƒEƒUOpera’Ç‰Á
-@ƒƒOƒCƒ“ƒ`ƒFƒbƒN‰ü‘P
-
-1.22r3e5 (2011/8/10)
-@ƒuƒ‰ƒEƒU‚ÌCookie‚©‚çƒZƒbƒVƒ‡ƒ“î•ñ‚ðŽæ“¾‚µ‹¤—L‚·‚é
-@@IE7/8/9, Firefox5, Chrome13‘Î‰žinicorank‚©‚ç‹@”\ŽØ—pj
-@nicovideoE.dll‚ðƒŠƒŠ[ƒXinicovideo‚Ænicovideo16x9‚Ì“‡”Åj
-@auto.bat‚Åˆø”‚ª‘«‚è‚È‚¢Žž‚Éstacktrace‚Å‚È‚­ƒGƒ‰[ƒƒbƒZ[ƒW‚ðo‚·
-
-1.22r3e4a•]‰¿”Å (2011/8/5)
-
-1.22r3e4 (2011/8/3)
-@ƒƒCƒh‰æ–Ê(16;9)ƒRƒƒ“ƒgƒTƒCƒY”¼Ž©“®Ø‚è‘Ö‚¦‘Î‰ž(‰¼)
-@‘I‘ð‚µ‚½Šg’£Vhook‚ÌŽí—Þ‚Æ“®‰æƒTƒCƒYEƒAƒXƒyƒNƒg”ä‚ð•\Ž¦
-@iŽ©“®”»’èŽž‚Ì‚Ýj
-
-1.22r3e3 (2011/8/1)
-@DLƒtƒ@ƒCƒ‹–¼‚ÌƒoƒOC³Aautodebug.batŽû˜^
-@‘O‰ñ³íI—¹‚µ‚½Žž‚Ì“®‰æid‚ð‹L‰¯‚·‚éi‚P‚Â‚¾‚¯j
-
-1.22r3e2 (2011/7/15)
-@Eƒtƒ@ƒCƒ‹‘I‘ðƒ_ƒCƒAƒƒO‚ÌŒ‹‰Ê‚Ìƒtƒ@ƒCƒ‹–¼‚ðâ‘ÎƒpƒX–¼‚©‚ç
-@@‘Š‘ÎƒpƒX–¼‚É•ÏX
-@E‰ß‹ŽƒƒOŽw’èŽž‚É•¶Žš—ñ‚ª‰ðÍ‚Å‚«‚È‚¢ê‡‚Æˆê”Ê‰ïˆõ‚Ìê‡‚Í
-@@ƒGƒ‰[I—¹‚É•ÏXB’A‚µ“®‰æ‚Ì•Û‘¶‚Íæ‚És‚¦‚é‚æ‚¤‚É‚·‚éB
-@EƒRƒƒ“ƒg•t‚«“®‰æ‚Ì•Û‘¶ƒtƒ@ƒCƒ‹–¼‚ð
-@@@Žw’èƒtƒHƒ‹ƒ_\ƒ^ƒCƒgƒ‹\ƒIƒvƒVƒ‡ƒ“ƒtƒ@ƒCƒ‹–¼{FFmpegÝ’è.Šg’£Žq
-@@‚Æ‚·‚éÝ’è‚ð’Ç‰ÁiƒfƒoƒbƒO—pj
-@E•–‹‚ ‚èi-padtop,-padbottomj‚ðV‚µ‚¢ffmpeg(rev.23043ˆÈ~)‚Å
-@@-vfilters pad=‚É•ÏX‚µ‚½‚Æ‚«‚ÉAvhookƒ‰ƒCƒuƒ‰ƒŠ‚Æ—¼—§o—ˆ‚é‚æ‚¤‚ÉC³
-@E¢•s“KØ‚È“à—e‚ªŠÜ‚Ü‚ê‚Ä‚¢‚é£“®‰æ‚ðƒ_ƒEƒ“ƒ[ƒh‚·‚éê‡‚É
-@@http://www.nicovideo.jp/watch/sm1234556789?watch_harmful=1
-@@‚ÆŽw’è‚·‚ê‚Îƒ_ƒEƒ“ƒ[ƒho—ˆ‚é‚æ‚¤‚ÉC³
-
-1.22r3e1a(2011/7/11)
-@1.22r3e1‚ÌƒoƒOC³ASaccubus.jar‚Ì‚Ý
-@NicoBrowserŠg’£1.4.4—p‚Ìffmpeg‚É‘Î‚·‚é•s‹ï‡‚ðC³
-@‰ß‹ŽƒƒO‚ðŒ‹‡’†‚ÌƒfƒoƒbƒO—pƒƒbƒZ[ƒW‚Ì—Ê‚ðŒ¸‚ç‚·
-@‰ß‹ŽƒƒO‚ÌŒ‹‡•ûŽ®‚ð•ÏX‚µ•s—v‚È€–Ú‚àŽc‚·‚æ‚¤‚É•ÏX
-@ƒ_ƒEƒ“ƒ[ƒh‚µ‚½“®‰æ‚ÌÝ’èFFmpeg‚É‚æ‚éƒfƒR[ƒhŒ‹‰Ê‚Ì•\Ž¦‚ÌÛ
-@ƒtƒHƒ‹ƒ_Žw’è‚Ìê‡‚Í’¼‘O‚Éƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä‚¢‚È‚­‚Ä‚à‘{‚µ‚Ä
-@ƒfƒR[ƒh‚·‚é‚æ‚¤‚É•ÏX‚µ‚½B
-@ƒ_ƒEƒ“ƒ[ƒhE•ÏŠ·Žž‚ÌŒo‰ßŽžŠÔ‚ð•\Ž¦
-@ƒ_ƒEƒ“ƒ[ƒhE•ÏŠ·ŽžŠÔ‚ÆÅIƒtƒŒ[ƒ€‚Ìî•ñ‚ðƒfƒoƒbƒOƒƒO‚Éo—Í
-
-1.22r3e1 (2011/7/10) full set
-@”z•z’†Ž~Bnicovideo.dll‚É“ŠeŽÒƒRƒƒ“ƒg‚ð‡¬‚Å‚«‚È‚¢•s‹ï‡‚ª‚ ‚Á‚½
-
-
-1.22r3e@(2011/7/5)
-@‰ü‘¢”Å Saccubus.jar ƒŠƒŠ[ƒX
-@E‰ß‹ŽƒƒO‚Ìƒ_ƒEƒ“ƒ[ƒh‚ÌURLC³i1.4.4‚Æ“¯“™ƒŒƒxƒ‹j
-@@i‰ß‹ŽƒƒO‚Ìƒ_ƒEƒ“ƒ[ƒh‚ÍƒvƒŒƒ~ƒAƒ€‰ïˆõ‚Ì‚Ýj
-@EŒöŽ®“®‰æ‚ÌƒRƒƒ“ƒg‚ðƒ_ƒEƒ“ƒ[ƒh‰Â”\i1.4.4‚Æ“¯“™ƒŒƒxƒ‹j
-@E“ŠeŽÒƒRƒƒ“ƒg‚ðƒ_ƒEƒ“ƒ[ƒhE•t‰Á‰Â”\i1.4.4‚Æ“¯“™ƒŒƒxƒ‹j
-@EŽ©“®‚Å’²®‚·‚éŽæ“¾ƒRƒƒ“ƒg”‚ðÅV‚ÌƒjƒRƒjƒR“®‰æŽd—l‚É•ÏX
-@@1•ªŠÔ100ƒRƒA10•ªˆÈã‚Í1000ƒRƒ‚Ü‚Å(1.22r3e8‚ÅX‚ÉC³)
-@E“®‰æƒ^ƒCƒgƒ‹‚ÌÅŒã‚É•t‚­‹ó”’‚ðíœ
-@EƒRƒƒ“ƒgƒtƒ@ƒCƒ‹–¼‚É[“úŽž]‚ð’Ç‰Á‰Â”\
-@@•¡”‚ÌƒRƒƒ“ƒgƒtƒ@ƒCƒ‹‚ð“®‰æ‚É•t‰Á‰Â”\‚ÉB
-@@iƒvƒŒƒ~ƒAƒ€‰ïˆõ‚Å‰ß‹ŽƒƒO‚ðŽg‚¦‚Î1000ƒRƒˆÈã•t‰Á‰Â”\j
-@E“ŠeŽÒƒRƒƒ“ƒg‚ÌƒXƒNƒŠƒvƒg(ƒjƒƒ“Œê)‚ð–³Ž‹‚·‚é
-@@¨“ŠeŽÒ‚ÌƒXƒNƒŠƒvƒg‚ª–³‘Ê‚É“®‰æ‚É•t‰Á‚³‚ê‚È‚¢B
-@EÝ’è‚³‚ê‚½FFmpeg‚Ìƒo[ƒWƒ‡ƒ“‚ð•\Ž¦
-@Eƒ_ƒEƒ“ƒ[ƒh‚µ‚½“®‰æ‚ÌÝ’èFFmpeg‚É‚æ‚éƒfƒR[ƒhŒ‹‰Ê‚ð•\Ž¦
-@@i“®‰æƒTƒCƒYAƒrƒbƒgƒŒ[ƒgAfpsA“®‰æcodecA‰¹ºcodec‚È‚Çj
+ã€€(2013/5/1å¤‰æ›´ï¼šã•ãã‚…ã°ã™ã®éžffmpegã®ãƒ©ã‚¤ã‚»ãƒ³ã‚¹å¤‰æ›´ã«åˆã‚ã›ã¦)
+
+
+â–¡ã‚µãƒãƒ¼ãƒˆè§£èª¬ãªã©
+ã€€ã•ãã‚…ã°ã™ã®ä½¿ã„æ–¹ãªã©ã«é–¢ã—ã¦ã¯ã€
+ã€€ä¸Šã®[ãƒ¡ãƒ‹ãƒ¥ãƒ¼][readmeNew]ã‹ã‚‰å‚ç…§ã§ãã¾ã™ã€‚ã¾ãŸ
+ã€€å…¬å¼ã‚µã‚¤ãƒˆã€€http://saccubus.sourceforge.jp/
+ã€€åŒæ¢±ã®æœ€åˆã«å¿…ãšèª­ã‚“ã§.txtã€ã•ãã‚…ã°ã™1.22rã®readme.txtã€
+ã€€1.22r3ã®readme+.txtã‚’ã”è¦§ä¸‹ã•ã„ã€‚
+ã€€1.22r3eã€1.23ä»¥é™ã®ä¸å…·åˆå ±å‘Šç­‰ã¯2chã•ãã‚…ã°ã™ã‚¹ãƒ¬ã§ãŠé¡˜ã„ã—ã¾ã™ã€‚
+ã€€2chã€ãƒ‹ã‚³ãƒ‹ã‚³ã€‘ã‚³ãƒ¡ãƒ³ãƒˆä»˜å‹•ç”»ä½œæˆãƒ„ãƒ¼ãƒ« ã•ãã‚…ã°ã™
+ã€€ã€€http://anago.2ch.net/test/read.cgi/software/1346798166/
+
+â–¡å‹•ä½œç’°å¢ƒ
+ã€€Windows XP/7/8/8.1 desktopã€€ï¼ˆå¤šåˆ†Vistaã‚‚å‹•ãã¯ãšï¼‰
+
+â—æ³¨æ„â—
+ã€€Javaãƒ©ãƒ³ã‚¿ã‚¤ãƒ  Java7 - JRE7 ã¾ãŸã¯ JDK1.7ãŒå¿…è¦ã§ã™ã€‚
+ã€€Java8 JRE8 ã¨ JDK1.8ã‚‚ç¢ºèªæ¸ˆã¿ã§ã™ã€‚
+ã€€Java6 JRE6 ã¨ JDK1.6ã¯éžæŽ¨å¥¨ã§ã™ã€‚
+ã€€æœ€è¿‘ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã—ã¦ã„ãªã„å ´åˆã¯å¿…ãšæ›´æ–°ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€JRE5 JDK1.5ã¯ãƒ†ã‚¹ãƒˆã—ã¦ã„ã¾ã›ã‚“ã€‚
+ã€€ã€€http://java.com/ja/
+ã€€ã‹ã‚‰ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦ä¸‹ã•ã„ã€‚é€šå¸¸ã¯32bitç‰ˆã§ã™ã€‚
+ã€€64bitç‰ˆã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹ã«ã¯èª¬æ˜Žã‚’èª­ã‚“ã§å¾“ã£ã¦ä¸‹ã•ã„ã€‚
+
+â—†Javaã®ãƒ‘ã‚¹ã®è¨­å®š(å‚è€ƒ)
+ã€€auto.batã‚„debug.batã‚’å®Ÿè¡Œã™ã‚‹ã«ã¯java.exeãŒãƒ‘ã‚¹ã«è¨­å®šã•ã‚Œã¦ã„ã‚‹ã“ã¨ãŒå¿…è¦ã§ã™ã€‚
+ã€€win7ã¾ã§ã¯system32ã«java.exeãŒè‡ªå‹•ã§ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¾ã™ãŒ
+ã€€å ´åˆã«ã‚ˆã£ã¦ã¯ã•ã‚Œãªã„ã“ã¨ã‚‚ã‚ã‚Šã¾ã™ã€‚ã¾ãŸwin8ä»¥é™ã§ã¯ã•ã‚Œã¾ã›ã‚“ã€‚
+ã€€Javaã‚’ãƒ‘ã‚¹ã«è¨­å®šã™ã‚‹ã«ã¯ä»¥ä¸‹ã®ãƒšãƒ¼ã‚¸ã‚’å‚è€ƒã«ã—ã¦ãã ã•ã„ã€‚
+ã€€å‚è€ƒï¼šWindows 7 ã«ãƒ‘ã‚¹(Path)ã‚’è¨­å®šã™ã‚‹
+ã€€ã€€http://blog.cnu.jp/2009/11/06/windows-7-path/
+ã€€ã€€http://blog.cnu.jp/2010/11/10/shortcut-environment/
+ã€€å‚è€ƒï¼šWindows8ã«java7ã‚’å…¥ã‚Œã¦ã¿ãŸã‚ˆï¼ˆWindows 8ä»¥é™ï¼‰
+ã€€ã€€http://javatechnology.net/tool/windows8-java7-install/
+
+â—†æ³¨æ„â—†16:9é»’æž ãªã—ã®ï¼ˆPSPãªã©ã®ï¼‰å‹•ç”»ã«ã¤ã„ã¦
+ã€€ã€€åˆæœŸåŒ–ã—ãŸå¾Œã®å¤‰æ›ã‚ªãƒ—ã‚·ãƒ§ãƒ³è¨­å®šï¼ˆå¾“æ¥ï¼‰ã§ã¯ã‚³ãƒ¡ãƒ³ãƒˆã¯
+ã€€ã€€åŽŸå®¿ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã¨åŒã˜ãå‹•ç”»ã‚ˆã‚Š1/30ä¸Šä¸‹ã«ã¯ã¿å‡ºã—ã¦ã„ã¾ã—ãŸãŒã€
+ã€€ã€€å¤‰æ›ã‚ªãƒ—ã‚·ãƒ§ãƒ³è¨­å®šï¼ˆå…±é€šï¼‰ã§ã¯ã¯ã¿å‡ºã•ãªããªã‚Šã¾ã—ãŸã€‚
+ã€€ã€€ã‚³ãƒ¡ãƒ³ãƒˆå…¨ä½“ã‚’ç”»é¢å†…ã«åŽã¾ã‚‹ã‚ˆã†ç¸®å°ã—ã¦ã„ã¾ã™ã€‚
+
+â—æ³¨æ„â—
+ã€€ã€€Windows8/8.1ã¯ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—UIã§ã®IE11/Firefoxã§ç¢ºèªã—ã¾ã—ãŸã€‚Windows8ã‚¹ã‚¿ã‚¤ãƒ«UIã§ã¯
+ã€€ã€€IEã¨ã®ãƒ–ãƒ©ã‚¦ã‚¶å…±æœ‰ã¯å‡ºæ¥ã¾ã›ã‚“ã§ã—ãŸã€‚Chromeã¯ä¸å¯ã§ã™ã€‚
+
+â—æ³¨æ„â—
+ã€€ãƒ»æœ¬Revã®äººæŸ±ç”¨ãƒ¬ãƒ™ãƒ«ã¯å‰Rev.ã¨åŒã˜ãã‚‰ã„ã§ã™ã€‚
+ã€€ãƒ»é…å¸ƒå½¢æ…‹ã€€ã€€ffmpeg56884wåŒæ¢±ç‰ˆ
+ã€€ãƒ»æœ¬Rev.ã¯ç¢ºå®šç‰ˆSDLãƒ©ã‚¤ãƒ–ãƒ©ãƒªï¼ˆ2011/11/02ç‰ˆï¼‰ã‚’åŒæ¢±ã—ã¦ã„ã¾ã™ã€‚ï¼ˆbinãƒ•ã‚©ãƒ«ãƒ€å†…ï¼‰
+ã€€ãƒ»æœ¬Rev.ã¯ffmpeg 21400ç”¨optionãƒ•ã‚¡ã‚¤ãƒ«ã‚’å‰Šé™¤ã—ã¾ã—ãŸã€‚
+ã€€ãƒ»optionVoï¼ˆffmpeg56884wç”¨ã€2013/08/01ç‰ˆï¼‰optionDevï¼ˆå®Ÿé¨“ç”¨2011/3/30ç‰ˆï¼‰ã‚’åŒæ¢±ã€‚
+
+â–¡ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ–¹æ³•ã¨æ‹¡å¼µæ©Ÿèƒ½è¨­å®š
+ã€€â—†1.22r2ä»¥å‰ã®ã•ãã‚…ã°ã™ã‚’ä½¿ç”¨ä¸­ã®æ–¹
+ã€€ã€€ã€Œåˆã‚ã¦ã•ãã‚…ã°ã™ã‚’ä½¿ã†æ–¹ã€ã‚’å®Ÿè¡Œã—ã¦ä¸‹ã•ã„ã€‚
+
+ã€€â—†1.22r3ä»¥é™ã‚’ã”ä½¿ç”¨ä¸­ã®æ–¹
+ã€€ã€æ³¨æ„ã€‘ä»Šå›žã®å¤‰æ›´ã¯ä¸»ã«ffmpeg56884w/ffmpeg55686ç”¨ã¨ãªã‚‹ãŸã‚
+ã€€ä»–ã®ffmpegã§ã¯ä½¿ç”¨å‡ºæ¥ãªã„å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚ã”äº†æ‰¿ãã ã•ã„ã€‚
+ã€€ãƒ»è‡ªåˆ†ã§ä¿®æ­£ã—ãŸã‚ªãƒ—ã‚·ãƒ§ãƒ³ãƒ•ã‚¡ã‚¤ãƒ«(optionVOãƒ•ã‚¡ãƒ«ãƒ€)ã‚’ãŠæŒã¡ã®æ–¹ã¯
+ã€€ã€€è‡ªåˆ†ãŒä½¿ç”¨ã™ã‚‹ã‚ªãƒ—ã‚·ãƒ§ãƒ³ãƒ•ã‚¡ã‚¤ãƒ«ã ã‘åˆ¥ã®å ´æ‰€ã«ç§»å‹•ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€ãƒ»ã€Œsaccubusã€å†…ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä»¥å‰ã®ã•ãã‚…ã°ã™ãƒ•ã‚©ãƒ«ãƒ€ã«
+ã€€ã€€â– å…¨ã¦ä¸Šæ›¸ãâ– ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€ãƒ»ç§»å‹•ã—ãŸã‚ªãƒ—ã‚·ãƒ§ãƒ³ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚³ãƒ”ãƒ¼ã—ã¦æˆ»ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€ãƒ»åˆæœŸåŒ–ç”¨ã«saccubus.iniãŒå…¥ã£ã¦ã„ã¾ã™ã€‚
+ã€€ã€€saccubus.xmlãŒãªã„æ™‚ã¨ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰åˆæœŸåŒ–ã‚’å®Ÿè¡Œã—ãŸæ™‚ã«
+ã€€ã€€saccubus.iniã‚’èª­ã¿è¾¼ã‚“ã§ffmpeg56884wç”¨ã«optionãƒ•ã‚©ãƒ«ãƒ€ã¨
+ã€€ã€€ffmpegã‚’è¨­å®šã—ã¾ã™ã€‚ä½¿ç”¨ã—ãªã„å ´åˆã¯â– å‰Šé™¤â– ã—ã¦ä¸‹ã•ã„ã€‚
+
+ã€€â—†æ‹¡å¼µæ©Ÿèƒ½ï¼ˆæ¦‚è¦ï¼‰è¿½åŠ åˆ†
+ã€€ãƒ»Jsonã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãƒ¼ã«gsonã‚’ä½¿ã†å¤‰æ›´ï¼ˆgson jar,Licenseè¿½åŠ )
+ã€€ãƒ»Vhook 1.50.5 MingLiuãƒ•ã‚©ãƒ³ãƒˆå¤‰åŒ–ä¿®æ­£
+ã€€ãƒ»CAã®å¼¾å¹•åŒ–ãƒ¢ãƒ¼ãƒ‰æŠ‘ãˆæ°—å‘³
+ã€€ãƒ»boldãƒ•ã‚©ãƒ³ãƒˆã‚’normalåŒ–å¯èƒ½
+ã€€ãƒ»mylistå¤‰æ›ã‚’ã‚ã¨ã§ã¾ã¨ã‚ã¦autolist.batã§ã§ãã‚‹ã‚ˆã†ã«å‡ºåŠ›
+ã€€ãƒ»mylistå‡¦ç†å°‘ã—è¿½åŠ 
+ã€€ãƒ»å‹•ç”»è¨­å®šã‚¿ãƒ–ã«å†ç”Ÿãƒœã‚¿ãƒ³è¿½åŠ 
+ã€€ãƒ»æ˜ åƒã‚¹ãƒˆãƒªãƒ¼ãƒ ãŒèªè­˜ã§ããªã„å ´åˆã«éŸ³å£°ã®ã¿ã‚³ãƒ¡ãƒ³ãƒˆä»˜ãå¯èƒ½ã«
+ã€€ãƒ»ä¸Šè¨˜ã®å ´åˆã«ã‚µãƒ ãƒã‚¤ãƒ«ã‚’æŒ‡å®šå¯èƒ½ã€‚ã¾ãŸè‡ªå‹•ã§ã¯å–å¾—æ¸ˆã¿ã‚µãƒ ãƒã‚¤ãƒ«ãŒã‚ã‚Œã°ä½¿ç”¨ã—ã¾ã™ã€‚
+ã€€ãƒ»NMå‹•ç”»ã«å°‘ã—ã ã‘å¯¾å¿œ
+ã€€ãƒ»ãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¬ãƒ¼ãƒˆå¤‰æ›
+ã€€ãƒ»ã‚³ãƒ¡ãƒ³ãƒˆä¸é€æ˜Žæ™‚ã«ã‚¢ãƒ«ãƒ•ã‚¡å€¤ï¼ˆä¸é€æ˜Žåº¦ï¼‰ã‚’0.0ï½ž1.0ã§æŒ‡å®šå¯èƒ½
+ã€€ãƒ»æŠ•ç¨¿è€…ãƒ•ã‚£ãƒ«ã‚¿ãƒ¼è¿½åŠ ï¼ˆæŠ•ç¨¿è€…ã‚³ãƒ¡ãƒ³ãƒˆç„¡ã—ã§ã‚ªãƒ•ï¼‰
+ã€€ãƒ»enderã‚³ãƒžãƒ³ãƒ‰å®Ÿè£…
+ã€€ãƒ»ï¼ ãƒœã‚¿ãƒ³(æŠ•ç¨¿è€…ã‚³ãƒ¡ãƒ³ãƒˆ)ã‚¹ã‚¯ãƒªãƒ—ãƒˆã€€å¯¾å¿œ
+ã€€ãƒ»ï¼ ç½®æ›ã‚¹ã‚¯ãƒªãƒ—ãƒˆã€€å¯¾å¿œ
+ã€€ãƒ»ãƒžã‚¤ãƒªã‚¹ãƒˆå‡¦ç†è¿½åŠ ï¼ˆå®Ÿé¨“çš„ï¼‰
+ã€€ãƒ»FFmpegè¨­å®šã«ã‚¢ã‚¹æ¯”å…±é€šç”»é¢è¿½åŠ 
+ã€€ãƒ»å¤‰æ›æ™‚ -samx ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã«ã‚ˆã‚Šå‹•ç”»ã‚¢ã‚¹æ¯”ä¿æŒå¯èƒ½
+ã€€ãƒ»ã‚ªãƒ—ã‚·ãƒ§ãƒ³ãƒ•ã‚¡ã‚¤ãƒ«è¿½åŠ ã€€ï¼•ã€€PCx3,PSPx2
+ã€€ãƒ»ï¼ ãƒœã‚¿ãƒ³(è¦–è´è€…ã‚³ãƒ¡ãƒ³ãƒˆ)ã€€å¯¾å¿œ
+ã€€ãƒ»/replace(æŠ•ç¨¿è€…ãƒ‹ãƒ¯ãƒ³èªž)ã€€å¯¾å¿œ
+ã€€ãƒ»ãƒ˜ãƒ«ãƒ—ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰ffmpegãƒ˜ãƒ«ãƒ—ã‚’å®Ÿè¡Œå¯èƒ½
+ã€€ãƒ»1æ™‚é–“è¶…ãˆã®statusè¡¨ç¤ºå†…éƒ¨å¤‰æ›´
+ã€€ãƒ»CAå¯¾å¿œå®Ÿé¨“çš„è¨­å®šã§ãƒ•ã‚©ãƒ³ãƒˆ19ç¨®é¡ž(+8)ã‚’å¼·åˆ¶é¸æŠžå¯èƒ½ã«ãªã‚Šã¾ã—ãŸã€‚
+ã€€ãƒ»æŠ•ç¨¿è€…ã‚³ãƒ¡ãƒ³ãƒˆ@ç§’æ•°ã€@ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã€@é€†æ©Ÿèƒ½è¿½åŠ 
+ã€€ãƒ»ã‚µãƒ ãƒã‚¤ãƒ«ç”»åƒä¿å­˜è¿½åŠ 
+ã€€ãƒ»æŠ•ç¨¿è€…åä¿å­˜ã®ãƒã‚°ä¿®æ­£
+ã€€ãƒ»ä¿å­˜ãƒ•ã‚¡ã‚¤ãƒ«åè¨­å®šï¼ˆç‰¹æ®Šï¼‰ã‚’è¿½åŠ 
+ã€€ãƒ»NGãƒ¯ãƒ¼ãƒ‰ã®allã®ãƒã‚°ä¿®æ­£ã€defaultãƒ¯ãƒ¼ãƒ‰è¿½åŠ 
+ã€€ãƒ»åˆæœŸã‚ªãƒ—ã‚·ãƒ§ãƒ³ã§CAãƒ•ã‚©ãƒ³ãƒˆæš«å®šçš„å¯¾å¿œã¨é–‹ç™ºç‰ˆã‚’æœ‰åŠ¹ã‚’ã‚ªãƒ³
+ã€€ãƒ»å‹•ç”»æƒ…å ±ã€æŠ•ç¨¿è€…ãƒšãƒ¼ã‚¸ã€watchãƒšãƒ¼ã‚¸ã®ä¿å­˜æ©Ÿèƒ½è¿½åŠ 
+ã€€ãƒ»ã‚ªãƒ—ã‚·ãƒ§ãƒ³ãƒ•ã‚¡ã‚¤ãƒ«åˆæœŸå€¤å¤‰æ›´([PC])
+ã€€ãƒ»[iPod][iPod touch]ã‚ªãƒ—ã‚·ãƒ§ãƒ³ä¿®æ­£(4096â†’4096k)
+ã€€ãƒ»watchãƒšãƒ¼ã‚¸å‹•ç”»æƒ…å ±ã®ä¿å­˜è¿½åŠ 
+ã€€ãƒ»ZeroWatch(5/1ã‹ã‚‰)ã§ãƒ­ã‚°ã‚¤ãƒ³å¾Œã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦ã„ãŸã®ã‚’ä¿®æ­£
+ã€€ãƒ»CUIã§@SETã®ä¸å…·åˆä¿®æ­£ã€@DLCã¨@ADDã‚’è¿½åŠ 
+ã€€ãƒ»ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»ã‚¨ã‚¤ãƒ—ãƒªãƒ«ãƒ•ãƒ¼ãƒ«ã‚’å†ç¾å‡ºæ¥ã¾ã™ã€‚
+ã€€ãƒ»CUIã§å…¨è¨­å®šé …ç›®ã‚’ã‚ªãƒ¼ãƒãƒ¼ãƒ©ã‚¤ãƒ‰å‡ºæ¥ã¾ã™ã€‚
+ã€€ãƒ»FFmpegã‚ªãƒ—ã‚·ãƒ§ãƒ³è¿½åŠ è¨­å®šãŒå¯èƒ½ã§ã™ã€‚
+ã€€ãƒ»ã‚³ãƒ¡ãƒ³ãƒˆã«é»„æž ã‚’ä»˜åŠ å‡ºæ¥ã¾ã™ã€‚ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ãƒ¼ãƒˆç ”ç©¶ç”¨ã€‚
+ã€€ãƒ»NGã‚³ãƒžãƒ³ãƒ‰ã§ã‚³ãƒ¡ãƒ³ãƒˆã®ã‚³ãƒžãƒ³ãƒ‰ã‚’ç„¡åŠ¹ã«å‡ºæ¥ã¾ã™ã€‚
+ã€€ãƒ»NGå…±æœ‰ãƒ¬ãƒ™ãƒ«ã‚’è¨­å®šã§ãã¾ã™ã€‚
+ã€€ãƒ»NGãƒ¯ãƒ¼ãƒ‰ã®æŒ‡å®šã« all ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’ä½¿ãˆã¾ã™ã€‚
+ã€€ã€€æ—¢å®šã§ãªã„ã‚³ãƒžãƒ³ãƒ‰ã®ã‚³ãƒ¡ãƒ³ãƒˆã‚’å…¨ã¦éžè¡¨ç¤ºã«ã—ã¾ã™ã€‚
+ã€€ãƒ»ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»ã®NGè¨­å®šã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãƒ»ãƒ•ã‚¡ã‚¤ãƒ«ã«ä¿å­˜ã§ãã¾ã™ã€‚
+ã€€ã€€ï¼ˆã•ãã‚…ã°ã™ã¸ã®è‡ªå‹•è¨­å®šã¯æœªå®Ÿè£…ï¼‰
+ã€€ãƒ»ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’ç°¡æ˜“æš—å·åŒ–ã—ã¾ã™ã€‚
+ã€€ãƒ»è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ã®èª­ã¿è¾¼ã¿ãƒ»è¿½åŠ ãƒ»ä¿å­˜ãƒ»åˆ¥åä¿å­˜ãƒ»åˆæœŸåŒ–ãŒå‡ºæ¥ã¾ã™ã€‚
+ã€€ãƒ»CUIå¼•æ•°ã‚’è¿½åŠ ã—ã¾ã—ãŸã€‚
+ã€€ãƒ»ã‚¨ã‚³ãƒŽãƒŸãƒ¼ãƒ¢ãƒ¼ãƒ‰æ™‚ã«ä¸­æ­¢ã™ã‚‹è¨­å®šãŒå¯èƒ½ã«ãªã‚Šã¾ã—ãŸã€‚
+ã€€ãƒ»1.26.1ï½ž2ã§ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºè‡ªå‹•èª¿æ•´æ™‚ã®æ‹¡å¤§æ©Ÿèƒ½ã‚’å‰Šé™¤ã—ã¾ã—ãŸãŒå…ƒã«æˆ»ã—ã¾ã—ãŸã€‚
+ã€€ãƒ»ã‚³ãƒ¡ãƒ³ãƒˆé€Ÿåº¦ã‚’ç‹¬è‡ªã«æŒ‡å®šå¯èƒ½ã§ã™ã€‚
+ã€€ãƒ»ã‚³ãƒ¡ãƒ³ãƒˆè¡¨ç¤ºãƒ¢ãƒ¼ãƒ‰ãŒæ–°è¡¨ç¤º(æœ€æ–°100ä»¶ï½˜åˆ†)ãƒ»æ—§è¡¨ç¤ºï¼ˆæœ€å¤§1000ä»¶ã¾ã§ï¼‰ã‚’é¸æŠžå¯èƒ½ã§ã™ã€‚
+ã€€ãƒ»å‹•ç”»ã‚¢ã‚¹ãƒšã‚¯ãƒˆæ¯”ã«ã‚ˆã‚‹ã‚ªãƒ—ã‚·ãƒ§ãƒ³è‡ªå‹•åˆ¤å®šãŒã§ãã¾ã™ã€‚
+ã€€ã€€ã€Œå‹•ç”»è¨­å®šã€ã€Œå¤‰æ›ã‚ªãƒ—ã‚·ãƒ§ãƒ³è¨­å®šã€ã€ŒFFmpegã®è¨­å®šï¼‘ã€ã¨ã€ŒFFmpegã®è¨­å®šï¼’ã€ã«
+ã€€ã€€è‡ªå‹•åˆ¤å®šã®çµæžœé¸æŠžã™ã‚‹ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã‚’è¨­å®šã—ã¾ã™ã€‚
+ã€€ãƒ»æ‹¡å¼µVhookãƒ©ã‚¤ãƒ–ãƒ©ãƒªæŒ‡å®šã¯ã€ã€Œå‹•ç”»è¨­å®šã€ç”»é¢ã®2ã¤ã‚ã‚‹æ‹¡å¼µVhook
+ã€€ã€€æŒ‡å®šæ¬„ã®ä¸¡æ–¹ã« nicovideoE.dll ã‚’æŒ‡å®šã—ã€2å€‹ã®ãƒã‚§ãƒƒã‚¯ãƒœãƒƒã‚¯ã‚¹
+ã€€ã€€ä¸¡æ–¹ã«ãƒã‚§ãƒƒã‚¯ã™ã‚‹ã¨DLå‹•ç”»ã®ã‚¢ã‚¹ãƒšã‚¯ãƒˆæ¯”ã‚’è‡ªå‹•åˆ¤å®šã—ã¾ã™ã€‚
+ã€€ãƒ»ãƒ–ãƒ©ã‚¦ã‚¶æƒ…å ±å…±æœ‰è¨­å®šã§ã€Œä¸Šè¨˜ä»¥å¤–ã®ãƒ–ãƒ©ã‚¦ã‚¶ã®â€¦ã€ã«ãƒã‚§ãƒƒã‚¯ã™ã‚‹
+ã€€ã€€å ´åˆã¯ã€Cookiesãƒ•ã‚¡ã‚¤ãƒ«ã®å ´æ‰€ã€è¤‡æ•°å€™è£œã®å ´åˆã¯ãã®è¦ªãƒ•ã‚©ãƒ«ãƒ€ã‚’
+ã€€ã€€æŒ‡å®šã—ã¦ä¸‹ã•ã„ã€‚
+ã€€ãƒ»nicovideoE.dllã§å¤‰æ›ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã™ã‚‹å‹•ç”»ã®å ±å‘ŠãŒã‚ã‚Šã¾ã—ãŸãŒ
+ã€€ã€€å•é¡Œã¯1.25rã§å¯¾å‡¦æ¸ˆã¿ã§ã™ã€‚
+
+
+ã€€â—†åˆã‚ã¦ã•ãã‚…ã°ã™ã‚’ä½¿ã†æ–¹
+ã€€ã€€åŠã³1.22r2ä»¥å‰ã®ã•ãã‚…ã°ã™ã‚’ä½¿ç”¨ä¸­ã®æ–¹
+ã€€ã€Œsaccubusã€å†…ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒ•ã‚©ãƒ«ãƒ€ã«å±•é–‹ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€XPã®å ´åˆã¯ãƒ‰ãƒ©ã‚¤ãƒ–ç›´ä¸‹ã®\saccubusã‚’æŽ¨å¥¨ã€‚
+
+â–¡èµ·å‹•ã¾ã§ã®æº–å‚™ã«ã¤ã„ã¦
+ã€€http://java.com/ja/
+ã€€Javaã®ã‚µã‚¤ãƒˆã‹ã‚‰å„è‡ªæœ€æ–°ã®JRE(Javaå®Ÿè¡Œç’°å¢ƒ)ã‚’
+ã€€ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦ãã ã•ã„ã€‚ï¼ˆ32ãƒ“ãƒƒãƒˆç‰ˆæŽ¨å¥¨ï¼‰
+ã€€ã¾ãŸâ—†Javaã®ãƒ‘ã‚¹ã®è¨­å®š(å‚è€ƒ)ã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚
+
+â–¡èµ·å‹•
+ã€€ã€€Saccubus.exe ã‚’ãƒ€ãƒ–ãƒ«ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚
+ã€€ã€€â€»ã‚¢ãƒ³ãƒã‚¦ã‚£ãƒ«ã‚¹ãŒåå¿œã™ã‚‹å ´åˆãŒæœ‰ã‚Šã¾ã™ã®ã§
+ã€€ã€€â€»è‡ªå·±è²¬ä»»ã§saccubus.exeã®ãƒã‚§ãƒƒã‚¯ã‚’å¤–ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€ã€€ã¾ãŸã¯saccubus.jarã‚’ãƒ€ãƒ–ãƒ«ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚
+ã€€ã€€ãƒ•ã‚¡ã‚¤ã‚¢ãƒ•ã‚©ãƒ¼ãƒ«ã‚’Javaã«å¯¾ã—ã¦è¨±å¯ã—ãªã‘ã‚Œã°ãªã‚‰ãªã„
+ã€€ã€€å ´åˆãŒã‚ã‚Šã¾ã™ã€‚
+
+ã€€ã€€ã€ŒåŸºæœ¬è¨­å®šã€ã®ã€Œãƒ–ãƒ©ã‚¦ã‚¶æƒ…å ±å…±æœ‰è¨­å®šã€ã§ãƒ–ãƒ©ã‚¦ã‚¶å…±æœ‰ã‚’é¸æŠžã™ã‚‹ã‹ã€
+ã€€ã€€ã¾ãŸã¯ã€Œãƒ¦ãƒ¼ã‚¶æƒ…å ±ã€ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã€ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’è¨­å®šã—ã¾ã™ã€‚
+ã€€ã€€ä¸Šã®URL/IDæ¬„ã«å‹•ç”»URLï¼ˆå‹•ç”»idï¼‰ã‚’å…¥åŠ›ã—ã¾ã™ã€‚å¾Œã‚ã«?hogehogeãŒã¤ã„ã¦ã‚‚OKã§ã™ã€‚
+ã€€ã€€ä¸é©åˆ‡ãªå†…å®¹ãŒå«ã¾ã‚Œã¦ã„ã‚‹ï¼ˆæ‰€è¬‚é€šå ±ã•ã‚Œã¦ã„ã‚‹ï¼‰å ´åˆã¯ã€ãƒ–ãƒ©ã‚¦ã‚¶ã§å‹•ç”»å†…å®¹ã‚’ç¢ºèªå¾Œ
+ã€€ã€€å‹•ç”»URLï¼ˆå‹•ç”»idï¼‰ã®å¾Œã‚?watch_harmful=1 ã‚’è¨˜å…¥ã—ã¾ã™ã€‚
+ã€€ã€€éŽåŽ»ãƒ­ã‚°ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹ã«ã¯ï¼ˆãƒ—ãƒ¬ãƒŸã‚¢ãƒ ä¼šå“¡ã®ã¿ï¼‰æ—¥ä»˜ã‚’
+ã€€ã€€2009/7/7 7:7:7 ã‚„ 2009/7/7 7:7 ã‚„ 2009/7/7 ã®ã‚ˆã†ã«å…¥åŠ›ã—ã¾ã™ã€‚
+
+ã€€ã€€å³ä¸Šã®ã€Œå¤‰æ›ã€ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã¨å¤‰æ›ãŒé–‹å§‹ã—ã¾ã™ã€‚
+
+
+
+â–¡æ‹¡å¼µæ©Ÿèƒ½ï¼ˆå¤‰æ›´ç‚¹ï¼‰èª¬æ˜Ž
+â—Jsonã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãƒ¼ã«gsonã‚’ä½¿ã†å¤‰æ›´ï¼ˆgson jar,Licenseè¿½åŠ )
+ã€€ä»Šã¾ã§ã®æ‰‹è£½ã®Jsonå‡¦ç†ã®ä»£ã‚ã‚Šã«google gson(ApacheLicense2.0)ã‚’ä½¿ã„ã¾ã™ã€‚
+ã€€å°‘ã—å®¹é‡ãŒå¢—ãˆã¾ã—ãŸãŒJsonå‡¦ç†ã®è¿½åŠ ãŒã—ã‚„ã™ããªã‚Šã¾ã—ãŸ
+
+â—æ˜Žæœä½“MingLiuãƒ•ã‚©ãƒ³ãƒˆå¤‰åŒ–ä¿®æ­£
+ã€€Vistaä»¥é™ã§ä½¿ç”¨ã§ãã‚‹æ˜Žæœä½“MingLiuã®å¤–å­—é ˜åŸŸæ–‡å­—ã«ã‚ˆã‚‹å¤‰åŒ–å¯¾å¿œä¿®æ­£ã€‚
+ã€€XPã®å ´åˆã¯ãƒ‹ã‚³å‹•ã§ã¯ã‚´ã‚·ãƒƒã‚¯ã«ãªã‚Šã¾ã™ãŒã“ã¡ã‚‰ã§ã¯æ˜Žæœä½“ã«ãªã‚Šã¾ã™ã€‚
+
+â—CAã®å¼¾å¹•åŒ–ãƒ¢ãƒ¼ãƒ‰æŠ‘ãˆæ°—å‘³
+ã€€2013/11/7ä»¥é™ã®ãƒ‹ã‚³å‹•ã®å¤§ç”»é¢ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã§ã®ä¿®æ­£ã«å¯¾å¿œã—
+ã€€èª¤å·®ã®ãŸã‚ã«ä¸Šä¸‹ã«å¼¾å¹•åŒ–ã—ã¦ã„ãŸCAãŒä¸­ç”»é¢ã§ã‚‚ãšã‚Œã«ãããªã‚Šã¾ã™ã€‚
+
+â—boldãƒ•ã‚©ãƒ³ãƒˆã‚’normalåŒ–å¯èƒ½
+ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§ã¯æ–‡å­—ãƒ•ã‚©ãƒ³ãƒˆã¯ãƒ‹ã‚³å‹•ã¨åŒã˜ã‚ˆã†ã«bold(å¤ªå­—)æŒ‡å®šã—ã¦ã„ã¾ã™ãŒ
+ã€€[å¤‰æ›è¨­å®š]ã‚¿ãƒ–-å®Ÿé¨“çš„è¨­å®š(ä»®)-è¿½åŠ ãƒ¢ãƒ¼ãƒ‰ã«ã€€-normal
+ã€€ã‚’æŒ‡å®šã™ã‚‹ã¨boldæŒ‡å®šã‚’ã—ã¾ã›ã‚“ã€‚ï¼ˆboldã‚ˆã‚Šç´°ã„ãƒ•ã‚©ãƒ³ãƒˆã«ãªã‚Šã¾ã™ï¼‰
+
+â—mylistå¤‰æ›ã‚’ã‚ã¨ã§ã¾ã¨ã‚ã¦autolist.batã§ã§ãã‚‹ã‚ˆã†ã«å‡ºåŠ›(æš«å®š)
+ã€€ä¿å­˜è¨­å®šãƒ»ãƒšãƒ¼ã‚¸æƒ…å ±ãƒ»ãƒžã‚¤ãƒªã‚¹ãƒˆè‡ªå‹•å¤‰æ›ç”¨ã®autolist.batãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä¿å­˜ã™ã‚‹
+ã€€ã‚’ã‚ªãƒ³ã«ã—ã¦ã€mylistã®URLã‚’URL/IDã«æŒ‡å®šã—ã¦å¤‰æ›ãƒœã‚¿ãƒ³ã‚’æŠ¼ã™ã¨
+ã€€autolist.batã‚’å‡ºåŠ›ã™ã‚‹ã€‚ã“ã®æ™‚ã¯ãƒžã‚¤ãƒªã‚¹ãƒˆã®å†…å®¹ã‚’èª­ã‚€ã ã‘ã§å¤‰æ›ã¯ã—ã¾ã›ã‚“ã€‚
+ã€€ã‚ã¨ã¯é©å®œå†…å®¹ã‚’ç·¨é›†ã—ã¦(ã“ã‚Œã¯ãƒ¡ãƒ¢å¸³å¯)å®Ÿè¡Œã™ã‚‹äº‹ãŒã§ãã¾ã™ã€‚
+ã€€å¤‰æ›æ™‚ã®è¨­å®šãªã©ã¯ä»Šã¾ã§ã®auto.batã¨åŒã˜ã§ã™ã€‚
+
+â—mylistå‡¦ç†å°‘ã—è¿½åŠ 
+ã€€è‡ªåˆ†ã®ãƒžã‚¤ãƒªã‚¹ãƒˆã‚„ã¨ã‚Šã‚ãˆãšãƒžã‚¤ãƒªã‚¹ãƒˆã‚‚æŒ‡å®šå¯èƒ½ã«ã—ã¾ã—ãŸã€‚
+ã€€ã¨ã‚Šã‚ãˆãšãƒžã‚¤ãƒªã‚¹ãƒˆã®æŒ‡å®šã€€http://www.nicovideo.jp/my/mylist
+ã€€è‡ªåˆ†ã®ãƒžã‚¤ãƒªã‚¹ãƒˆã®æŒ‡å®šã€€http://www.nicovideo.jp/my/mylist/#/999999
+ã€€è¦ã™ã‚‹ã«ãƒ–ãƒ©ã‚¦ã‚¶ã§é–‹ã„ãŸURLãã®ã‚‚ã®ã§ã™ã€‚
+ã€€ï¼ˆãƒžã‚¤ãƒªã‚¹ãƒˆç•ªå·ã¯ã€€mylist/999999ã€€ã§ã‚‚æŒ‡å®šå¯èƒ½ï¼‰
+
+â—å‹•ç”»è¨­å®šã‚¿ãƒ–ã«å†ç”Ÿãƒœã‚¿ãƒ³è¿½åŠ 
+ã€€ãƒœã‚¿ãƒ³ã‚’æŠ¼ã™ã¨å¤‰æ›ç›´å¾Œã®å‹•ç”»ã‚’æ‹¡å¼µå­æ—¢å®šã®ã‚½ãƒ•ãƒˆã§å†ç”Ÿã—ã¾ã™ã€‚
+ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã¯mp4ãªã®ã§mp4å‹•ç”»ã‚’ãƒ€ãƒ–ãƒ«ã‚¯ãƒªãƒƒã‚¯ã—ãŸã®ã¨åŒã˜ã«ãªã‚Šã¾ã™ã€‚
+
+â—æ˜ åƒã‚¹ãƒˆãƒªãƒ¼ãƒ ãŒèªè­˜ã§ããªã„å ´åˆã«éŸ³å£°ã®ã¿ã‚³ãƒ¡ãƒ³ãƒˆä»˜ãå¯èƒ½ã«
+ã€€éŸ³å£°ã®ã¿è¨±å¯ã‚’ã‚ªãƒ³ã«ã™ã‚‹ã¨æ˜ åƒã‚¹ãƒˆãƒªãƒ¼ãƒ ãŒèªè­˜ã§ããªã„å ´åˆã«
+ã€€éŸ³å£°ã®ã¿ã‚³ãƒ¡ãƒ³ãƒˆä»˜ãã«å¤‰æ›ã—ã¾ã™ã€‚
+
+â—éŸ³å£°ã®ã¿å¤‰æ›ã®å ´åˆã«ã‚µãƒ ãƒã‚¤ãƒ«ã‚’æŒ‡å®šå¯èƒ½ã€‚
+ã€€éŸ³å£°ã®ã¿å¤‰æ›æ™‚ã®ã‚µãƒ ãƒã‚¤ãƒ«ã‚’æŒ‡å®šã§ãã¾ã™ã€‚
+ã€€ã¾ãŸ<è‡ªå‹•>ã§ã¯ä¿å­˜æ¸ˆã¿ã‚µãƒ ãƒã‚¤ãƒ«ãŒã‚ã‚Œã°ä½¿ç”¨ã—ã¾ã™ã€‚
+ã€€ã‚µãƒ ãƒã‚¤ãƒ«ã‚’ä¿å­˜ã—ãŸã„å ´åˆã¯ä¿å­˜è¨­å®šãƒ»ãƒšãƒ¼ã‚¸æƒ…å ±ã®å‹•ç”»æƒ…å ±ã®ä¿å­˜ã¨
+ã€€ã‚µãƒ ãƒã‚¤ãƒ«ç”»åƒã®ä¿å­˜ã®ãƒã‚§ãƒƒã‚¯ã‚’ã‚ªãƒ³ã«ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€æŒ‡å®šãŒãªã„å ´åˆã¾ãŸã¯ã‚µãƒ ãƒã‚¤ãƒ«ãŒãªã„å ´åˆã¯
+ã€€binãƒ•ã‚©ãƒ«ãƒ€ã®b32.jpgã‚’ä½¿ç”¨ã—ã¾ã™ã€‚
+
+â—NMå‹•ç”»ã«å°‘ã—ã ã‘å¯¾å¿œ
+ã€€ä¸»ã«ï¼‘æžšçµµã¨éŸ³å£°ã®NMMå‹•ç”»ã«å¯¾å¿œã—ã¾ã—ãŸã€‚
+ã€€ç´™èŠå±…ã‚¿ã‚¤ãƒ—ã®å‹•ç”»ã‚‚å¤‰æ›ã—ã¾ã™ãŒç”»åƒåˆ‡ã‚Šæ›¿ãˆã®ã‚¿ã‚¤ãƒŸãƒ³ã‚°ãŒåˆã„ã¾ã›ã‚“ã€‚
+ã€€ï¼ˆç”»åƒãŒãƒã‚¿ãƒãƒ¬ã«ãªã‚Šã¾ã™ã®ã§æ³¨æ„ï¼‰
+ã€€ã‚³ãƒ¡ãƒ³ãƒˆã¯éŸ³å£°ã«ã‚ã‚ã›ã¦ã„ã¾ã™ã€‚
+ã€€ãƒ†ã‚­ã‚¹ãƒˆã€ãƒ ãƒ¼ãƒ“ãƒ¼ã‚¯ãƒªãƒƒãƒ—ã€ãƒ•ã‚©ãƒ³ãƒˆã€ã‚¢ã‚¯ã‚·ãƒ§ãƒ³ã‚¹ã‚¯ãƒªãƒ—ãƒˆã«ã¯æœªå¯¾å¿œã§ã™ã€‚
+ã€€ã¾ãŸFFmpegãŒå¯¾å¿œã—ã¦ã„ãªã„(å¤ã„?)ã‚¿ã‚¤ãƒ—ã®SWFã‚‚å¤‰æ›ã«å¤±æ•—ã—ã¾ã™ã€‚
+
+â—ãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¬ãƒ¼ãƒˆå¤‰æ›
+ã€€æœ€å°å€¤ä»¥ä¸‹ã®ãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¬ãƒ¼ãƒˆã®å ´åˆã«æŒ‡å®šfpså€¤ã«å¤‰æ›ã—ã¾ã™ã€‚
+
+â—ã‚³ãƒ¡ãƒ³ãƒˆä¸é€æ˜Žæ™‚ã®ã‚¢ãƒ«ãƒ•ã‚¡å€¤ï¼ˆä¸é€æ˜Žåº¦ï¼‰ã‚’å°æ•°ç‚¹æ•°ã§æŒ‡å®šã§ãã¾ã™ã€‚
+ã€€[å¤‰æ›è¨­å®šã‚¿ãƒ–]ã‹ã‚‰ã€Œã‚³ãƒ¡ãƒ³ãƒˆã‚’ä¸é€æ˜Žã«ã™ã‚‹ã€ã«ãƒã‚§ãƒƒã‚¯ã€€0.0:é€æ˜Žã€ 1.0:ä¸é€æ˜Ž
+ã€€ï¼ˆæ—¢å®šã§ã¯ ã‚³ãƒ¡ãƒ³ãƒˆç•ªå·ã®è‹¥ã„ã‚‚ã®ã‹ã‚‰0.6ï½ž1.0ã€
+ã€€ã€€ã¾ãŸã‚³ãƒŸãƒ¥å‹•ç”»ã§é€šå¸¸ã‚³ãƒ¡ãƒ³ãƒˆã¯0.3ã§ã™ï¼‰
+
+â—æŠ•ç¨¿è€…ãƒ•ã‚£ãƒ«ã‚¿ãƒ¼è¿½åŠ ã—ã¾ã—ãŸã€‚
+ã€€æŠ•ç¨¿è€…ã‚³ãƒ¡ãƒ³ãƒˆã‚’ç„¡ã—ã«ã™ã‚‹ã“ã¨ã§ã‚ªãƒ•ã«ãªã‚Šã¾ã™ã€‚
+
+â—enderã‚³ãƒžãƒ³ãƒ‰ï¼ˆãƒªã‚µã‚¤ã‚ºã—ãªã„æ–°ã‚³ãƒžãƒ³ãƒ‰ï¼‰ã‚’å®Ÿè£…ã—ã¾ã—ãŸã€‚
+
+â—mp3ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã‚’è¡Œã†ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã‚’å¤‰æ›´åŠã³å‰Šé™¤ã—ã¾ã—ãŸã€‚
+ã€€ãƒ‡ã‚³ãƒ¼ãƒ‰ã¯å¯èƒ½ã§ã™ã€‚
+
+â—ï¼ ãƒœã‚¿ãƒ³(æŠ•ç¨¿è€…ã‚³ãƒ¡ãƒ³ãƒˆ)ã‚¹ã‚¯ãƒªãƒ—ãƒˆã€€å¯¾å¿œã—ã¾ã—ãŸã€‚
+
+â—ï¼ ç½®æ›ã‚¹ã‚¯ãƒªãƒ—ãƒˆã€€å¯¾å¿œã—ã¾ã—ãŸã€‚
+
+â—ãƒžã‚¤ãƒªã‚¹ãƒˆå‡¦ç†è¿½åŠ ï¼ˆå®Ÿé¨“çš„ï¼‰
+ã€€URL/IDæ¬„ã«ãƒžã‚¤ãƒªã‚¹ãƒˆã®URLã‹ã€€mylist/ç•ªå·ã€€
+ã€€ã‚’å…¥åŠ›ã—ã¦å¤‰æ›ãƒœã‚¿ãƒ³ã‚’æŠ¼ã™ã¨ãƒžã‚¤ãƒªã‚¹ãƒˆã®ä¸­ã®å‹•ç”»IDã«å¯¾ã—ã¦
+ã€€å¤‰æ›ã‚’å®Ÿè¡Œã—ã¾ã™ã€‚å„å‹•ç”»ã”ã¨ã«ï¼‘ï¼ç§’ã®å¾…æ©ŸãŒå…¥ã‚Šã¾ã™ã€‚
+ã€€é€”ä¸­ã§ä¸­æ­¢åŠã³è¨­å®šå¤‰æ›´å¯èƒ½ã§ã™ã€‚
+
+â—FFmpegè¨­å®šã«ã‚¢ã‚¹æ¯”å…±é€šç”»é¢è¿½åŠ 
+ã€€PCã®æ–¹ã¯ã‚¢ã‚¹æ¯”å…±é€šç”»é¢ã§ã„ã„ã¨æ€ã„ã¾ã™
+ã€€PSPã‚„æºå¸¯ãªã©ã®æ–¹ã¯ç”³ã—è¨³ã‚ã‚Šã¾ã›ã‚“ãŒå¾“æ¥ç”»é¢ã‹ã‚‰ã€‚
+ã€€ç§»è¡Œã¯ã”è‡ªåˆ†ã§ã‚ªãƒ—ã‚·ãƒ§ãƒ³ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä¿®æ­£ã—ã¦ä¸‹ã•ã„ã€‚
+
+â—å¤‰æ›æ™‚ -samx ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã«ã‚ˆã‚Šå‹•ç”»ã‚¢ã‚¹æ¯”ä¿æŒå¯èƒ½
+ã€€ã‚¢ã‚¹æ¯”å…±é€šç”»é¢ã®ãŸã‚ã«å‹•ç”»ã‚¢ã‚¹æ¯”ã‚’ä¿æŒã™ã‚‹ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã‚’
+ã€€è¿½åŠ ã—ã¾ã—ãŸã€‚FFmpegã¯-sã‚ªãƒ—ã‚·ãƒ§ãƒ³ã®å¤‰æ›´ã¨ã—ã¦è¦‹ãˆã¾ã™ã€‚
+
+â—ã‚ªãƒ—ã‚·ãƒ§ãƒ³ãƒ•ã‚¡ã‚¤ãƒ«ï¼•ã¤è¿½åŠ ã€€ã€€PCx3,PSPx2
+ã€€PC_640x360ã‚¢ã‚¹æ¯”å…±é€š_aviã€€ã€€ã‚¢ã‚¹æ¯”å…±é€šã§ã™
+ã€€PC_640x360ã‚¢ã‚¹æ¯”å…±é€š_mp4ã€€ã‚¢ã‚¹æ¯”å…±é€šã§ã™
+ã€€PC_854x480ã‚¢ã‚¹æ¯”å…±é€š_mp4ã€€ã‚¢ã‚¹æ¯”å…±é€šã§ã™
+ã€€[PSP][16ï¼š3]480x272 -b 256kã€€272ã‚’è¿½åŠ ã—ã¾ã—ãŸãŒæœªè©•ä¾¡ã§ã™
+ã€€[PSP][ 4ï¼š3]480x272 -b 256kã€€272ã‚’è¿½åŠ ã—ã¾ã—ãŸãŒæœªè©•ä¾¡ã§ã™
+
+â—ï¼ ãƒœã‚¿ãƒ³(è¦–è´è€…ã‚³ãƒ¡ãƒ³ãƒˆ)ã«å¯¾å¿œã—ã¾ã—ãŸ
+
+â—/replace(æŠ•ç¨¿è€…ãƒ‹ãƒ¯ãƒ³èªž)ã«å¯¾å¿œã—ã¾ã—ãŸ
+
+â—ãƒ˜ãƒ«ãƒ—ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰ffmpegãƒ˜ãƒ«ãƒ—/readmeã‚’å‚ç…§å¯èƒ½ã§ã™ã€‚
+ã€€æŠ¼ã—ã¦ã¿ã¦ä¸‹ã•ã„ã€‚
+
+â—CAï¼ˆã‚³ãƒ¡ãƒ³ãƒˆã‚¢ãƒ¼ãƒˆï¼‰ãƒ•ã‚©ãƒ³ãƒˆæš«å®šçš„å¯¾å¿œã€€ãã®7
+ã€€ãƒ»CAãƒ•ã‚©ãƒ³ãƒˆ8ç¨®é¡žè¿½åŠ ã€€ï¼ˆè¨ˆï¼‘9ç¨®ï¼‰
+ã€€
+
+â—æŠ•ç¨¿è€…ã‚³ãƒ¡ãƒ³ãƒˆã®ãƒ‹ã‚³ã‚¹ã‚¯ãƒªãƒ—ãƒˆæ©Ÿèƒ½è¿½åŠ 
+ã€€æŠ•ã‚³ãƒ¡ã®ãƒ‹ã‚³ã‚¹ã‚¯ãƒªãƒ—ãƒˆ@ç§’æ•°ã€@ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã€@é€†ã€€ã‚’åæ˜ ã—ã¾ã™ã€‚
+ã€€ã“ã‚Œã¾ã§ã®ï¼ ãªã©ã®NGãƒ¯ãƒ¼ãƒ‰ã‚’å¤‰æ›´ã™ã‚‹å¿…è¦ã¯æœ‰ã‚Šã¾ã›ã‚“ã€‚
+
+â—ä¿å­˜è¨­å®šâ€•ãƒšãƒ¼ã‚¸æƒ…å ±
+ã€€ãƒ»å‹•ç”»æƒ…å ±ã‚’txtãƒ•ã‚¡ã‚¤ãƒ«ã«ä¿å­˜ã™ã‚‹(Videoã¨åŒã˜ãƒ•ã‚©ãƒ«ãƒ€)
+ã€€ã€€å‹•ç”»ã€ã‚³ãƒ¡ãƒ³ãƒˆã®ä¿å­˜ã¨ã¯ç‹¬ç«‹ã«è¨­å®šå‡ºæ¥ã¾ã™ã€‚ãƒ­ã‚°ã‚¤ãƒ³ã—ã¦æƒ…å ±ã‚’å–ã‚Šã¾ã™ã€‚
+ã€€ã€€å‹•ç”»æƒ…å ±ãŒå–ã‚Œãªã„æ™‚ã¯ã‚¨ãƒ©ãƒ¼ã«ãªã‚Šã¾ã™ã€‚
+ã€€ãƒ»æŠ•ç¨¿è€…åã‚’ä¿å­˜ã™ã‚‹ï¼ˆä¸Šã®txtãƒ•ã‚¡ã‚¤ãƒ«ï¼‰
+ã€€ã€€æŒ‡å®šã®ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒ•ã‚©ãƒ«ãƒ€ã«ãƒ¦ãƒ¼ã‚¶ãƒ¼æƒ…å ±ãƒšãƒ¼ã‚¸ã‚’ä¿å­˜ã—æŠ•ç¨¿è€…åã‚’
+ã€€ã€€å‹•ç”»æƒ…å ±ã«è¿½åŠ ã—ã¾ã™ã€‚ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£å‹•ç”»ã€ãƒãƒ£ãƒ³ãƒãƒ«å‹•ç”»ã¯ã‚¨ãƒ©ãƒ¼ã«ãªã‚Šã¾ã™ã€‚
+ã€€ã€€ä¿å­˜ã—ãŸãƒ¦ãƒ¼ã‚¶ãƒ¼æƒ…å ±ãƒšãƒ¼ã‚¸ã¯æ›´æ–°ã—ã¾ã›ã‚“ã®ã§ã€è‡ªåˆ†ã§æ›´æ–°ã—ãŸã„å ´åˆã¯
+ã€€ã€€è©²å½“ãƒ•ã‚¡ã‚¤ãƒ«ï¼ˆãƒ¦ãƒ¼ã‚¶ãƒ¼ID.htmï¼‰ã‚’å‰Šé™¤ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€ãƒ»ã‚µãƒ ãƒã‚¤ãƒ«ç”»åƒã‚’ä¿å­˜ã™ã‚‹(Videoã¨åŒã˜ãƒ•ã‚©ãƒ«ãƒ€)
+ã€€ã€€å‹•ç”»æƒ…å ±ä¿å­˜æ™‚ã«ã‚µãƒ ãƒã‚¤ãƒ«ç”»åƒã‚’ä¿å­˜ã—ã¾ã™ã€‚
+ã€€ãƒ»watchãƒšãƒ¼ã‚¸ã‚’htmlãƒ•ã‚¡ã‚¤ãƒ«ã«ä¿å­˜ã™ã‚‹ã€‚(.\tempä¸‹)
+ã€€ã€€æ–‡å­—é€šã‚Šã§ã™ã€‚ä¸»ã«ãƒ‡ãƒãƒƒã‚°ç”¨ã§ã™ã€‚
+
+â—ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»ã‚¨ã‚¤ãƒ—ãƒªãƒ«ãƒ•ãƒ¼ãƒ«ã‚’å†ç¾
+ã€€ã€Œè©³ç´°è¨­å®šã€ã€ŒAprilFoolå†ç¾ã€ã§ä»¥ä¸‹ã®3å›žã®ã‚¨ã‚¤ãƒ—ãƒªãƒ«ãƒ•ãƒ¼ãƒ«ã‚’å†ç¾ã—ã¾ã™ã€‚
+ã€€ã€€2008å¹´ é€†èµ°ã€€ã‚³ãƒ¡ãƒ³ãƒˆãŒå·¦ã‹ã‚‰å³ã¸
+ã€€ã€€2009å¹´ã€€èµ¤å­—3å€é€Ÿã€€å…¨éƒ¨ã®ã‚³ãƒ¡ãƒ³ãƒˆãŒèµ¤å­—ã§3å€ã®é€Ÿåº¦ã«ãªã‚Šã¾ã™ã€‚
+ã€€ã€€ã€€ä½Žãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¬ãƒ¼ãƒˆå‹•ç”»ã§ã¯é£›ã³é£›ã³ã«ãªã‚‹ã‹ã‚‚ã—ã‚Œã¾ã›ã‚“ã€‚
+ã€€ã€€2010å¹´ã€€ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»ã€€é»’å­—åŒ–ã€€é»’å­—ã«ãªã‚Šã¾ã™ã€‚æˆ»ã›ã¾ã›ã‚“ã€‚
+
+â—CUIã§è¨­å®šé …ç›®ã‚’ã‚ªãƒ¼ãƒãƒ¼ãƒ©ã‚¤ãƒ‰
+ã€€ãƒ»è¨­å®šã®ã‚ªãƒ¼ãƒãƒ¼ãƒ©ã‚¤ãƒ‰ã¯ä¿å­˜ã•ã‚Œã¾ã›ã‚“ã€‚
+ã€€â‘ åŸºæœ¬ã®ä½¿ã„æ–¹
+ã€€ã€€ã€€java -jar Saccubus.jar Mail@address.com password å‹•ç”»ID æ—¥æ™‚ ä»Šå›žã®è¿½åŠ ã‚ªãƒ—ã‚·ãƒ§ãƒ³
+ã€€ã€€auto.batã®å ´åˆã€€%CMD% sm9999 "2009/7/7 7:7"
+ã€€ã€€ã€€æ—¥æ™‚ã¯çœç•¥å¯èƒ½ã€ç¾åœ¨ã®å ´åˆã¯0ã‚’æŒ‡å®š
+ã€€ã€€ConvListã®å ´åˆã®å…¥åŠ›æ¬„ã€€sm9999 13190010
+ã€€ã€€ã€€æ—¥æ™‚ã¯1970/1/1ã‹ã‚‰ã®ç§’æ•°ã¾ãŸã¯â†“ã§æŒ‡å®šã€çœç•¥å¯èƒ½
+ã€€ã€€ã€€Ver 1.04ä»¥é™ã§æ—¥æ™‚ã®æŒ‡å®šãŒã€2011/12/1 ã¾ãŸã¯ "2009/1/1 07:08:10" ã§
+ã€€ã€€ã€€å¯èƒ½ã«ãªã‚Šã¾ã—ãŸã€‚ã‚‚ã¡ã‚„ã¾ã•ã‚“ã€ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ã€‚
+ã€€â‘¡ã‚ªãƒ—ã‚·ãƒ§ãƒ³ãƒ•ã‚¡ã‚¤ãƒ«ã®å¤‰æ›´ï¼ˆ2passã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã®ä¾‹ï¼‰
+ã€€ã€€ã€€æœ€åˆã«2passç”¨ã®ã‚ªãƒ—ã‚·ãƒ§ãƒ³ãƒ•ã‚¡ã‚¤ãƒ«ã‚’1passç›®ã€2passç›®ã¨2çµ„ï¼ˆï½˜ã‚¢ã‚¹ãƒšã‚¯ãƒˆæ¯”2ç¨®ï¼‰ç”¨æ„ã™ã‚‹
+ã€€ã€€ã€€1passç›®ãƒ•ã‚¡ã‚¤ãƒ«åã€€[PC][4ï¼š3].xmlã€€ã€€ [PC][16ï¼š9].xmlã€€ã€€ã€€ ã¨ã—
+ã€€ã€€ã€€2passç›®ãƒ•ã‚¡ã‚¤ãƒ«åã€€p2[PC][4ï¼š3].xmlã€€p2[PC][16ï¼š9].xmlã€€ã¨ã—ã¦ï¼ˆp2ã¯å¤‰æ›´å¯èƒ½ï¼‰
+ã€€ã€€auto.batã®å ´åˆæ¬¡ã®ã‚ˆã†ã«2è¡ŒæŒ‡å®šã™ã‚‹
+ã€€ã€€ã€€%CMD% sm9999
+ã€€ã€€ã€€%CMD% sm9999 0 p2ã€€ã€€ã€€ã€€ã€€æ—¥æ™‚(0)ã¯çœç•¥ä¸å¯ã€p2ã¯ã‚ªãƒ—ã‚·ãƒ§ãƒ³ãƒ•ã‚¡ã‚¤ãƒ«ã®æŽ¥é ­è¾ž
+ã€€ã€€ConvListã®å ´åˆï¼šä¸‹ã®å…¥åŠ›æ¬„ã«å…¥åŠ›ã¾ãŸã¯ãƒšãƒ¼ã‚¹ãƒˆã‚’2å›žè¡Œã†ï¼ˆ2passç›®ã¯æ‰‹å…¥åŠ›ãŒå¿…è¦ï¼‰
+ã€€ã€€ã€€sm9999
+ã€€ã€€ã€€sm9999 0 p2
+ã€€â‘¢è¨­å®š(saccubus.xml)ã®ã‚ªãƒ¼ãƒãƒ¼ãƒ©ã‚¤ãƒ‰
+ã€€ã€€æŒ‡å®šæ–¹æ³•ã€€keyå=ã‚ªãƒ¼ãƒãƒ¼ãƒ©ã‚¤ãƒ‰å€¤
+ã€€ã€€ã€€è¨­å®šå€¤ã‚’ãªãã™å ´åˆã¯=ã§çµ‚ã‚ã‚‹ã€‚
+ã€€ã€€ã‚ªãƒ¼ãƒãƒ¼ãƒ©ã‚¤ãƒ‰å¯èƒ½ãªkeyåï¼ˆè‹±å­—ã§é–‹å§‹ï¼‰ã¯saccubus.xmlã‚’å‚ç…§ã—ã¦ä¸‹ã•ã„ã€‚
+ã€€ã€€ã€€keyåã®ä¾‹ã€€<entry key="keyå">è¨­å®šå€¤</entry>ã¨è¨˜è¿°ã•ã‚Œã¦ã„ã¾ã™ã€‚
+ã€€ã€€ã€€ã€€FontPathã€€ã€€ã€€ã€€ã€€ã€€ãƒ•ã‚©ãƒ³ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‘ã‚¹ï¼ˆ%WINDIR%\Fonts\msgothic.ttcï¼‰
+ã€€ã€€ã€€ã€€FontIndex ã€€ã€€ã€€ã€€ã€€ãƒ•ã‚©ãƒ³ãƒˆã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ï¼ˆ1ï¼‰
+ã€€ã€€ã€€ã€€SaveVideoFile ã€€ã€€ã€€å‹•ç”»ã‚’ä¿å­˜ã™ã‚‹ï¼ˆtrueï¼‰
+ã€€ã€€ã€€ã€€SaveCommentFile ã€€ã€€ã‚³ãƒ¡ãƒ³ãƒˆã‚’ä¿å­˜ã™ã‚‹ï¼ˆtrueï¼‰
+ã€€ã€€ã€€ã€€CMD_EXT ã€€ã€€ã€€ã€€ã€€ã€€ç›´æŽ¥å…¥åŠ›æ™‚ã®å¾“æ¥ã®å¤‰æ›å¾Œã®æ‹¡å¼µå­ï¼ˆ.aviï¼‰
+ã€€ã€€ã€€ã€€WideCMD_EXT ã€€ã€€ã€€ã€€ç›´æŽ¥å…¥åŠ›æ™‚ã®ãƒ¯ã‚¤ãƒ‰ã®å¤‰æ›å¾Œã®æ‹¡å¼µå­ï¼ˆ.mp4ï¼‰
+ã€€ã€€ã€€ã€€EnableCAã€€ã€€ã€€ã€€ã€€ã€€CAç”¨ã®ãƒ•ã‚©ãƒ³ãƒˆã«å¼·åˆ¶å¤‰æ›´ã™ã‚‹ï¼ˆfalseï¼‰
+ã€€ã€€ä¾‹ãˆã°sm8628149ã‚’CAç”¨ã®ãƒ•ã‚©ãƒ³ãƒˆã«å¼·åˆ¶å¤‰æ›´ã™ã‚‹å ´åˆã¯
+ã€€ã€€auto.batã®å ´åˆã€€%CMD% sm8628149 0 EnableCA=true
+ã€€ã€€ConvListã®å ´åˆã€€sm8628149 0 EnableCA=true
+ã€€â‘£FFmpegã®ã‚ªãƒ—ã‚·ãƒ§ãƒ³å€¤ï¼ˆ-ã§é–‹å§‹ï¼‰(ã‚ªãƒ—ã‚·ãƒ§ãƒ³.xmlå†…ã®ï¼‰ã®å¤‰æ›´
+ã€€ã€€æŒ‡å®šæ–¹æ³•ã€€-ã‚ªãƒ—ã‚·ãƒ§ãƒ³=è¨­å®šå€¤
+ã€€ã€€ä¾‹ãˆã°ã€å‡ºåŠ›ã‚µã‚¤ã‚ºã‚’1280x720ã«å¤‰æ›´ã™ã‚‹å ´åˆã¯
+ã€€ã€€auto.batã®å ´åˆã€€%CMD% sm8628149 0 -s=1280x720
+ã€€ã€€ConvListã®å ´åˆã€€sm8628149 0 -s=1280x720
+ã€€â‘¤çµ„ã¿åˆã‚ã›ã€€â‘¡â‘¢â‘£ã¯åŒæ™‚ã«çµ„ã¿åˆã‚ã›ã¦ä½¿ç”¨å¯èƒ½
+ã€€ã€€ä¾‹ãˆã°sm9ã‚’2passã§2passç›®ã¯å‹•ç”»ã‚³ãƒ¡ãƒ³ãƒˆã‚’ä¿å­˜ï¼ˆãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ï¼‰ã—ãªã„å ´åˆã¯
+ã€€ã€€auto.batã®å ´åˆ
+ã€€ã€€ã€€%CMD% sm9
+ã€€ã€€ã€€%CMD% sm9 0 p2 SaveVideoFile=false SaveCommentFile=false
+ã€€ã€€ConvListã®å ´åˆ
+ã€€ã€€ã€€sm9
+ã€€ã€€ã€€sm9 0 p2 SaveVideoFile=false SaveCommentFile=false
+ã€€â‘¥ï¼•ç•ªç›®ä»¥é™ã®å¼•æ•°ï¼ˆéŽåŽ»ãƒ­ã‚°æ—¥æ™‚ã®å¾Œï¼‰ã®ï¼ æŒ‡å®šã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ï¼ˆåŠè§’è‹±å¤§æ–‡å­—ï¼‰
+ã€€@NDL
+ã€€ã€€å‹•ç”»ãƒ»ã‚³ãƒ¡ãƒ³ãƒˆã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãªã„ã€‚ï¼ˆå¤‰æ›ã¯è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«é€šã‚Šï¼‰
+ã€€@DLO 
+ã€€ã€€å‹•ç”»ãƒ»ã‚³ãƒ¡ãƒ³ãƒˆã‚’å¼·åˆ¶ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã€å¤‰æ›ã‚’è¡Œã‚ãªã„ã€‚
+ã€€@DLC 
+ã€€ã€€ã‚³ãƒ¡ãƒ³ãƒˆã®ã¿ã‚’å¼·åˆ¶ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã€å¤‰æ›ã‚’è¡Œã‚ãªã„ã€‚
+ã€€@PUP
+ã€€ã€€PCç”»é¢ã®å·¦ä¸Šã«auto.batä¸­æ­¢ç”¨ã®ãƒœã‚¿ãƒ³ãƒ»ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã‚’è¡¨ç¤ºã™ã‚‹ã€‚
+ã€€@SET=è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ãƒ‘ã‚¹.xml ï¼ˆä¿®æ­£ï¼‰
+ã€€ã€€saccubus.xmlã®ä»£ã‚ã‚Šã«è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«.xmlã‚’ä½¿ç”¨ã™ã‚‹ã€‚
+ã€€@ADD=è¿½åŠ è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ãƒ‘ã‚¹.xml ï¼ˆä¿®æ­£ï¼‰
+ã€€ã€€è¿½åŠ è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ãƒ‘ã‚¹.xmlã‚’ãƒ•ã‚¡ã‚¤ãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®è¿½åŠ ã§æŒ‡å®šã™ã‚‹ã®ã¨åŒã˜
+ã€€ä¾‹ï¼‰sm9ã‚’2passã§2passç›®ã¯å‹•ç”»ã‚³ãƒ¡ãƒ³ãƒˆã‚’ä¿å­˜ï¼ˆãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ï¼‰ã—ãªã„å ´åˆã¯
+ã€€ã€€ã‚ªãƒ—ã‚·ãƒ§ãƒ³è¨­å®šã‚’2passç”¨ã®1passç›®æŒ‡å®šã§ã€ãƒ•ã‚¡ã‚¤ãƒ«åãŒ
+ã€€ã€€ã€€1passç›®ã€€ã‚ªãƒ—ã‚·ãƒ§ãƒ³.xmlã€€ã€€2passç›®ã€€p2ã‚ªãƒ—ã‚·ãƒ§ãƒ³.xmlã¨ã™ã‚‹ã¨
+ã€€ã€€auto.batã®å ´åˆ
+ã€€ã€€ã€€%CMD% sm9 0 @PUP
+ã€€ã€€ã€€%CMD% sm9 0 @PUP p2 @NDL
+ã€€ã€€ConvListã®å ´åˆ
+ã€€ã€€ã€€sm9
+ã€€ã€€ã€€sm9 0 p2 @NDL
+ã€€ãƒ»auto.batã‚„SaccubusConvList.exeå®Ÿè¡Œæ™‚ã«log.txtã‚’å‡ºåŠ›ã™ã‚‹ã€‚
+
+ã€€â– SaccubusConvList.exeã¯ä»¥ä¸‹ã‹ã‚‰ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰å‡ºæ¥ã¾ã™ã€‚
+ã€€ã€€ã•ãã‚…ã°ã™å¤‰æ›ãƒªã‚¹ãƒˆ(URLãƒªã‚¹ãƒˆé€£ç¶šå¤‰æ›)ã€€by ã‚‚ã¡ã‚„ã¾ã•ã‚“
+ã€€ã€€http://www.ne.jp/asahi/mochiyama/my/file/SaccubusConvList.zip
+
+â—FFmpegã‚ªãƒ—ã‚·ãƒ§ãƒ³è¿½åŠ è¨­å®š
+ã€€ã€Œå‹•ç”»è¨­å®šã€ã€Œå¤‰æ›ã‚ªãƒ—ã‚·ãƒ§ãƒ³è¨­å®šã€FFmpegè¿½åŠ è¨­å®šã§
+ã€€ãƒ—ãƒ«ãƒ€ã‚¦ãƒ³ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰é¸ã‚“ã å ´åˆã§ã‚‚è¨­å®šã‚’è¿½åŠ ã€ä¸Šæ›¸ãã§ãã¾ã™ã€‚
+ã€€ï¼ˆã‚ªãƒ—ã‚·ãƒ§ãƒ³ãƒ•ã‚¡ã‚¤ãƒ«ã«æ›¸ãè¾¼ã¿ã¯è¡Œã„ã¾ã›ã‚“ï¼‰
+ã€€ã€€ä¾‹ãˆã°ã€ã‚³ãƒ¡ãƒ³ãƒˆä»˜ãå‹•ç”»ã®ã‚µã‚¤ã‚ºã ã‘å¤‰æ›´ã—ãŸã„å ´åˆã¯
+ã€€ã€€ã€€ã€€-s 1024x768
+ã€€ã€€ã¨è¨­å®šï¼‘ã«è¿½åŠ ã™ã‚‹
+ã€€ã€€ã‚³ãƒ¡ãƒ³ãƒˆä»˜ãå‹•ç”»ã®é•·ã•ã‚’æœ€åˆã®ï¼“ï¼ç§’ã ã‘ã«ã™ã‚‹ã«ã¯
+ã€€ã€€ã€€ã€€-t 30
+ã€€ã€€ã¨è¨­å®šã™ã‚‹ãªã©è‰²ã€…è©¦ã—ã¦ã¿ã¦ä¸‹ã•ã„ã€‚
+
+â—è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ã®èª­ã¿è¾¼ã¿ãƒ»è¿½åŠ ãƒ»ä¿å­˜ãƒ»åˆ¥åä¿å­˜ãƒ»åˆæœŸåŒ–
+ã€€ãƒ•ã‚¡ã‚¤ãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ã®èª­ã¿è¾¼ã¿ãƒ»è¿½åŠ ãƒ»ä¿å­˜ãƒ»åˆ¥åä¿å­˜ãƒ»åˆæœŸåŒ–ãŒå‡ºæ¥ã¾ã™ã€‚
+ã€€ã€€æ›¸å¼ã¯è‡ªå‹•ç”Ÿæˆãƒ»ä¿å­˜ã•ã‚ŒãŸã‚‚ã®ã¨åŒã˜ã«é™ã‚Šã¾ã™ã€‚
+ã€€ã€€ãƒ»é–‹ãã€€èª­ã¿è¾¼ã¿ã¾ã™ã€‚
+ã€€ã€€ãƒ»è¿½åŠ ã€€ãƒ•ã‚¡ã‚¤ãƒ«ã«è¨˜å…¥ã•ã‚ŒãŸé …ç›®ã®ã¿è¨­å®šã—ç›´ã—ã¾ã™ã€‚
+ã€€ã€€ãƒ»ä¸Šæ›¸ãä¿å­˜ã€€ç¾åœ¨ã®è¨­å®šã‚’saccubus.xmlã«ä¿å­˜ã—ã¾ã™ã€‚
+ã€€ã€€ãƒ»åå‰ã‚’ä»˜ã‘ã¦ä¿å­˜ã€€ç¾åœ¨ã®è¨­å®šã‚’æŒ‡å®šãƒ•ã‚¡ã‚¤ãƒ«ã«ä¿å­˜ã—ã¾ã™ã€‚
+ã€€ã€€ãƒ»åˆæœŸåŒ–ã€€saccubus.iniãŒã‚ã‚Œã°èª­ã¿è¾¼ã¿ã€ç„¡ã‘ã‚Œã°ãƒ—ãƒ­ã‚°ãƒ©ãƒ åˆæœŸå€¤ã§è¨­å®šã—ã¾ã™ã€‚
+ã€€ã€€ãƒ»çµ‚äº†ã€€çµ‚äº†æ™‚ã«ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’ç°¡æ˜“æš—å·åŒ–ã—saccubud.xmlã«è¨­å®šã‚’ä¿å­˜ã—ã¾ã™ã€‚
+
+â—CAï¼ˆã‚³ãƒ¡ãƒ³ãƒˆã‚¢ãƒ¼ãƒˆï¼‰ãƒ•ã‚©ãƒ³ãƒˆæš«å®šçš„å¯¾å¿œã€€ãã®ï¼–
+ã€€ãƒ»CAãƒ•ã‚©ãƒ³ãƒˆè¿½åŠ ã€€ã‚°ãƒ©ã‚¸ãƒ£ãƒ¼ãƒ†ã‚£ã€ï¼ˆè¨ˆï¼‘ï¼‘ç¨®ï¼‰
+ã€€â€»ä¸»ãªãƒ•ã‚©ãƒ³ãƒˆå­—å½¢ã¯ãƒ‹ã‚³å‹•ã¨åŒã˜ã§ã™ãŒã€ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã¨æ–‡å­—é–“éš”ãŒ
+ã€€ã€€ã¾ã ç•°ãªã‚‹å ´åˆã‚„è¡¨ç¤ºã§ããªã„ãƒ•ã‚©ãƒ³ãƒˆãŒã‚ã‚Šã¾ã™ã€‚ï¼ˆèª¿æ•´ç¶šè¡Œä¸­ï¼‰
+ã€€â– ã€ŒCAãƒ•ã‚©ãƒ³ãƒˆæš«å®šçš„å¯¾å¿œã€ã€Œé–‹ç™ºç‰ˆã‚’æœ‰åŠ¹ã€ã‚’æ—¢å®šã§ã‚ªãƒ³ã«ã—ã¾ã—ãŸã€‚
+ã€€ã€€å¤‰ãªå ´åˆã¯ã€Œé–‹ç™ºç‰ˆã‚’æœ‰åŠ¹ã€ã‚’ã‚ªãƒ•ã¾ãŸã¯ã€Œãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã®è‡ªå‹•èª¿æ•´ã€ã‚’ã‚ªãƒ•ã«
+ã€€ã€€åˆã¯ä¸¡æ–¹ã‚ªãƒ•ã«ã—ã¦ä¸‹ã•ã„ã€‚ï¼ˆèª¿æ•´ä¸­ï¼‰
+ã€€ã€€ï¼ˆè‡ªå‹•èª¿æ•´ã‚’ã‚ªãƒ•ã«ã—ã¦ã‚‚æ‹¡å¤§ã¯ã—ã¾ã™ãŒæ–‡å­—ã®è¡¨ç¤ºãŒå°‘ã—ç²—é›‘ã«ãªã‚Šã¾ã™ã€‚ï¼‰
+ã€€ãƒ»fullã‚³ãƒžãƒ³ãƒ‰ãƒ»ï¼’ï¼”ãƒ“ãƒƒãƒˆã‚«ãƒ©ãƒ¼ã‚’å®Ÿè£…ï¼ˆã‚ªãƒ•ä¸å¯ï¼‰
+ã€€ãƒ»ãƒ•ã‚©ãƒ³ãƒˆã®é«˜ã•èª¿æ•´ã®æ—¢å®šå€¤å¤‰æ›´ï¼ˆ100%ï¼‰æ—¢å®šã§ã‚ªãƒ•ã«ã—ã¾ã—ãŸã€‚
+ã€€â– CAï¼ˆã‚³ãƒ¡ãƒ³ãƒˆã‚¢ãƒ¼ãƒˆï¼‰ã«ã¤ã„ã¦ã¯
+ã€€ã€€ã€Œã‚³ãƒ¡ãƒ³ãƒˆã‚¢ãƒ¼ãƒˆwikiã€ã€€http://www37.atwiki.jp/commentart/
+ã€€ã€€ã‚’å‚è€ƒã«ã—ã¦ã„ã¾ã™ã€‚ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ã€‚
+
+â—ã‚³ãƒ¡ãƒ³ãƒˆã«é»„æž ã‚’ä»˜åŠ ã€‚ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ãƒ¼ãƒˆç ”ç©¶ç”¨ã€‚
+ã€€ã€Œå¤‰æ›è¨­å®šã€ã€Œå®Ÿé¨“çš„è¨­å®šï¼ˆä»®)ã€ã®è¿½åŠ ãƒ¢ãƒ¼ãƒ‰ã«
+ã€€-frameã€€ã‚’æŒ‡å®šã™ã‚‹ã¨ã€ã‚³ãƒ¡ãƒ³ãƒˆã«é»„æž ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
+ã€€-loc -frameã€€ã‚’æŒ‡å®šã™ã‚‹ã¨ä½ç½®ã‚³ãƒžãƒ³ãƒ‰ã«ã‚ˆã£ã¦è¡¨ç¤ºæž è‰²ãŒå¤‰ã‚ã‚Šã¾ã™ã€‚
+ã€€ã€€ue èµ¤æž  naka é»„æž  shita é’æž 
+ã€€-fontã€€ã‚’æŒ‡å®šã™ã‚‹ã¨ãƒ•ã‚©ãƒ³ãƒˆã®ç¨®é¡žã«ã‚ˆã£ã¦æ–‡å­—ã®èƒŒæ™¯è‰²ã‚’å¤‰æ›´ã—ã¾ã™ã€‚
+ã€€ã€€ã‚´ã‚·ãƒƒã‚¯(msgothic)ã€€èµ¤ã€€æ˜Žæœ(simsun)ã€€ç·‘ã€€ä¸¸æ–‡å­—(gulim)ã€€é’ã€€arialã€€é»„ã€€ãã®ä»–ã€€ç°ã€€æ˜Žæœä½“(MingLiu) ã‚·ã‚¢ãƒ³
+ã€€ã€€ä½†ã—æ–‡å­—è‰²ã¨åŒã˜å ´åˆã¯èµ¤â†’é»’ã€ç·‘â†’é»„è‰²ã€é’â†’ç´«ã¨å¤‰æ›´ã—ã¾ã™ã€‚
+ã€€-font -fgã€€ã‚’æŒ‡å®šã™ã‚‹ã¨ãƒ•ã‚©ãƒ³ãƒˆã®ç¨®é¡žã«ã‚ˆã£ã¦æ–‡å­—è‰²ã‚’å¤‰æ›´ã—ã¾ã™ã€‚
+ã€€ã€€ã‚´ã‚·ãƒƒã‚¯(msgothic)ã€€èµ¤ã€€æ˜Žæœ(simsun)ã€€ç·‘ã€€ä¸¸æ–‡å­—(gulim)ã€€é’ã€€arialã€€é»„ã€€ãã®ä»–ã€€ç°ã€€æ˜Žæœä½“(MingLiu) ã‚·ã‚¢ãƒ³
+ã€€ã€€èƒŒæ™¯ã¯é€æ˜Žã§ã™ã€‚å½±ãŒå…ƒã®æ–‡å­—è‰²ã«ãªã‚Šã¾ã™ã€‚
+ã€€æž ã¨ãƒ•ã‚©ãƒ³ãƒˆæŒ‡å®šã¯åŒæ™‚æŒ‡å®šå¯èƒ½ã§ã™ã€‚
+ã€€â– å®Ÿè¡Œä¾‹ï¼ˆå¾“æ¥ç”»é¢ï¼‰
+ã€€ãƒ•ã‚¡ã‚¤ãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®è¿½åŠ (ADD)ã§ä»¥ä¸‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã¿è¾¼ã‚“ã§å¤‰æ›ã—ã¦ã¿ã¦ä¸‹ã•ã„ã€‚
+ã€€optionDev\CA544x408é»„æž ä»˜ã[1214347170]ã‚¢ãƒ³ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã€€Fullï¼Žver.xml
+ã€€optionDev\CA640x384é»„æž ä»˜ã[1316445758]ã€ç¬¬7å›žMMDæ¯æœ¬é¸ã€‘Sweet Magicã‚’é­”æ³•ä½¿ã„ã€€ãŒè¸Šã£ã¦ãã‚Œã¾ã—ãŸ.xml
+ã€€optionDev\CA672x384é»„æž ä»˜ã[1329021499]ã€ãƒˆãƒ¬ã‚¹ã€‘æ±æ–¹ã‚­ãƒ£ãƒ©ã§ef-OPã€2æœŸãƒ»æœ€çµ‚å›žï½–ï½…ï½’ã€‘.xml
+ã€€optionDev\CA640x384é»„æž ä»˜ãl[1332573212]ã€åˆéŸ³ãƒŸã‚¯ã€‘æ–°ä¸–ç•Œã¸ã®ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°ã€MMD-PVã€‘.xml
+ã€€â€»é­”æ³•å°‘å¥³ã¾ã©ã‹â˜†ãƒžã‚®ã‚«ã¯ãƒ€ãƒ–ãƒ«ãƒªã‚µã‚¤ã‚ºãŒå¤šãå¤§ç”»é¢ã§ã¾ã æ­£ç¢ºã«å†ç¾ã§ãã¦ã„ã¾ã›ã‚“ã€‚
+ã€€optionDev\CA1024x576é»„æž ä»˜ã[1305294209]é­”æ³•å°‘å¥³ ã¾ã©ã‹â˜†ãƒžã‚®ã‚« - ã‚¹ã‚«ã‚¤ã‚¯ãƒ©ãƒƒãƒ‰ã®è¦³æ¸¬è€….xml
+
+
+â—NGã‚³ãƒžãƒ³ãƒ‰
+ã€€ãƒ»å¤‰æ›è¨­å®šâ†’NGãƒ¯ãƒ¼ãƒ‰ãƒ»IDè¨­å®šâ†’NGã‚³ãƒžãƒ³ãƒ‰ã§è¨­å®šã—ãŸã‚³ãƒžãƒ³ãƒ‰ã‚’ç„¡åŠ¹ã«å‡ºæ¥ã¾ã™ã€‚
+ã€€ã€€ä½ç½® ue shita ã‚µã‚¤ã‚º big small è‰² red black yellow cyan ãƒ»ãƒ»ãƒ» #ff0000 ãªã©
+ã€€ã€€çµ„ã¿åˆã‚ã›ã‚‹å ´åˆã¯å¼•ç”¨ç¬¦("")ã§å›²ã¿ã¾ã™ã€‚é€šå¸¸ã¯ä½ç½®ãƒ»è‰²ãƒ»ã‚µã‚¤ã‚ºã®é †ã€‚
+ã€€ã€€ã€€èµ¤ã‹ã¤ã‚µã‚¤ã‚ºå¤§ã®å ´åˆ  "red big"
+ã€€ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§ãªã„å…¨ã¦ã®ã‚³ãƒžãƒ³ãƒ‰ã‚’æŒ‡å®š all
+ã€€ã€€ã€æ³¨æ„ã€‘ã‚³ãƒžãƒ³ãƒ‰ã‚’ç„¡åŠ¹ï¼ˆnaka white mediumã«æˆ»ã™ï¼‰ã«ã™ã‚‹ã ã‘ãªã®ã§
+ã€€ã€€ã€€ã‚³ãƒ¡ãƒ³ãƒˆã¯ç™½ãƒ»ã‚µã‚¤ã‚ºä¸­ã§æµã‚Œã¾ã™ã€‚
+ã€€ã€€ã€€ã‚³ãƒ¡ãƒ³ãƒˆã‚’NGã—ãŸã„å ´åˆã¯NGãƒ¯ãƒ¼ãƒ‰æ¬„ã«ã‚³ãƒžãƒ³ãƒ‰ã‚’æŒ‡å®šã—ã¦ä¸‹ã•ã„ã€‚
+
+â—NGå…±æœ‰ãƒ¬ãƒ™ãƒ«
+ã€€ãƒ»å¤‰æ›è¨­å®šâ†’NGãƒ¯ãƒ¼ãƒ‰ãƒ»IDè¨­å®šâ†’NGå…±æœ‰ãƒ¬ãƒ™ãƒ«ã‚’å¼·ãƒ»ä¸­ãƒ»å¼±ãƒ»ç„¡ã—ã«è¨­å®šã§ãã¾ã™ã€‚
+ã€€ã€€ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»ã¨åŒã˜ã§ã™ã€‚ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã¯ã€Œç„¡ã—ã€ã§ã™ã€‚
+
+â—NGãƒ¯ãƒ¼ãƒ‰
+ã€€ãƒ»å¤‰æ›è¨­å®šâ†’NGãƒ¯ãƒ¼ãƒ‰ãƒ»IDè¨­å®šâ†’NGãƒ¯ãƒ¼ãƒ‰ã§NGã™ã‚‹ã‚³ãƒ¡ãƒ³ãƒˆã®ä¸€éƒ¨
+ã€€ã€€ã¾ãŸã¯ã‚³ãƒžãƒ³ãƒ‰ã‚’æŒ‡å®šã—ã¾ã™ã€‚
+ã€€ãƒ»NGãƒ¯ãƒ¼ãƒ‰ã®æŒ‡å®šã«allã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’ä½¿ãˆã¾ã™ã€‚
+ã€€ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§ãªã„ã‚³ãƒžãƒ³ãƒ‰ã®ã‚³ãƒ¡ãƒ³ãƒˆã‚’å…¨ã¦NGã—ã¾ã™ã€‚
+ã€€ãƒ»ç”ŸIDï¼ˆéžåŒ¿åï¼‰ã‚³ãƒ¡ãƒ³ãƒˆã®ã‚³ãƒžãƒ³ãƒ‰ã«å†…éƒ¨çš„ã«186ã‚’ä»˜åŠ 
+ã€€ä»¥ä¸‹ã¯NGãƒ¯ãƒ¼ãƒ‰ä½¿ç”¨ä¾‹
+ã€€ã€€186		ç”ŸIDå…¨éƒ¨NG
+ã€€ã€€1saccubus.xmlç¹§è²žç›¾è¾£ï½§ç¸ºåŠ±â€»è³ä¹ï¼†ç¸º
