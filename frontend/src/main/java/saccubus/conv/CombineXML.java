@@ -57,7 +57,7 @@ public class CombineXML {
 				log.println("\nLines: "+linecount.length()+", File:"+file.getPath());
 				saxparser.parse(file, xmlhandler);
 			}
-			// •ÏŠ·Œ‹‰Ê‚Ì‘‚«‚İ
+			// å¤‰æ›çµæœã®æ›¸ãè¾¼ã¿
 			chatArray.writeXML(output);
 			System.out.println("\nCombining finished.");
 			return true;

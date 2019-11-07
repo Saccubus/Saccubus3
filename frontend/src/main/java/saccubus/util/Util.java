@@ -6,10 +6,10 @@ import java.io.OutputStream;
 
 public class Util {
 	/*
-	 * OutputStream‚Öƒf[ƒ^‚ð‘‚«ž‚Þ
+	 * OutputStreamã¸ãƒ‡ãƒ¼ã‚¿ã‚’æ›¸ãè¾¼ã‚€
 	 */
 	public static void writeInt(OutputStream os, int i) throws IOException {
-		// ƒŠƒgƒ‹ƒGƒ“ƒfƒBƒAƒ“
+		// ãƒªãƒˆãƒ«ã‚¨ãƒ³ãƒ‡ã‚£ã‚¢ãƒ³
 		os.write((i >> 0) & 0xff);
 		os.write((i >> 8) & 0xff);
 		os.write((i >> 16) & 0xff);
