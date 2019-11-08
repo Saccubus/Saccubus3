@@ -107,7 +107,7 @@ h_Surface* pointsConv(DATA *data,h_Surface* surf,Uint16 *str,int size,int fontse
 	if(surf==NULL) return NULL;
 	int ow = surf->w;
 	int oh = surf->h;
-	// point(72dpi)->pixel(96dpi) 1.33333333”{
+	// point(72dpi)->pixel(96dpi) 1.33333333å€
 	//int len = uint16len(str);
 	double doh;
 	double dh;
@@ -141,7 +141,7 @@ h_Surface* widthFixConv(DATA *data,h_Surface* surf,Uint16 *str,int size,int font
 		return surf;
 	}
 	switch (fontsel) {
-		// now defined only when@fontsel==SIMSUN_FONT
+		// now defined only whenã€€fontsel==SIMSUN_FONT
 		case SIMSUN_FONT:
 			break;
 		// alse fontsel==MINGLIU
@@ -219,7 +219,7 @@ h_Surface* drawFrame(DATA* data,const CHAT_ITEM* item,int location,h_Surface* su
 	if(data->debug)
 		fprintf(data->log,"[render_unicode/drawFrame]comment %d waku.\n",item->no);
 	if(data->wakuiro_dat!=NULL){
-		//˜gF•ÏX
+		//æ è‰²å¤‰æ›´
 		int no = item->no;
 		int cid = item->chat->cid;
 		no = SET_WAKUIRO(cid,no);
@@ -307,7 +307,7 @@ h_Surface* drawFrame(DATA* data,const CHAT_ITEM* item,int location,h_Surface* su
 h_Surface* drawUserButton(DATA* data,h_Surface* surf){
 	if(data->debug)
 		fprintf(data->log,"[render_unicode/drawUserButton]waku(%d,%d)\n",surf->w,surf->h);
-	//@ƒ{ƒ^ƒ“i‹’®Òj
+	//@ãƒœã‚¿ãƒ³ï¼ˆè¦–è´è€…ï¼‰
 	//frame is not drawn yet,draw of width height/20 px line as frame.
 	// s should be set to frame width
 	int s = MAX(surf->h / 20,1);
@@ -329,7 +329,7 @@ h_Surface* drawUserButton(DATA* data,h_Surface* surf){
 h_Surface* drawOwnerButton(DATA* data,h_Surface* surf,SDL_Color col){
 	if(data->debug)
 		fprintf(data->log,"[render_unicode/drawOwnerButton]waku(%d,%d)\n",surf->w,surf->h);
-	//@ƒ{ƒ^ƒ“i“ŠeÒj
+	//@ãƒœã‚¿ãƒ³ï¼ˆæŠ•ç¨¿è€…ï¼‰
 	//surface nor frame is not drawn yet,
 	//paint surface with color and draw string with WHITE
 	int s = 3;
