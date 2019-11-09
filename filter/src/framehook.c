@@ -11,6 +11,11 @@
 #include "nicodef.h"
 #include "util.h"
 #include "unicode/uniutil.h"
+#if defined(WIN32)
+#define DLLEXPORT __declspec(dllexport)
+#else
+#define DLLEXPORT
+#endif
 
 typedef struct ContextInfo{
 	FILE* log;
@@ -24,7 +29,7 @@ typedef struct ContextInfo{
 int init_setting(FILE*log,SETTING* setting,int argc, char *argv[], char* version, int typeNicovideoE);
 FILE* changelog(FILE* log,SETTING* setting);
 
-__declspec(dllexport) int ExtConfigure(void **ctxp, void* dummy, int argc, char *argv[]){
+DLLEXPORT int ExtConfigure(void **ctxp, void* dummy, int argc, char *argv[]){
 	int typeNicovideoE = TRUE;
 	if(0 < (unsigned)dummy && (unsigned)dummy < 0x0400){
 		argv = (char **)argc;
@@ -802,7 +807,7 @@ int parseFontList(SETTING* setting,FILE* log){
  * 必要な関数二つめ。フレームごとに呼ばれるよ！
  *
  */
-__declspec(dllexport) void ExtProcess(void *ctx,void* dummy, vhext_frame *pict){
+DLLEXPORT void ExtProcess(void *ctx,void* dummy, vhext_frame *pict){
 		ContextInfo *ci = (ContextInfo *) ctx;
 		FILE* log = ci->log;
 		if(!ci->data.typeNicovideoE){
@@ -845,7 +850,7 @@ __declspec(dllexport) void ExtProcess(void *ctx,void* dummy, vhext_frame *pict){
  *
  */
 
-__declspec(dllexport) void ExtRelease(void *ctx, void* dummy){
+DLLEXPORT void ExtRelease(void *ctx, void* dummy){
 		ContextInfo *ci;
 		ci = (ContextInfo *) ctx;
 		FILE* log = ci->log;
