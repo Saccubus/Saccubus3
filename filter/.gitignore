@@ -29,6 +29,7 @@
 *.app
 
 #
+build/
 cmake-build-*/
 
 ### JetBrains template
