@@ -47,7 +47,7 @@ ExternalProject_Add(iconv_pkg
 ExternalProject_Add(zlib_pkg
         PREFIX ${CMAKE_BINARY_DIR}
         URL ${CMAKE_SOURCE_DIR}/external/zlib-1.2.11.tar.gz
-        CONFIGURE_COMMAND CC=${CMAKE_C_COMPILER} ${CMAKE_BINARY_DIR}/src/zlib_pkg/configure --64 --static --prefix=${CMAKE_BINARY_DIR}
+        CONFIGURE_COMMAND CC=${CMAKE_C_COMPILER} CFLAGS=-fPIC ${CMAKE_BINARY_DIR}/src/zlib_pkg/configure --64 --static --prefix=${CMAKE_BINARY_DIR}
         BUILD_COMMAND make
         BUILD_IN_SOURCE TRUE
         INSTALL_DIR ${CMAKE_BINARY_DIR}
@@ -124,6 +124,8 @@ add_library(saccubus SHARED
         src/wakuiro.c
         src/wakuiro.h
         saccubus_adapter.h)
+set_target_properties(saccubus PROPERTIES OUTPUT_NAME "saccubus")
+set_target_properties(saccubus PROPERTIES PREFIX "")
 add_dependencies(saccubus SDL_rotozoom)
 add_dependencies(saccubus sdl_pkg)
 add_dependencies(saccubus freetype2_pkg)
